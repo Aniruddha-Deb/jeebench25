@@ -1,0 +1,249 @@
+ans,diagram,num,optA,optB,optC,optD,subject,text,type
+C,,1,8,2,-4,-6,math,"Let $\mathbb{R}$ denote the set of all real numbers. Let $a_i, b_i \in \mathbb{R}$ for $i \in \\{1, 2, 3\\}$. Define the functions $f: \mathbb{R} \to \mathbb{R}, g: \mathbb{R} \to \mathbb{R}$, and $h: \mathbb{R} \to \mathbb{R}$ by $$\begin{align}f(x) &= a_1 + 10x + a_2x^2 + a_3x^3 + x^4 \\\ g(x) &= b_1 + 3x + b_2x^2 + b_3x^3 + x^4 \\\ h(x) &= f(x + 1) g(x + 2)\end{align}$$ If $f(x) \neq g(x)$ for every $x \in \mathbb{R}$, then the coefficient of $x^3$ in $h(x)$ is",SCA
+A,,2,13/36,1/3,19/60,1/4,math,"Three students S1, S2, and S3 are given a problem to solve. Consider the following events: 
+
+U: At least one of S1, S2, and S3 can solve the problem, 
+V: S1 can solve the problem, given that neither S2 nor S3 can solve the problem, 
+W: S2 can solve the problem and S3 cannot solve the problem, 
+T: S3 can solve the problem. 
+
+For any event E, let P(E) denote the probability of E. If P(U) = 1/2 , P(V) = 1/10 , and P(W) = 1/12 , then P(T) is equal to",SCA
+C,,3,The function f is NOT differentiable at x = 0,"There is a positive real number $\delta$, such that f is a decreasing function on the interval $(0, \delta)$","For any positive real number $\delta$, the function f is NOT an increasing function on the interval $(-\delta, 0)$",x = 0 is a point of local minima of f,math,Let $\mathbb{R}$ denote the set of all real numbers. Define the function $f: \mathbb{R} \to \mathbb{R}$ by $$f(x) = \begin{cases}2 - 2x^2 - x^2 \sin \frac{1}{x} & x \neq 0 \\\ 2 & x = 0 \end{cases}$$ Then which one of the following statements is TRUE?,SCA
+C,,4,32,8,16,24,math,"Consider the matrix $$P = \begin{bmatrix}2 & 0 & 0 \\\ 0 & 2 & 0 \\\ 0 & 0 & 3 \end{bmatrix}$$ Let the transpose of a matrix $X$ be denoted by $X^T$. Then the number of $3 \times 3$ invertible matrices $Q$ with integer entries, such that $Q^{-1} = Q^T$ and $PQ = QP$ is",SCA
+AC,,5,The length of the line segment PQ is $9\sqrt{3}$,The length of the line segment QR is 15,The area of $\triangle PQR$ is $3\sqrt{234}/2$,The acute angle between the line segments PQ and PR is $\cos^{-1} \left( \frac{1}{2\sqrt{3}} \right)$,math,"Let $L_1$ be the line of intersection of the planes given by the equations $2x + 3y + z = 4$ and $x + 2y + z = 5$. Let $L_2$ be the line passing through the point $P(2, -1, 3)$ and parallel to $L_1$. Let M denote the plane given by the equation $2x + y - 2z = 6$. Suppose that the line $L_2$ meets the plane M at the point Q. Let R be the foot of the perpendicular drawn from P to the plane M. Then which of the following statements is (are) TRUE?",MCA
+AD,,6,$g \circ f$ is **NOT** one-one and $g \circ f$ is **NOT** onto,$f \circ g$ is **NOT** one-one but $f \circ g$ is onto,$g$ is one-one and $g$ is onto,$f$ is **NOT** one-one but $f$ is onto,math,"Let $\mathbb{N}$ denote the set of all natural numbers, and $\mathbb{Z}$ denote the set of all integers. Consider the functions $f : \mathbb{N} \to \mathbb{Z}$ and $g : \mathbb{Z} \to \mathbb{N}$ defined by $$f(n) = \begin{cases} \frac{n + 1}{2} & n \text{ is odd} \\\ \frac{4 - n}{2} & n \text{ is even} \end{cases}$$ and $$g(n) = \begin{cases} 3 + 2n & n \geq 0, \\\ -2n & n < 0 \end{cases}$$
+
+Define $(g \circ f)(n) = g(f(n))$ for all $n \in \mathbb{N}$, and $(f \circ g)(n) = f(g(n))$ for all $n \in \mathbb{Z}$. Then which of the following statements is (are) TRUE?",MCA
+AD,,7,"$S$ is a circle with centre $\left(-\frac{1}{3}, \frac{10}{3}\right)$","$S$ is a circle with centre $\left(\frac{1}{3}, \frac{8}{3}\right)$",$S$ is a circle with radius $\frac{\sqrt{2}}{3}$,$S$ is a circle with radius $\frac{2\sqrt{2}}{3}$,math,"Let $\mathbb{R}$ denote the set of all real numbers. Let $z_1 = 1 + 2i$ and $z_2 = 3i$ be two complex numbers, where $i = \sqrt{-1}$. Let $$S = \{(x, y) \in \mathbb{R} \times \mathbb{R} : |x + iy - z_1| = 2|x + iy - z_2|\}$$ Then which of the following statements is (are) TRUE?",MCA
+105,,8,,,,,math,"Let the set of all relations R on the set $\\{a, b, c, d, e, f\\}$, such that R is reflexive and symmetric, and R contains exactly 10 elements, be denoted by S. Then the number of elements in S is _________________.",NT
+"[1.15,1.25]",,9,,,,,math,"For any two points M and N in the XY-plane, let MN denote the vector from M to N, and 0 denote the zero vector. Let P, Q and R be three distinct points in the XY-plane. Let S be a point inside the triangle PQR such that SP + 5SQ + 6SR = 0. Let E and F be the mid-points of the sides PR and QR, respectively. Then the value of (length of the line segment EF)/(length of the line segment ES) is _______________.",NT
+762,,10,,,,,math,"Let S be the set of all seven-digit numbers that can be formed using the digits 0, 1 and 2. For example, 2210222 is in S, but 0210222 is NOT in S. Then the number of elements x in S such that at least one of the digits 0 and 1 appears exactly twice in x, is equal to ____________.",NT
+"[2.35,2.45]",,11,,,,,math,"Let $\alpha$ and $\beta$ be the real numbers such that $$\lim_{x \to 0} \frac{1}{x^3} \left( \frac{\alpha}{2} \int_{0}^{x} \frac{1}{1 - t^2} \, dt + \beta x \cos x \right) = 2$$ Then the value of $\alpha + \beta$ is ________.",NT
+96,,12,,,,,math,"Let $\mathbb{R}$ denote the set of all real numbers. Let $f : \mathbb{R} \to \mathbb{R}$ be a function such that $f(x) > 0$ for all $x \in \mathbb{R}$, and $f(x + y) = f(x)f(y)$ for all $x, y \in \mathbb{R}$. Let the real numbers $a_1, a_2, \dots, a_{50}$ be in an arithmetic progression. If $f(a_{31}) = 64f(a_{25})$ and $$\sum_{i=1}^{50} f(a_i) = 3(2^{25} + 1)$$ then the value of $$\sum_{i=6}^{30} f(a_i)$$ is ________________.",NT
+2,,13,,,,,math,"For all $x > 0$, let $y_1(x)$, $y_2(x)$, and $y_3(x)$ be the functions satisfying  
+$$
+\begin{gathered}
+\frac{dy_1}{dx} - (\sin x)^2 y_1 = 0,\quad y_1(1) = 5, \\\\
+\frac{dy_2}{dx} - (\cos x)^2 y_2 = 0,\quad y_2(1) = \frac{1}{3}, \\\\
+\frac{dy_3}{dx} - \left( \frac{2 - x^3}{x^3} \right) y_3 = 0,\quad y_3(1) = \frac{3}{5e},
+\end{gathered}
+$$  
+respectively. Then $$\lim_{x \to 0^+} \frac{y_1(x)y_2(x)y_3(x) + 2x}{e^{3x} \sin x}$$ is equal to ________________.",NT
+C,,14,"(P) -> (5), (Q) -> (3), (R) -> (2), (S) -> (4)","(P) -> (5), (Q) -> (2), (R) -> (3), (S) -> (1)","(P) -> (5), (Q) -> (3), (R) -> (2), (S) -> (1)","(P) -> (5), (Q) -> (2), (R) -> (5), (S) -> (4)",math,"Consider the following frequency distribution:
+
+| Value     | 4 | 5 | 8 | 9 | 6 | 12 | 11 |
+|-------------|---|---|---|---|---|----|----|
+| Frequency | 5 | $f_1$ | $f_2$ | 2 | 1 | 1 | 3 |
+
+Suppose that the sum of the frequencies is 19 and the median of this frequency distribution is 6.
+
+For the given frequency distribution, let $\alpha$ denote the mean deviation about the mean, $\beta$ denote the mean deviation about the median, and $\sigma^2$ denote the variance.
+
+Match each entry in List-I to the correct entry in List-II and choose the correct option.
+
+**List-I**  
+- (P) $7f_1 + 9f_2$ is equal to  
+- (Q) $19\alpha$ is equal to  
+- (R) $19\beta$ is equal to  
+- (S) $19\sigma^2$ is equal to  
+
+**List-II**  
+- (1) 146  
+- (2) 47  
+- (3) 48  
+- (4) 145  
+- (5) 55",M
+B,,15,"(P) -> (1), (Q) -> (3), (R) -> (2), (S) -> (5)","(P) -> (2), (Q) -> (1), (R) -> (4), (S) -> (3)","(P) -> (2), (Q) -> (1), (R) -> (5), (S) -> (3)","(P) -> (3), (Q) -> (2), (R) -> (1), (S) -> (5)",math,"Let $\mathbb{R}$ denote the set of all real numbers. For a real number $x$, let $\lfloor x \rfloor$ denote the greatest integer less than or equal to $x$. Let $n$ denote a natural number.
+
+Match each entry in List-I to the correct entry in List-II and choose the correct option.
+
+**List-I**  
+- (P) The minimum value of $n$ for which the function $f(x) = \left\lfloor \frac{10x^3 - 45x^2 + 60x + 35}{n} \right\rfloor$ is continuous on the interval $[1, 2]$, is
+- (Q) The minimum value of $n$ for which $g(x) = (2n^2 - 13n - 15)(x^3 + 3x)$, $x \in \mathbb{R}$, is an increasing function on $\mathbb{R}$, is
+- (R) The smallest natural number $n$ which is greater than $5$, such that $x = 3$ is a point of local minima of $h(x) = (x^2 - 9)^n(x^2 + 2x + 3)$, is
+- (S) Number of $x_0 \in \mathbb{R}$ such that $l(x) = \sum_{k=0}^4 \left(\sin|x - k| + \cos\left|x - k + \frac{1}{2}\right|\right)$ is **not** differentiable at $x_0$, is
+
+**List-II**  
+- (1) 8
+- (2) 9
+- (3) 5
+- (4) 6
+- (5) 10",M
+A,,16,"(P) -> (2), (Q) -> (1), (R) -> (4), (S) -> (5)","(P) -> (2), (Q) -> (3), (R) -> (5), (S) -> (1)","(P) -> (2), (Q) -> (1), (R) -> (5), (S) -> (3)","(P) -> (5), (Q) -> (4), (R) -> (1), (S) -> (3)",math,"Let $\vec{w} = \hat{i} + \hat{j} - 2\hat{k}$, and $\vec{u}$ and $\vec{v}$ be two vectors, such that $\vec{u} \times \vec{v} = \vec{w}$ and $\vec{v} \times \vec{w} = \vec{u}$. Let $\alpha, \beta, \gamma, t$ be real numbers such that  
+$\vec{u} = \alpha \hat{i} + \beta \hat{j} + \gamma \hat{k}$,  
+$-t\alpha + \beta + \gamma = 0$,  
+$\alpha - t\beta + \gamma = 0$,  
+$\alpha + \beta - t\gamma = 0$.
+
+Match each entry in List-I to the correct entry in List-II and choose the correct option.
+
+**List-I**  
+- (P) $|\vec{v}|^2$ is equal to  
+- (Q) If $\alpha = \sqrt{3}$, then $\gamma^2$ is equal to  
+- (R) If $\alpha = \sqrt{3}$, then $(\beta + \gamma)^2$ is equal to  
+- (S) If $\alpha = \sqrt{2}$, then $t + 3$ is equal to  
+
+**List-II**  
+- (1) 0  
+- (2) 1  
+- (3) 2  
+- (4) 3  
+- (5) 5",M
+A,[diagram],1,$$\sqrt{\frac{2}{3} \left( \frac{g}{R - r} + \frac{k}{m} \right)}$$,$$\sqrt{\frac{2g}{3(R - r)} + \frac{k}{m}}$$,$$\sqrt{\frac{1}{6} \left( \frac{g}{R - r} + \frac{k}{m} \right)}$$,$$\sqrt{\frac{1}{4} \left( \frac{g}{R - r} + \frac{k}{m} \right)}$$,physics,"The center of a disk of radius r and mass m is attached to a spring of spring constant k, inside a ring of radius R > r as shown in the figure. The other end of the spring is attached on the periphery of the ring. Both the ring and the disk are in the same vertical plane. The disk can only roll along the inside periphery of the ring, without slipping. The spring can only be stretched or compressed along the periphery of the ring, following the Hookes law. In equilibrium, the disk is at the bottom of the ring. Assuming small displacement of the disc, the time period of oscillation of center of mass of the disk is written as $T = 2\pi/\omega$ . The correct expression for $\omega$ is (g is the acceleration due to gravity):
+
+![](images/jeea25_p1_physics_q1_16.png)",SCA
+D,[diagram],2,$\pi$,$\tan^{-1}(0.5)$,$\pi/3$,$\pi/6$,physics,"In a scattering experiment, a particle of mass 2m collides with another particle of mass m, which is initially at rest. Assuming the collision to be perfectly elastic, the maximum angular deviation of the heavier particle, as shown in the figure, in radians is:
+
+![](images/jeea25_p1_physics_q2_17.png)",SCA
+A,[diagram],3,Image 1 ![](images/jeea25_p1_physics_q3_19.png),Image 2 ![](images/jeea25_p1_physics_q3_20.png),Image 3 ![](images/jeea25_p1_physics_q3_21.png),Image 4 ![](images/jeea25_p1_physics_q3_22.png),physics,"A conducting square loop initially lies in the XZ plane with its lower edge hinged along the X-axis. Only in the region $y \ge 0$, there is a time dependent magnetic field pointing along the Z-direction, $B(t) = B_0(\cos \omega t)k$, where $B_0$ is a constant. The magnetic field is zero everywhere else. At time t = 0, the loop starts rotating with constant angular speed $\omega$ about the X axis in the clockwise direction as viewed from the +X axis (as shown in the figure). Ignoring self-inductance of the loop and gravity, which of the following plots correctly represents the induced e.m.f. (V) in the loop as a function of time:
+
+![](images/jeea25_p1_physics_q3_18.png)",SCA
+C,[diagram],4,0.12 cm,0.11 cm,0.13 cm,0.14 cm,physics,"Figure 1 shows the configuration of main scale and Vernier scale before measurement. Fig. 2 shows the configuration corresponding to the measurement of diameter D of a tube. The measured value of D is:
+
+![](images/jeea25_p1_physics_q4_23.png)",SCA
+BD,[diagram],5,"If $v_0 = 1.5KL$, the loop will stop before it enters completely inside the region of magnetic field.","When the complete loop is inside the region of magnetic field, the net force acting on the loop is zero.","If $v_0 = KL/10$, the loop comes to rest at $t = \ln(2.5)/K$","If $v_0 = 3KL$, the complete loop enters inside the region of magnetic field at time $t = \ln(1.5)/K$",physics,"A conducting square loop of side L, mass M and resistance R is moving in the XY plane with its edges parallel to the X and Y axes. The region $y \ge 0$ has a uniform magnetic field $\vec{B} = B_0\hat{k}$. The magnetic field is zero everywhere else. At time t = 0, the loop starts to enter the magnetic field with an initial velocity $v_0 \hat{j}$ m/s, as shown in the figure. Considering the quantity $K = \frac{B_0^2L^2}{RM}$ in appropriate units, ignoring self-inductance of the loop and gravity, which of the following statements is/are correct:
+
+![](images/jeea25_p1_physics_q5_24.png)",MCA
+D,[diagram],6,$3.2 \times 10^{-5}$,$32.0 \times 10^{-6}$,$3.0 \times 10^{-5}$,$3 \times 10^{-5}$,physics,"Length, breadth and thickness of a strip having a uniform cross section are measured to be 10.5 cm, 0.05 mm, and 6.0 um, respectively. Which of the following option(s) give(s) the volume of the strip in cm^3 with correct significant figures:",MCA
+AD,[diagram],7,"When the wave reflects from $P$ for the first time, the reflected wave is represented by $y = a_1 y_0 \cos(\omega t + kx + \pi)$ cm, where $a_1$ is a positive constant.","When the wave transmits through $P$ for the first time, the transmitted wave is represented by $y = a_2 y_0 \cos(\omega t - kx)$ cm, where $a_2$ is a positive constant.","When the wave reflects from $Q$ for the first time, the reflected wave is represented by $y = a_3 y_0 \cos(\omega t - kx + \pi)$ cm, where $a_3$ is a positive constant.","When the wave transmits through $Q$ for the first time, the transmitted wave is represented by $y = a_4 y_0 \cos(\omega t - 4kx)$ cm, where $a_4$ is a positive constant.",physics,"Consider a system of three connected strings, $S_1$, $S_2$, and $S_3$ with uniform linear mass densities $\mu$ kg/m, $4\mu$ kg/m and $16\mu$ kg/m, respectively, as shown in the figure. $S_1$ and $S_2$ are connected at the point $P$, whereas $S_2$ and $S_3$ are connected at the point $Q$, and the other end of $S_3$ is connected to a wall. A wave generator $O$ is connected to the free end of $S_1$. The wave from the generator is represented by $y = y_0 \cos(\omega t - kx)$ cm, where $y_0$, $\omega$ and $k$ are constants of appropriate dimensions. Which of the following statements is/are correct:
+
+![](images/jeea25_p1_physics_q7_25.png)",MCA
+2,,8,,,,,physics,"A person sitting inside an elevator performs a weighing experiment with an object of mass 50 kg. Suppose that the variation of the height y (in m) of the elevator, from the ground, with time t (in s) is given by $y = 8 \left[1 + \sin\left( \frac{2\pi t}{T}\right)\right]$, where T = 40 s. Taking acceleration due to gravity, g = 10 m/s^2, the maximum variation of the objects weight (in N) as observed in the experiment is ____",NT
+"[21,25]",,9,,,,,physics,"A cube of unit volume contains $35 \times 10^7$ photons of frequency $10^{15}$ Hz. If the energy of all the photons is viewed as the average energy being contained in the electromagnetic waves within the same volume, then the amplitude of the magnetic field is $\alpha \times 10^{-9}$ T. Taking permeability of free space $\mu_0 = 4\pi \times 10^{-7}$ Tm/A, Planck’s constant $h = 6 \times 10^{-34}$ Js and $\pi = \frac{22}{7}$, the value of $\alpha$ is ____.",NT
+3,[diagram],10,,,,,physics,"Two identical plates P and Q, radiating as perfect black bodies, are kept in vacuum at constant absolute temperatures $T_P$ and $T_Q$, respectively, with $T_Q < T_P$, as shown in Fig. 1. The radiated power transferred per unit area from P to Q is $W_0$. Subsequently, two more plates, identical to P and Q, are introduced between P and Q, as shown in Fig. 2. Assume that heat transfer takes place only between adjacent plates. If the power transferred per unit area in the direction from P to Q (Fig. 2) in the steady state is $W_S$, then the ratio $W_0/W_S$ is ____
+
+![](images/jeea25_p1_physics_q10_26.png)",NT
+0.75|0.5,[diagram],11,,,,,physics,"A solid glass sphere of refractive index $n = \sqrt{3}$ and radius R contains a spherical air cavity of radius R/2, as shown in the figure. A very thin glass layer is present at the point O so that the air cavity (refractive index n = 1) remains inside the glass sphere. An unpolarized, unidirectional and monochromatic light source S emits a light ray from a point inside the glass sphere towards the periphery of the glass sphere. If the light is reflected from the point O and is fully polarized, then the angle of incidence at the inner surface of the glass sphere is $\theta$. The value of $\sin \theta$ is ____
+
+![](images/jeea25_p1_physics_q11_27.png)",NT
+"[75,79]",,12,,,,,physics,"A single slit diffraction experiment is performed to determine the slit width using the equation, $\frac{bd}{D} = m\lambda$, where b is the slit width, D the shortest distance between the slit and the screen, d the distance between the mth diffraction maximum and the central maximum, and $\lambda$ is the wavelength. D and d are measured with scales of least count of 1 cm and 1 mm, respectively. The values of $\lambda$ and m are known precisely to be 600 nm and 3, respectively. The absolute error (in um) in the value of b estimated using the diffraction maximum that occurs for m = 3 with d = 5 mm and D = 1 m is ___",NT
+72,,13,,,,,physics,"Consider an electron in the n = 3 orbit of a hydrogen-like atom with atomic number Z. At absolute temperature T, a neutron having thermal energy $k_BT$ has the same de Broglie wavelength as that of this electron. If this temperature is given by $T = \frac{Z^2h^2}{\alpha \pi^2 a_0^2m_Nk_B}$ , (where $h$ is Planck's constant, $k_B$ is the Boltzmann constant, $m_N$ is the mass of the neutron and $a_0$ is the first Bohr radius of hydrogen atom) then the value of $\alpha$ is ____",NT
+C,[diagram],14,"P -> 3, Q -> 1, R -> 2, S -> 4","P -> 4, Q -> 5, R -> 3, S -> 1","P -> 2, Q -> 1, R -> 4, S -> 5","P -> 2, Q -> 1, R -> 3, S -> 5",physics,"List-I shows four configurations, each consisting of a pair of ideal electric dipoles. Each dipole has a dipole moment of magnitude p, oriented as marked by arrows in the figures. In all the configurations the dipoles are fixed such that they are at a distance 2r apart along the x direction. The midpoint of the line joining the two dipoles is X. The possible resultant electric fields E at X are given in List-II. Choose the option that describes the correct match between the entries in List-I to those in List-II.
+
+**List-I**  
+- (P) Image 1 ![](images/jeea25_p1_physics_q14_34.png)
+- (Q) Image 2 ![](images/jeea25_p1_physics_q14_35.png)
+- (R) Image 3 ![](images/jeea25_p1_physics_q14_36.png)
+- (S) Image 4 ![](images/jeea25_p1_physics_q14_37.png) 
+
+**List-II**
+- (1) $\vec{E} = 0$  
+- (2) $\vec{E} = -\frac{p}{2\pi \varepsilon_0 r^3} \hat{j}$  
+- (3) $\vec{E} = -\frac{p}{4\pi \varepsilon_0 r^3} (\hat{i} - \hat{j})$  
+- (4) $\vec{E} = \frac{p}{4\pi \varepsilon_0 r^3} (2\hat{i} - \hat{j})$  
+- (5) $\vec{E} = \frac{p}{\pi \varepsilon_0 r^3} \hat{i}$",M
+A,[diagram],15,"P -> 3, Q -> 5, R -> 2, S -> 1","P -> 1, Q -> 5, R -> 2, S -> 3","P -> 3, Q -> 4, R -> 2, S -> 1","P -> 1, Q -> 4, R -> 2, S -> 5",physics,"A circuit with an electrical load having impedance Z is connected with an AC source as shown in the diagram. The source voltage varies in time as V(t) = 300 sin(400t) V, where t is time in s. List-I shows various options for the load. The possible currents i(t) in the circuit as a function of time are given in List-II. Choose the option that describes the correct match between the entries in List-I to those in List- II. List-I List-II
+
+Image 1 ![](images/jeea25_p1_physics_q15_38.png)
+
+**List-I**
+- (P) Image 2  ![](images/jeea25_p1_physics_q15_39.png)
+- (Q) Image 3 ![](images/jeea25_p1_physics_q15_40.png)
+- (R) Image 4 ![](images/jeea25_p1_physics_q15_41.png)
+- (S) Image 5 ![](images/jeea25_p1_physics_q15_42.png)
+
+**List-II**
+- (1) Image 6 ![](images/jeea25_p1_physics_q15_43.png)
+- (2) Image 7 ![](images/jeea25_p1_physics_q15_44.png)
+- (3) Image 8 ![](images/jeea25_p1_physics_q15_45.png)
+- (4) Image 9 ![](images/jeea25_p1_physics_q15_46.png)
+- (5) Image 10 ![](images/jeea25_p1_physics_q15_47.png)",M
+C,,16,"P -> 4, Q -> 3, R -> 1, S -> 2","P -> 5, Q -> 2, R -> 1, S -> 4","P -> 5, Q -> 1, R -> 2, S -> 4","P -> 3, Q -> 2, R -> 1, S -> 5",physics,"List-I shows various functional dependencies of energy ($E$) on the atomic number ($Z$). Energies associated with certain phenomena are given in List-II. Choose the option that describes the correct match between the entries in List-I to those in List-II.
+
+**List-I**  
+- (P) $E \propto Z^2$  
+- (Q) $E \propto (Z - 1)^2$  
+- (R) $E \propto Z(Z - 1)$  
+- (S) $E$ is practically independent of $Z$  
+
+**List-II**  
+- (1) energy of characteristic x-rays  
+- (2) electrostatic part of the nuclear binding energy for stable nuclei with mass numbers in the range 30 to 170  
+- (3) energy of continuous x-rays  
+- (4) average nuclear binding energy per nucleon for stable nuclei with mass number in the range 30 to 170  
+- (5) energy of radiation due to electronic transitions from hydrogen-like atoms",M
+A,,1,N2 and N2O,NH3 and NO2,NO and N2O,N2 and NH3,chemistry,"The heating of NH4NO2 at 60-70 deg C and NH4NO3 at 200-250 deg C is associated with the formation of nitrogen containing compounds X and Y, respectively. X and Y, respectively, are",SCA
+A,,2,$\ce{[Co(CN)6]^3- < [Co(NH3)6]^3+ < [Co(NH3)5(H2O)]^3+ < [Co(NH3)5(Cl)]^2+}$,$\ce{[Co(NH3)5(Cl)]^2+ < [Co(NH3)5(H2O)]^3+ < [Co(NH3)6]^3+ < [Co(CN)6]^3-}$,$\ce{[Co(CN)6]^3- < [Co(NH3)5(Cl)]^2+ < [Co(NH3)5(H2O)]^3+ < [Co(NH3)6]^3+}$,$\ce{[Co(NH3)6]^3+ < [Co(CN)6]^3- < [Co(NH3)5(Cl)]^2+ < [Co(NH3)5(H2O)]^3+}$,chemistry,The correct order of the wavelength maxima of the absorption band in the ultraviolet-visible region for the given complexes is,SCA
+B,,3,$\ce{I2}$,$\ce{IO3-}$,$\ce{IO4-}$,$\ce{IO2-}$,chemistry,One of the products formed from the reaction of permanganate ion with iodide ion in neutral aqueous medium is,SCA
+B,,4,Image 1 ![](images/jeea25_p1_chemistry_q4_30.png),Image 2 ![](images/jeea25_p1_chemistry_q4_31.png),Image 3 ![](images/jeea25_p1_chemistry_q4_31.png),Image 4 ![](images/jeea25_p1_chemistry_q4_31.png),chemistry,Consider the depicted hydrogen (H) in the hydrocarbons given below. The most acidic hydrogen (H) is,SCA
+BC,,5,Bond order of $\ce{Ne2}$ is zero.,The highest occupied molecular orbital (HOMO) of $\ce{F2}$ is $\sigma$-type.,Bond energy of $\ce{O2+}$ is smaller than the bond energy of $\ce{O2}$.,Bond length of $\ce{Li2}$ is larger than the bond length of $\ce{B2}$.,chemistry,"Regarding the molecular orbital (MO) energy levels for homonuclear diatomic molecules, the INCORRECT statement(s) is(are)",MCA
+AB,,6,"$\ce{La^3+}$, $\ce{Ce^4+}$","$\ce{Yb^2+}$, $\ce{Lu^3+}$","$\ce{La^2+}$, $\ce{Ce^3+}$","$\ce{Yb^3+}$, $\ce{Lu^2+}$",chemistry,The pair(s) of diamagnetic ions is(are),MCA
+B,,7,"C-X bond length in P, Q and R follows the order Q > R > P.","C-X bond enthalpy in P, Q and R follows the order R > P > Q.","Relative reactivity toward SN2 reaction in P, Q and R follows the order P > R > Q.","$pK_a$ value of the conjugate acids of the leaving groups in P, Q and R follows the order R > Q > P",chemistry,"For the reaction sequence given below, the correct statement(s) is(are) (In the options, X is any atom other than carbon and hydrogen, and it is different in P, Q and R)
+
+![](images/jeea25_p1_chemistry_q7_29.png)",MCA
+100,,8,,,,,chemistry,"In an electrochemical cell, dichromate ions in aqueous acidic medium are reduced to $\ce{Cr^3+}$. The current (in amperes) that flows through the cell for 48.25 minutes to produce 1 mole of $\ce{Cr^3+}$ is ______. 
+
+Use: 1 Faraday = 96500 C/mol",NT
+"[2.2,2.3]",,9,,,,,chemistry,"At 25 deg C, the concentration of H+ ions in $1.00 \times 10^{-3}$ M aqueous solution of a weak monobasic acid having acid dissociation constant ($K_a$) of $4.00 \times 10^{-11}$ is $X \times 10^{-7}$ M. The value of X is ______. 
+
+Use: Ionic product of water ($K_w$) = $1.00 \times 10^{-14}$ at 25 deg C",NT
+"[-7.2,-7]",,10,,,,,chemistry,"Molar volume ($V_m$) of a van der Waals gas can be calculated by expressing the van der Waals equation as a cubic equation with $V_m$ as the variable. The ratio (in mol/dm^3) of the coefficient of $V_m^2$ to the coefficient of $V_m$ for a gas having van der Waals constants a = 6.0 dm^6 atm/mol^2 and b = 0.060 dm^3/mol at 300 K and 300 atm is ______. 
+
+Use: Universal gas constant (R) = 0.082 dm^3 atm/K mol",NT
+"[-29.95,-29.8]|[29.8,29.95]",,11,,,,,chemistry,"Considering ideal gas behavior, the expansion work done (in kJ) when 144 g of water is electrolyzed completely under constant pressure at 300 K is ______. 
+
+Use: Universal gas constant (R) = 8.3 J/K mol; Atomic mass (in amu): H = 1, O = 16",NT
+280,,12,,,,,chemistry,"The monomer (X) involved in the synthesis of Nylon 6,6 gives positive carbylamine test. If 10 moles of X are analyzed using Dumas method, the amount (in grams) of nitrogen gas evolved is ______. 
+
+Use: Atomic mass of N (in amu) = 14",NT
+175,,13,,,,,chemistry,"The reaction sequence given below is carried out with 16 moles of X. The yield of the major product in each step is given below the product in parentheses. The amount (in grams) of S produced is______. 
+
+Use: Atomic mass (in amu): H = 1, C = 12, O = 16, Br = 80
+
+![](images/jeea25_p1_chemistry_q13_28.png)",NT
+A,,14,"P -> 3, Q -> 4, R -> 2, S -> 1","P -> 4, Q -> 2, R -> 3, S -> 1","P -> 3, Q -> 4, R -> 1, S -> 5","P -> 5, Q -> 3, R -> 2, S -> 4",chemistry,"The correct match of the group reagents in **List-I** for precipitating the metal ion given in **List-II** from solutions is:
+
+**List-I**  
+- (P) Passing H2S in the presence of NH4OH  
+- (Q) (NH4)2CO3 in the presence of NH4OH  
+- (R) NH4OH in the presence of NH4Cl  
+- (S) Passing H2S in the presence of dilute HCl  
+
+**List-II**  
+- (1) Cu2+  
+- (2) Al3+  
+- (3) Mn2+  
+- (4) Ba2+  
+- (5) Mg2+",M
+B,,15,"P -> 2, Q -> 4, R -> 1, S -> 3","P -> 2, Q -> 3, R -> 4, S -> 1","P -> 5, Q -> 3, R -> 4, S -> 2","P -> 5, Q -> 4, R -> 2, S -> 1",chemistry,"The major products obtained from the reactions in List-II are the reactants for the named reactions mentioned in List-I.  Match each entry in List-I with the appropriate entry in List-II and choose the correct option.
+
+**List-I**  
+- (P) Stephen reaction  
+- (Q) Sandmeyer reaction  
+- (R) Hoffmann bromamide degradation reaction  
+- (S) Cannizzaro reaction  
+
+**List-II**  
+- (1) **Toluene** is oxidized with  
+  - (i) CrO2Cl2 / CS2  
+  - (ii) followed by H3O+  
+- (2) **Benzoic acid** is converted using  
+  - (i) PCl5  
+  - (ii) NH3  
+  - (iii) heat with P4O10  
+- (3) **Nitrobenzene** is reduced and diazotized using  
+  - (i) Fe, HCl  
+  - (ii) then HCl, NaNO2 (273–278 K), H2O  
+- (4) **Toluene** is treated sequentially with  
+  - (i) Cl2 / hv, H2O  
+  - (ii) Tollen’s reagent  
+  - (iii) SO2Cl2  
+  - (iv) NH3  
+- (5) **Aniline** is reacted with  
+  - (i) (CH3CO)2O and pyridine  
+  - (ii) nitrated with HNO3, H2SO4 at 288 K  
+  - (iii) followed by aq. NaOH",M
+B,,16,"P -> 1, Q -> 5, R -> 4, S -> 2","P -> 2, Q -> 5, R -> 1, S -> 3","P -> 5, Q -> 2, R -> 1, S -> 4","P -> 2, Q -> 1, R -> 5, S -> 3",chemistry,"Match the compounds in **List-I** with the appropriate observations in **List-II** and choose the correct option.
+
+**List-I**  
+- (P) Image 1 ![](images/jeea25_p1_chemistry_q16_48.png)
+- (Q) Image 2 ![](images/jeea25_p1_chemistry_q16_49.png)
+- (R) Image 3 ![](images/jeea25_p1_chemistry_q16_50.png)
+- (S) Image 4 ![](images/jeea25_p1_chemistry_q16_51.png)
+
+**List-II**  
+- (1) Reaction with phenyl diazonium salt gives yellow dye.  
+- (2) Reaction with ninhydrin gives purple color and it also reacts with FeCl3 to give violet color.  
+- (3) Reaction with glucose will give corresponding hydrazone.  
+- (4) Lassaignes extract of the compound treated with dilute HCl followed by addition of aqueous FeCl3 gives blood red color.  
+- (5) After complete hydrolysis, it will give ninhydrin test and it **does not** give positive phthalein dye test.",M

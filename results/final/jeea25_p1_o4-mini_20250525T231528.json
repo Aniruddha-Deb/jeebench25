@@ -1,0 +1,722 @@
+[
+  {
+    "num": 1,
+    "subject": "math",
+    "type": "SCA",
+    "ans": "C",
+    "pred": "O",
+    "response": "\\boxed{O}",
+    "usage": {
+      "input_tokens": 447,
+      "cached_input_tokens": 0,
+      "output_tokens": 8651,
+      "reasoning_tokens": 8640,
+      "total_tokens": 9098
+    }
+  },
+  {
+    "num": 2,
+    "subject": "math",
+    "type": "SCA",
+    "ans": "A",
+    "pred": "A",
+    "response": "First note that  \nP(V)=P(S\u2081|S\u2082c\u2227S\u2083c)=P(S\u2081\u2227S\u2082c\u2227S\u2083c)/P(S\u2082c\u2227S\u2083c)  \n= p\u2081(1\u2013p\u2082)(1\u2013p\u2083)/(1\u2013p\u2082)(1\u2013p\u2083)=p\u2081,  \nso p\u2081=1/10.  \nAlso  \nP(W)=P(S\u2082\u2227S\u2083c)=p\u2082(1\u2013p\u2083)=1/12,  \nand  \nP(U)=1\u2013P(none)=1\u2013(1\u2013p\u2081)(1\u2013p\u2082)(1\u2013p\u2083)=1/2  \n\u21d2(1\u2013p\u2082)(1\u2013p\u2083)=(1/2)/(1\u2013p\u2081)=(1/2)/(9/10)=5/9.  \n\nLet x=p\u2082, y=p\u2083, z=1\u2013y.  Then  \nx\u00b7z=1/12,\u2003(1\u2013x)\u00b7z=5/9  \n\u21d2z=23/36, \u21d2y=1\u201323/36=13/36.  \n\nHence P(T)=p\u2083=13/36, answer (A).  \n\n\\boxed{A}",
+    "usage": {
+      "input_tokens": 371,
+      "cached_input_tokens": 0,
+      "output_tokens": 987,
+      "reasoning_tokens": 704,
+      "total_tokens": 1358
+    }
+  },
+  {
+    "num": 3,
+    "subject": "math",
+    "type": "SCA",
+    "ans": "C",
+    "pred": "C",
+    "response": "Option (A) is false because the derivative at 0 exists (f\u2032(0)=0).  Option (B) is false since f\u2032(x)=cos(1/x)\u22122x(2+sin(1/x)) oscillates in sign arbitrarily close to 0.  (D) is false because f(x)<2 for all x\u22600, so x=0 is a strict local maximum, not a minimum.  That leaves\n\n(C) For any \u03b4>0, f\u2032(x) changes sign infinitely often on (\u2212\u03b4,0), so f cannot be increasing there.  Hence (C) is the only true statement.\n\n\\boxed{C}",
+    "usage": {
+      "input_tokens": 381,
+      "cached_input_tokens": 0,
+      "output_tokens": 1367,
+      "reasoning_tokens": 1216,
+      "total_tokens": 1748
+    }
+  },
+  {
+    "num": 4,
+    "subject": "math",
+    "type": "SCA",
+    "ans": "C",
+    "pred": "C",
+    "response": "The eigenvalues of P are 2 (with multiplicity 2) and 3.  Any integer\u2010orthogonal Q (i.e. Q^T=Q^{-1} with integer entries) is a signed permutation, and to commute with P it must preserve the 2\u2010eigenspace spanned by e\u2081,e\u2082 and the 3\u2010eigenspace spanned by e\u2083.  Hence\n\n\u2013 On span{e\u2081,e\u2082}, Q|\u2082 is any 2\u00d72 integer\u2010orthogonal matrix (there are 8 of these\u2009\u2013\u2009the dihedral group D\u2084),\n\u2013 On span{e\u2083}, Qe\u2083=\u00b1e\u2083 (2 choices).\n\nTotal = 8\u22c52 = 16, so the answer is C.\n\n\\boxed{C}",
+    "usage": {
+      "input_tokens": 322,
+      "cached_input_tokens": 0,
+      "output_tokens": 1078,
+      "reasoning_tokens": 896,
+      "total_tokens": 1400
+    }
+  },
+  {
+    "num": 5,
+    "subject": "math",
+    "type": "MCA",
+    "ans": "AC",
+    "pred": "A,C",
+    "response": "\\boxed{A,C}",
+    "usage": {
+      "input_tokens": 483,
+      "cached_input_tokens": 0,
+      "output_tokens": 1740,
+      "reasoning_tokens": 1728,
+      "total_tokens": 2223
+    }
+  },
+  {
+    "num": 6,
+    "subject": "math",
+    "type": "MCA",
+    "ans": "AD",
+    "pred": "A,D",
+    "response": "(A) and (D) are true.  \n\n\\boxed{A,D}",
+    "usage": {
+      "input_tokens": 568,
+      "cached_input_tokens": 0,
+      "output_tokens": 2774,
+      "reasoning_tokens": 2752,
+      "total_tokens": 3342
+    }
+  },
+  {
+    "num": 7,
+    "subject": "math",
+    "type": "MCA",
+    "ans": "AD",
+    "pred": "A,D",
+    "response": "\\boxed{A,D}",
+    "usage": {
+      "input_tokens": 471,
+      "cached_input_tokens": 0,
+      "output_tokens": 844,
+      "reasoning_tokens": 832,
+      "total_tokens": 1315
+    }
+  },
+  {
+    "num": 8,
+    "subject": "math",
+    "type": "NT",
+    "ans": "105",
+    "pred": "105.00",
+    "response": "\\boxed{105.00}",
+    "usage": {
+      "input_tokens": 216,
+      "cached_input_tokens": 0,
+      "output_tokens": 397,
+      "reasoning_tokens": 384,
+      "total_tokens": 613
+    }
+  },
+  {
+    "num": 9,
+    "subject": "math",
+    "type": "NT",
+    "ans": "[1.15,1.25]",
+    "pred": "1.20",
+    "response": "\\boxed{1.20}",
+    "usage": {
+      "input_tokens": 268,
+      "cached_input_tokens": 0,
+      "output_tokens": 1165,
+      "reasoning_tokens": 1152,
+      "total_tokens": 1433
+    }
+  },
+  {
+    "num": 10,
+    "subject": "math",
+    "type": "NT",
+    "ans": "762",
+    "pred": "762.00",
+    "response": "\\boxed{762.00}",
+    "usage": {
+      "input_tokens": 236,
+      "cached_input_tokens": 0,
+      "output_tokens": 2381,
+      "reasoning_tokens": 2368,
+      "total_tokens": 2617
+    }
+  },
+  {
+    "num": 11,
+    "subject": "math",
+    "type": "NT",
+    "ans": "[2.35,2.45]",
+    "pred": "2.40",
+    "response": "\\boxed{2.40}",
+    "usage": {
+      "input_tokens": 248,
+      "cached_input_tokens": 0,
+      "output_tokens": 909,
+      "reasoning_tokens": 896,
+      "total_tokens": 1157
+    }
+  },
+  {
+    "num": 12,
+    "subject": "math",
+    "type": "NT",
+    "ans": "96",
+    "pred": "96.00",
+    "response": "\\boxed{96.00}",
+    "usage": {
+      "input_tokens": 338,
+      "cached_input_tokens": 0,
+      "output_tokens": 973,
+      "reasoning_tokens": 960,
+      "total_tokens": 1311
+    }
+  },
+  {
+    "num": 13,
+    "subject": "math",
+    "type": "NT",
+    "ans": "2",
+    "pred": "2.00",
+    "response": "\\boxed{2.00}",
+    "usage": {
+      "input_tokens": 391,
+      "cached_input_tokens": 0,
+      "output_tokens": 2189,
+      "reasoning_tokens": 2176,
+      "total_tokens": 2580
+    }
+  },
+  {
+    "num": 14,
+    "subject": "math",
+    "type": "M",
+    "ans": "C",
+    "pred": "C",
+    "response": "(P) 7f\u2081+9f\u2082=7\u00b74+9\u00b73=28+27=55 \u21925  \nMean \u03bc=133/19=7 \u21d219\u03b1=\u03a3|x\u22127|f=48 \u21923  \nMedian=6 \u21d219\u03b2=\u03a3|x\u22126|f=47 \u21922  \n19\u03c3\u00b2=\u03a3(x\u22127)\u00b2f=146 \u21921  \n\nSo P\u21925, Q\u21923, R\u21922, S\u21921. Answer C.\n\n\\boxed{C}",
+    "usage": {
+      "input_tokens": 591,
+      "cached_input_tokens": 0,
+      "output_tokens": 1654,
+      "reasoning_tokens": 1536,
+      "total_tokens": 2245
+    }
+  },
+  {
+    "num": 15,
+    "subject": "math",
+    "type": "M",
+    "ans": "B",
+    "pred": "B",
+    "response": "(P) Minimal n: require [55/n,60/n]\u2229\u2124=\u2205 \u21d2 n=9 \u21d2 (2)  \n(Q) 2n\u00b2\u221213n\u221215\u22650 \u21d2 n\u22657.5 \u21d2 n=8 \u21d2 (1)  \n(R) x=3 is a local min \u21d4 n even>5 \u21d2 n=6 \u21d2 (4)  \n(S) Nondifferentiable at x=k (k=0\u20264) only \u21d2 5 points \u21d2 (3)  \n\nHence (P,Q,R,S)\u2192(2,1,4,3), which is option B.  \n\n\\boxed{B}",
+    "usage": {
+      "input_tokens": 716,
+      "cached_input_tokens": 0,
+      "output_tokens": 6995,
+      "reasoning_tokens": 6848,
+      "total_tokens": 7711
+    }
+  },
+  {
+    "num": 16,
+    "subject": "math",
+    "type": "M",
+    "ans": "A",
+    "pred": "A",
+    "response": "(P) From the relations $u\\times v=\\mathbf w$ and $v\\times w=u$ one shows $u\\perp v\\perp w$, $|\\mathbf w|^2=6$, and \n$$|u|^2\\,|v|^2-(u\\cdot v)^2=|\\mathbf w|^2=6,\\quad|v|^2\\,|\\mathbf w|^2-(v\\cdot\\mathbf w)^2=|u|^2.$$\nSince $u\\perp v\\perp\\mathbf w$, $u\\cdot v=0$, $v\\cdot\\mathbf w=0$, these give $|v|^4=1\\implies|v|^2=1\\;\\Rightarrow(P)\\mapsto2.$  \n\nThe three linear equations  \n$$-\\,t\\alpha+\\beta+\\gamma=0,\\quad\\alpha-t\\beta+\\gamma=0,\\quad\\alpha+\\beta-t\\gamma=0$$  \nhave nontrivial solutions only for $t=2$ or $t=-1$ (the characteristic equation is $t^3-3t-2=0\\implies(t-2)(t+1)^2=0$).  \n\n\u2013 For $t=2$ one finds $\\alpha=\\beta=\\gamma$ and $3\\alpha^2=6\\implies\\alpha^2=2\\implies\\alpha=\\pm\\sqrt2$.  Hence when $\\alpha=\\sqrt2$, $t=2$ and  \n$$(t+3)=2+3=5\\;\\Rightarrow(S)\\mapsto5.$$  \n\n\u2013 For $t=-1$ all three equations coalesce to $\\alpha+\\beta+\\gamma=0$, which together with the orthogonality $u\\cdot w=\\alpha+\\beta-2\\gamma=0$ gives $\\gamma=0,\\;\\beta=-\\alpha$ and $2\\alpha^2=6\\implies\\alpha^2=3\\implies\\alpha=\\pm\\sqrt3$.  Hence if $\\alpha=\\sqrt3$,  \n$$\\gamma^2=0\\;\\Rightarrow(Q)\\mapsto1,\\quad(\\beta+\\gamma)^2=(-\\sqrt3)^2=3\\;\\Rightarrow(R)\\mapsto4.$$\n\nPutting it all together:  \n(P)\u21922,\\;(Q)\u21921,\\;(R)\u21924,\\;(S)\u21925, which is choice A.  \n\n\\boxed{A}",
+    "usage": {
+      "input_tokens": 657,
+      "cached_input_tokens": 0,
+      "output_tokens": 6614,
+      "reasoning_tokens": 6080,
+      "total_tokens": 7271
+    }
+  },
+  {
+    "num": 1,
+    "subject": "physics",
+    "type": "SCA",
+    "ans": "A",
+    "pred": "A",
+    "response": "The small\u2010oscillation Lagrangian in \u03b8 (measured from the bottom) is\n\n  KE = \u00bd\u2009m(R\u2013r)\u00b2 \u03b8\u0307\u00b2 + \u00bd\u2009I\u2009\u03c6\u0307\u00b2\n     = \u00bd\u2009m\u2009a\u00b2\u2009\u03b8\u0307\u00b2 + \u00bd\u00b7(\u00bd\u2009m\u2009r\u00b2)\u00b7(a\u00b2/r\u00b2)\u2009\u03b8\u0307\u00b2\n     = \u00be\u2009m\u2009a\u00b2\u2009\u03b8\u0307\u00b2,\n\nwith a = R\u2013r and the no\u2010slip \u03c6\u0307 = (a/r)\u03b8\u0307.  The potential to quadratic order is\n\n  V = m g\u2009a(1\u2013cos\u2009\u03b8) + \u00bd\u2009k(a\u2009\u03b8)\u00b2\n    \u2243 \u00bd\u2009(mg\u2009a + k\u2009a\u00b2)\u2009\u03b8\u00b2.\n\nHence the equation of motion is\n\n  (3/2)m\u2009a\u00b2\u2009\u03b8\u0308 + (m\u2009g\u2009a + k\u2009a\u00b2)\u2009\u03b8 = 0\n\n\u21d2 \u03c9\u00b2 = (m\u2009g\u2009a + k\u2009a\u00b2) / ((3/2)m\u2009a\u00b2) = (2/3)(g/a + k/m),\n\nso\n\n  \u03c9 = sqrt[ (2/3) ( g/(R\u2013r) + k/m ) ].\n\nAnswer: \\boxed{A}",
+    "usage": {
+      "input_tokens": 688,
+      "cached_input_tokens": 0,
+      "output_tokens": 3299,
+      "reasoning_tokens": 3008,
+      "total_tokens": 3987
+    }
+  },
+  {
+    "num": 2,
+    "subject": "physics",
+    "type": "SCA",
+    "ans": "D",
+    "pred": "D",
+    "response": "The scattering\u2010angle relation in the lab frame can be shown to satisfy\n\ntan\u2009\u03b8 = sin\u20092\u03c6/(1 + 2\u2009sin^2\u03c6),\n\nwhere \u03c6 is the lighter particle\u2019s scattering angle.  Maximizing tan\u2009\u03b8 with respect to \u03c6 gives cos\u20092\u03c6=\u00bd\u21d2\u03c6=\u03c0/6, and hence\n\ntan\u2009\u03b8_max = (\u221a3/2)/(1+2\u00b7\u00bc) = \u221a3/3 \u21d2 \u03b8_max = \u03c0/6.\n\nAnswer: D.  \n\n\\boxed{D}",
+    "usage": {
+      "input_tokens": 396,
+      "cached_input_tokens": 0,
+      "output_tokens": 2293,
+      "reasoning_tokens": 2176,
+      "total_tokens": 2689
+    }
+  },
+  {
+    "num": 3,
+    "subject": "physics",
+    "type": "SCA",
+    "ans": "A",
+    "pred": "A",
+    "response": "The key point is that only when the loop\u2019s \u201cswing\u2010angle\u201d \u03c6=\u03c9t lies between 0 and \u03c0 (so that its entire face is in the y\u22650 field\u2010region) do you pick up any flux; outside that window \u03a6=0 and hence \u03b5=\u2212d\u03a6/dt=0.  Within 0\u2264t\u2264\u03c0/\u03c9 one finds (choosing a convenient sign for the area\u2010vector)  \n\u03a6(t)=\u2212B\u2080A\u2009sin\u2009\u03c6\u2009cos\u2009\u03c9t=\u2212\u00bdB\u2080A\u2009sin\u20092\u03c9t  \n\u21d2 \u03b5=\u2212d\u03a6/dt=B\u2080A\u2009\u03c9\u2009cos\u20092\u03c9t  \nwhich is a single full cosine\u2010cycle in the interval 0\u2192\u03c0/\u03c9, then zero from \u03c0/\u03c9\u21922\u03c0/\u03c9, etc.  That is exactly the waveform shown in choice (A).  \n\n\\boxed{A}",
+    "usage": {
+      "input_tokens": 1181,
+      "cached_input_tokens": 0,
+      "output_tokens": 6536,
+      "reasoning_tokens": 6336,
+      "total_tokens": 7717
+    }
+  },
+  {
+    "num": 4,
+    "subject": "physics",
+    "type": "SCA",
+    "ans": "C",
+    "pred": "C",
+    "response": "The configuration in Fig. 1 shows a 10\u2010division vernier spanning 9 main\u2010scale divisions \u21d2 least count = (1 mm \u2013 0.9 mm)/10 = 0.1 mm = 0.01 cm.  \nIn Fig. 2 the vernier zero lies just beyond the 1 mm (0.1 cm) mark, and the third vernier line coincides with a main\u2010scale division \u21d2 vernier reading = 3\u2009\u00d7\u20090.01 cm = 0.03 cm.  \nTotal reading = 0.10 cm + 0.03 cm = 0.13 cm.  \n\n\\boxed{C}",
+    "usage": {
+      "input_tokens": 477,
+      "cached_input_tokens": 0,
+      "output_tokens": 2715,
+      "reasoning_tokens": 2560,
+      "total_tokens": 3192
+    }
+  },
+  {
+    "num": 5,
+    "subject": "physics",
+    "type": "MCA",
+    "ans": "BD",
+    "pred": "B,D",
+    "response": "Here the loop in the partial\u2010entry phase satisfies  \nM\u2009dv/dt=\u2212(B\u2080\u00b2L\u00b2/R)\u2009v=\u2212M\u2009K\u2009v\u2002\u21d2\u2002v=v\u2080e^(\u2212Kt),  \nand its front edge position is  \ny_f(t)=\u222bv\u2009dt=(v\u2080/K)(1\u2212e^(\u2212Kt)).  \nIt will fully enter only if v\u2080>KL; the entry\u2010time t\u2081 obeys  \n(v\u2080/K)(1\u2212e^(\u2212Kt\u2081))=L \u21d2 e^(\u2212Kt\u2081)=1\u2212(KL/v\u2080).  \nThus\n\n(A) for v\u2080=1.5KL \u21d2 1\u2212(KL/v\u2080)=1\u22122/3=1/3>0, so it does enter fully \u21d2 A is false,  \n(B) once the entire loop is inside B, \u03a6 is constant \u21d2 I=0 \u21d2 net magnetic force=0 \u21d2 B is true,  \n(C) if v\u2080<KL it never reaches full entry and v\u21920 only as t\u2192\u221e \u21d2 C is false,  \n(D) for v\u2080=3KL \u21d2 e^(\u2212Kt\u2081)=1\u22121/3=2/3 \u21d2 t\u2081=(1/K)ln(3/2)=ln(1.5)/K \u21d2 D is true.\n\n\\boxed{B,D}",
+    "usage": {
+      "input_tokens": 737,
+      "cached_input_tokens": 0,
+      "output_tokens": 3309,
+      "reasoning_tokens": 3008,
+      "total_tokens": 4046
+    }
+  },
+  {
+    "num": 6,
+    "subject": "physics",
+    "type": "MCA",
+    "ans": "D",
+    "pred": "D",
+    "response": "\\boxed{D}",
+    "usage": {
+      "input_tokens": 368,
+      "cached_input_tokens": 0,
+      "output_tokens": 715,
+      "reasoning_tokens": 704,
+      "total_tokens": 1083
+    }
+  },
+  {
+    "num": 7,
+    "subject": "physics",
+    "type": "MCA",
+    "ans": "AD",
+    "pred": "D",
+    "response": "(A) Incorrect. At P the impedance increases (from \u03bc to 4\u03bc) so the reflection coefficient R=(Z\u2082\u2013Z\u2081)/(Z\u2082+Z\u2081)=+1/3, i.e. no \u03c0\u2010shift, and the transmitted wave must have k\u21922k.  \n(B) Incorrect. The transmitted wave in S\u2082 has k\u2082=2k, not k.  \n(C) Incorrect. At Q the impedance again increases (4\u03bc\u219216\u03bc) so R>0 (no \u03c0 shift), and the reflected wave in S\u2082 has k\u2082=2k and a \u201c+\u2009kx\u201d dependence.  \n(D) Correct. The transmission coefficient into S\u2083 is T=2Z\u2083/(Z\u2082+Z\u2083)=4/3>0, and the wave number in S\u2083 is k\u2083=\u03c9/\u221a(T/16\u03bc)=4k, so  \n\u2003y\u209c=a\u2084y\u2080\u2009cos(\u03c9t\u22124kx),  a\u2084>0.  \n\n\\boxed{D}",
+    "usage": {
+      "input_tokens": 780,
+      "cached_input_tokens": 0,
+      "output_tokens": 1829,
+      "reasoning_tokens": 1600,
+      "total_tokens": 2609
+    }
+  },
+  {
+    "num": 8,
+    "subject": "physics",
+    "type": "NT",
+    "ans": "2",
+    "pred": "9.87",
+    "response": "\\boxed{9.87}",
+    "usage": {
+      "input_tokens": 276,
+      "cached_input_tokens": 0,
+      "output_tokens": 1421,
+      "reasoning_tokens": 1408,
+      "total_tokens": 1697
+    }
+  },
+  {
+    "num": 9,
+    "subject": "physics",
+    "type": "NT",
+    "ans": "[21,25]",
+    "pred": "22.98",
+    "response": "\\boxed{22.98}",
+    "usage": {
+      "input_tokens": 287,
+      "cached_input_tokens": 0,
+      "output_tokens": 1805,
+      "reasoning_tokens": 1792,
+      "total_tokens": 2092
+    }
+  },
+  {
+    "num": 10,
+    "subject": "physics",
+    "type": "NT",
+    "ans": "3",
+    "pred": "3.00",
+    "response": "\\boxed{3.00}",
+    "usage": {
+      "input_tokens": 437,
+      "cached_input_tokens": 0,
+      "output_tokens": 589,
+      "reasoning_tokens": 576,
+      "total_tokens": 1026
+    }
+  },
+  {
+    "num": 11,
+    "subject": "physics",
+    "type": "NT",
+    "ans": "0.75|0.5",
+    "pred": "0.50",
+    "response": "\\boxed{0.50}",
+    "usage": {
+      "input_tokens": 425,
+      "cached_input_tokens": 0,
+      "output_tokens": 3597,
+      "reasoning_tokens": 3584,
+      "total_tokens": 4022
+    }
+  },
+  {
+    "num": 12,
+    "subject": "physics",
+    "type": "NT",
+    "ans": "[75,79]",
+    "pred": "75.60",
+    "response": "\\boxed{75.60}",
+    "usage": {
+      "input_tokens": 306,
+      "cached_input_tokens": 0,
+      "output_tokens": 1997,
+      "reasoning_tokens": 1984,
+      "total_tokens": 2303
+    }
+  },
+  {
+    "num": 13,
+    "subject": "physics",
+    "type": "NT",
+    "ans": "72",
+    "pred": "72.00",
+    "response": "\\boxed{72.00}",
+    "usage": {
+      "input_tokens": 298,
+      "cached_input_tokens": 0,
+      "output_tokens": 781,
+      "reasoning_tokens": 768,
+      "total_tokens": 1079
+    }
+  },
+  {
+    "num": 14,
+    "subject": "physics",
+    "type": "M",
+    "ans": "C",
+    "pred": "C",
+    "response": "For any two dipoles at x=\u00b1r with moments p\u2081 and p\u2082, the field at the midpoint X is\n\nE = (1/4\u03c0\u03b5\u2080r\u00b3)[2(p\u2081\u2093+p\u2082\u2093) \u00ee \u2013 (p\u2081_y+p\u2082_y) \u0135].\n\nCompute p\u2081+p\u2082 for each:\n\nP: p\u2081=(0,p), p\u2082=(0,p) \u21d2 p\u2093=0, p_y=2p \u21d2 E=\u2013(2p/4\u03c0\u03b5\u2080r\u00b3)\u0135=\u2013(p/2\u03c0\u03b5\u2080r\u00b3)\u0135 \u21d2 List-II 2.\n\nQ: p\u2081=(0,p), p\u2082=(0,\u2013p) \u21d2 p_tot=0 \u21d2 E=0 \u21d2 List-II 1.\n\nR: p\u2081=(0,p), p\u2082=(p,0) \u21d2 p_tot=(p,p) \u21d2 E=(1/4\u03c0\u03b5\u2080r\u00b3)(2p \u00ee \u2013p \u0135) \u21d2 List-II 4.\n\nS: p\u2081=(p,0), p\u2082=(p,0) \u21d2 p_tot=(2p,0) \u21d2 E=(1/4\u03c0\u03b5\u2080r\u00b3)(4p \u00ee)= (p/\u03c0 \u03b5\u2080 r\u00b3) \u00ee \u21d2 List-II 5.\n\nHence P\u21922, Q\u21921, R\u21924, S\u21925, which is option C.  \n\n\\boxed{C}",
+    "usage": {
+      "input_tokens": 757,
+      "cached_input_tokens": 0,
+      "output_tokens": 1919,
+      "reasoning_tokens": 1600,
+      "total_tokens": 2676
+    }
+  },
+  {
+    "num": 15,
+    "subject": "physics",
+    "type": "M",
+    "ans": "A",
+    "pred": "A",
+    "response": "First, note that the source is  \nV(t)=300\u2009sin(\u03c9t),\u2003\u03c9=400\u2009rad/s.  \n\nIn each case  \nI\u0302=V\u0302/|Z|,  \nand the phase of i(t) is \u03c6=arg\u2009Z negated (i.e. if Z is inductive \u2192 i lags; if capacitive \u2192 i leads).  \n\nList-I impedances:\n\n(P)\u2003Z=30\u2009\u03a9 \u21d2 |Z|=30 \u21d2 I\u0302=300/30=10\u2009A, \u03c6=0\u00b0 (in\u2010phase with V).  \n(Q)\u2003Z=30+j\u2009\u03c9L=30+j(400\u00b70.1)=30+j40 \u21d2 |Z|=50 \u21d2 I\u0302=300/50=6\u2009A, \u03c6=\u2212tan\u207b\u00b9(40/30)\u2248\u221253\u00b0 (lag).  \n(R)\u2003Z=30+j\u03c9\u00b70.025 \u2013 j/(\u03c9\u00b750\u2009\u03bcF)=30+j10 \u2013 j50=30 \u2013 j40 \u21d2 |Z|=50 \u21d2 I\u0302=6\u2009A, \u03c6=+tan\u207b\u00b9(40/30)\u2248+53\u00b0 (lead).  \n(S)\u2003Z=60+j(400\u00b70.125 \u2013 1/(400\u00b750\u2009\u03bcF))=60+j(50\u201350)=60 \u21d2 |Z|=60 \u21d2 I\u0302=5\u2009A, \u03c6=0\u00b0 (resonance, in\u2010phase).  \n\nHence the four waveforms must be  \n\u2013 10\u2009A, \u03c6=0\u00b0 \u2192 pure R \u21d2 (P) \u2192 graph (3),  \n\u2013 5\u2009A, \u03c6=0\u00b0 \u2192 pure R(60\u03a9) at resonance \u21d2 (S) \u2192 graph (1),  \n\u2013 6\u2009A, \u03c6\u2248+53\u00b0 \u2192 net capacitive (lead) \u21d2 (R) \u2192 graph (2),  \n\u2013 6\u2009A, \u03c6\u2248\u201353\u00b0 \u2192 net inductive (lag) \u21d2 (Q) \u2192 graph (5).  \n\nThus  \nP\u21923,\u2003Q\u21925,\u2003R\u21922,\u2003S\u21921  \n\nAnswer choice A.  \n\n\\boxed{A}",
+    "usage": {
+      "input_tokens": 1089,
+      "cached_input_tokens": 0,
+      "output_tokens": 15058,
+      "reasoning_tokens": 14592,
+      "total_tokens": 16147
+    }
+  },
+  {
+    "num": 16,
+    "subject": "physics",
+    "type": "M",
+    "ans": "C",
+    "pred": "C",
+    "response": "P: E\u221dZ\u00b2 \u2192 hydrogen\u2010like radiative transitions (5)  \nQ: E\u221d(Z\u20131)\u00b2 \u2192 Moseley\u2019s law for characteristic X\u2010rays (1)  \nR: E\u221dZ(Z\u20131) \u2192 Coulomb term in nuclear binding (2)  \nS: E\u2248const \u2192 average binding per nucleon (4)  \n\nHence the matching is P\u21925, Q\u21921, R\u21922, S\u21924, i.e. option C.  \n\n\\boxed{C}",
+    "usage": {
+      "input_tokens": 509,
+      "cached_input_tokens": 0,
+      "output_tokens": 1078,
+      "reasoning_tokens": 960,
+      "total_tokens": 1587
+    }
+  },
+  {
+    "num": 1,
+    "subject": "chemistry",
+    "type": "SCA",
+    "ans": "A",
+    "pred": "A",
+    "response": "\\boxed{A}",
+    "usage": {
+      "input_tokens": 278,
+      "cached_input_tokens": 0,
+      "output_tokens": 267,
+      "reasoning_tokens": 256,
+      "total_tokens": 545
+    }
+  },
+  {
+    "num": 2,
+    "subject": "chemistry",
+    "type": "SCA",
+    "ans": "A",
+    "pred": "A",
+    "response": "\\boxed{A}",
+    "usage": {
+      "input_tokens": 442,
+      "cached_input_tokens": 0,
+      "output_tokens": 651,
+      "reasoning_tokens": 640,
+      "total_tokens": 1093
+    }
+  },
+  {
+    "num": 3,
+    "subject": "chemistry",
+    "type": "SCA",
+    "ans": "B",
+    "pred": "A",
+    "response": "The permanganate in neutral solution is reduced to MnO\u2082 while oxidizing I\u207b to I\u2082:  \n\nBalanced half\u2010reactions in neutral medium  \n  MnO\u2084\u207b + 2 H\u2082O + 3 e\u207b \u2192 MnO\u2082 + 4 OH\u207b       E\u00b0 = +0.59 V  \n  2 I\u207b \u2192 I\u2082 + 2 e\u207b                               E\u00b0 (oxidation) = \u20130.535 V  \n\nOverall (\u00d72 of Mn, \u00d73 of I):  \n  2 MnO\u2084\u207b + 2 H\u2082O + 6 I\u207b \u2192 2 MnO\u2082 + 8 OH\u207b + 3 I\u2082  \n\nHence iodine (I\u2082) is formed.  \n\n\\boxed{A}",
+    "usage": {
+      "input_tokens": 258,
+      "cached_input_tokens": 0,
+      "output_tokens": 1006,
+      "reasoning_tokens": 832,
+      "total_tokens": 1264
+    }
+  },
+  {
+    "num": 4,
+    "subject": "chemistry",
+    "type": "SCA",
+    "ans": "B",
+    "pred": "A",
+    "response": "The hydrogen in (A) is flanked by two C=C bonds (one into the aromatic ring and one exocyclic alkene), so removing it gives a totally conjugated (doubly allylic/benzylic) anion \u2013 far more stabilized than the single\u2010allylic positions in (B), (C) or (D). Hence (A) is the most acidic.  \n\n\\boxed{A}",
+    "usage": {
+      "input_tokens": 331,
+      "cached_input_tokens": 0,
+      "output_tokens": 1628,
+      "reasoning_tokens": 1536,
+      "total_tokens": 1959
+    }
+  },
+  {
+    "num": 5,
+    "subject": "chemistry",
+    "type": "MCA",
+    "ans": "BC",
+    "pred": "C",
+    "response": "\\boxed{C}",
+    "usage": {
+      "input_tokens": 370,
+      "cached_input_tokens": 0,
+      "output_tokens": 1547,
+      "reasoning_tokens": 1536,
+      "total_tokens": 1917
+    }
+  },
+  {
+    "num": 6,
+    "subject": "chemistry",
+    "type": "MCA",
+    "ans": "AB",
+    "pred": "A,B",
+    "response": "The diamagnetic ions are:\n\nA) La\u00b3\u207a ([Xe]) and Ce\u2074\u207a ([Xe]) \u2013 both have closed\u2010shell Xe configurations.  \nB) Yb\u00b2\u207a ([Xe]4f\u00b9\u2074) and Lu\u00b3\u207a ([Xe]4f\u00b9\u2074) \u2013 both have a filled 4f\u00b9\u2074 shell.  \n\nOptions C and D involve ions with one unpaired electron (paramagnetic), so they are not diamagnetic.\n\n\\boxed{A,B}",
+    "usage": {
+      "input_tokens": 346,
+      "cached_input_tokens": 0,
+      "output_tokens": 1264,
+      "reasoning_tokens": 1152,
+      "total_tokens": 1610
+    }
+  },
+  {
+    "num": 7,
+    "subject": "chemistry",
+    "type": "MCA",
+    "ans": "B",
+    "pred": "B",
+    "response": "For P, Q, R we have P = cyclohexyl-Br, Q = cyclohexyl-I, R = cyclohexyl-F.\n\n(A) Bond lengths: C\u2013I > C\u2013Br > C\u2013F, so the correct order is Q > P > R, not Q > R > P.  (A) is false.\n\n(B) Bond strengths: C\u2013F > C\u2013Br > C\u2013I, so R > P > Q.  (B) is true.\n\n(C) SN2 reactivity: R\u2013I > R\u2013Br > R\u2013F, so Q > P > R.  (C) is false.\n\n(D) pKa of HX: HF (pKa \u2248 3.2) > HBr (\u2248 \u20139) > HI (\u2248 \u201310), so R > P > Q, not R > Q > P.  (D) is false.\n\n\\boxed{B}",
+    "usage": {
+      "input_tokens": 499,
+      "cached_input_tokens": 0,
+      "output_tokens": 1488,
+      "reasoning_tokens": 1280,
+      "total_tokens": 1987
+    }
+  },
+  {
+    "num": 8,
+    "subject": "chemistry",
+    "type": "NT",
+    "ans": "100",
+    "pred": "100.00",
+    "response": "\\boxed{100.00}",
+    "usage": {
+      "input_tokens": 231,
+      "cached_input_tokens": 0,
+      "output_tokens": 845,
+      "reasoning_tokens": 832,
+      "total_tokens": 1076
+    }
+  },
+  {
+    "num": 9,
+    "subject": "chemistry",
+    "type": "NT",
+    "ans": "[2.2,2.3]",
+    "pred": "2.24",
+    "response": "\\boxed{2.24}",
+    "usage": {
+      "input_tokens": 261,
+      "cached_input_tokens": 0,
+      "output_tokens": 3725,
+      "reasoning_tokens": 3712,
+      "total_tokens": 3986
+    }
+  },
+  {
+    "num": 10,
+    "subject": "chemistry",
+    "type": "NT",
+    "ans": "[-7.2,-7]",
+    "pred": "-7.10",
+    "response": "\\boxed{-7.10}",
+    "usage": {
+      "input_tokens": 288,
+      "cached_input_tokens": 0,
+      "output_tokens": 717,
+      "reasoning_tokens": 704,
+      "total_tokens": 1005
+    }
+  },
+  {
+    "num": 11,
+    "subject": "chemistry",
+    "type": "NT",
+    "ans": "[-29.95,-29.8]|[29.8,29.95]",
+    "pred": "-29.88",
+    "response": "\\boxed{-29.88}",
+    "usage": {
+      "input_tokens": 225,
+      "cached_input_tokens": 0,
+      "output_tokens": 717,
+      "reasoning_tokens": 704,
+      "total_tokens": 942
+    }
+  },
+  {
+    "num": 12,
+    "subject": "chemistry",
+    "type": "NT",
+    "ans": "280",
+    "pred": "280.00",
+    "response": "\\boxed{280.00}",
+    "usage": {
+      "input_tokens": 223,
+      "cached_input_tokens": 0,
+      "output_tokens": 845,
+      "reasoning_tokens": 832,
+      "total_tokens": 1068
+    }
+  },
+  {
+    "num": 13,
+    "subject": "chemistry",
+    "type": "NT",
+    "ans": "175",
+    "pred": "232.00",
+    "response": "The overall 50%\u2010yields in three successive steps (P\u2192Q, Q\u2192R, R\u2192S) mean that from 16\u2009mol of X only  \n16\u00d7(0.5)\u00d7(0.5)\u00d7(0.5)=2\u2009mol of S are formed.  \n\nS is the sodium phenoxide (C\u2086H\u2085O\u207b\u2009Na\u207a), M = 6\u00b712 + 5\u00b71 + 16 + 23 = 116\u2009g\u2009mol\u207b\u00b9.  \nThus mass of S = 2\u2009mol \u00d7 116\u2009g\u2009mol\u207b\u00b9 = 232\u2009g.  \n\n\\boxed{232.00}",
+    "usage": {
+      "input_tokens": 549,
+      "cached_input_tokens": 0,
+      "output_tokens": 7385,
+      "reasoning_tokens": 7232,
+      "total_tokens": 7934
+    }
+  },
+  {
+    "num": 14,
+    "subject": "chemistry",
+    "type": "M",
+    "ans": "A",
+    "pred": "A",
+    "response": "The reagents fall into the classical \u201cfour\u2010group\u201d scheme:\n\nP. H\u2082S/NH\u2084OH \u2013 the \u201cammoniacal H\u2082S\u201d reagent (Group II sulfides) precipitates MnS, so P \u2192 3  \nQ. (NH\u2084)\u2082CO\u2083 + NH\u2084OH \u2013 the carbonate reagent (Group III) precipitates BaCO\u2083, so Q \u2192 4  \nR. NH\u2084OH + NH\u2084Cl \u2013 the buffered hydroxide reagent (Group IV) precipitates Al(OH)\u2083, so R \u2192 2  \nS. H\u2082S/dilute HCl \u2013 the acid\u2010H\u2082S reagent (Group I sulfides) precipitates CuS, so S \u2192 1  \n\nHence the unique correct matching is option A.\n\n\\boxed{A}",
+    "usage": {
+      "input_tokens": 439,
+      "cached_input_tokens": 0,
+      "output_tokens": 3453,
+      "reasoning_tokens": 3264,
+      "total_tokens": 3892
+    }
+  },
+  {
+    "num": 15,
+    "subject": "chemistry",
+    "type": "M",
+    "ans": "B",
+    "pred": "B",
+    "response": "(P) Stephen reaction needs a nitrile \u2010 only II-2 (benzoic acid \u2192 benzoyl chloride \u2192 benzamide \u2192 benzonitrile) supplies one  \n(Q) Sandmeyer needs Ar\u2013N\u2082\u207a \u2013 II-3 makes the diazonium salt from nitrobenzene  \n(R) Hofmann bromamide degradation uses an amide \u2013 II-4 gives benzamide  \n(S) Cannizzaro needs benzaldehyde \u2013 II-1 (Etard) yields benzaldehyde  \n\nHence P\u21922, Q\u21923, R\u21924, S\u21921, which is option B.  \n\n\\boxed{B}",
+    "usage": {
+      "input_tokens": 636,
+      "cached_input_tokens": 0,
+      "output_tokens": 3339,
+      "reasoning_tokens": 3200,
+      "total_tokens": 3975
+    }
+  },
+  {
+    "num": 16,
+    "subject": "chemistry",
+    "type": "M",
+    "ans": "B",
+    "pred": "B",
+    "response": "P has both a free \u03b1\u2010NH\u2082 (ninhydrin+) and a phenolic \u2013OH (FeCl\u2083+), so P\u21922.  \nQ is N\u2010acetylated and has no phenol, but on full acid hydrolysis liberates an amino acid (ninhydrin+) and gives no phthalein dye (no phenol), so Q\u21925.  \nR is the anilinium chloride, which will couple with a phenyl diazonium to give a yellow azo dye, so R\u21921.  \nS is an aryl hydrazine, which reacts with the aldehyde of glucose to form a hydrazone, so S\u21923.  \n\nHence the correct matching is P\u21922, Q\u21925, R\u21921, S\u21923, i.e. option B.\n\n\\boxed{B}",
+    "usage": {
+      "input_tokens": 628,
+      "cached_input_tokens": 0,
+      "output_tokens": 2870,
+      "reasoning_tokens": 2688,
+      "total_tokens": 3498
+    }
+  }
+]

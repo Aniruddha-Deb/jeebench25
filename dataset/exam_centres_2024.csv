@@ -1,0 +1,728 @@
+Centre ID,Zonal IIT,Centre Name,City
+1001,IIT Bombay,iON Digital Zone iDZ Pato Plaza,Panaji
+1002,IIT Bombay,DON BOSCO COLLEGE OF ENGINEERING,Madgaon
+1003,IIT Bombay,iON Digital Zone iDZ Bopal,Ahmedabad
+1004,IIT Bombay,iON Digital Zone iDZ 1 Odhav,Ahmedabad
+1005,IIT Bombay,iON Digital Zone iDZ 2 Odhav,Ahmedabad
+1006,IIT Bombay,iON Digital Zone iDZ Vastral,Ahmedabad
+1007,IIT Bombay,Silver Oak College of Engineering & Technology Block D,Ahmedabad
+1008,IIT Bombay,Darsh Infotech,Anand
+1009,IIT Bombay,Sardar Patel College Of Engineering,Anand
+1010,IIT Bombay,Gyanmanjari Institute of Technology,Bhavnagar
+1011,IIT Bombay,Department of Computer Science Krantiguru Shyamji Krishna Verma Kachchh University,Bhuj
+1012,IIT Bombay,Shri R.R.Lalan College,Bhuj
+1013,IIT Bombay,iON Digital Zone iDZ Sector 26,Gandhinagar
+1014,IIT Bombay,Kaavyaratna Info Services,Gandhinagar
+1015,IIT Bombay,Global Institute,Himmatnagar
+1016,IIT Bombay,AMATYAS Global IT Solution,Jamnagar
+1017,IIT Bombay,iON Digital Zone iDZ Manav Ashram,Mehsana
+1018,IIT Bombay,iON Digital Zone iDZ 1 Metoda,Rajkot
+1019,IIT Bombay,iON Digital Zone iDZ 2 Metoda,Rajkot
+1020,IIT Bombay,iON Digital Zone iDZ 3 Metoda,Rajkot
+1021,IIT Bombay,Marwadi University,Rajkot
+1022,IIT Bombay,iON Digital Zone iDZ Unn Center A,Surat
+1023,IIT Bombay,iON Digital Zone iDZ Unn Center B,Surat
+1024,IIT Bombay,GIDC Degree Engineering College,Navsari
+1025,IIT Bombay,Sitarambhai Naranji Patel Institute Of Technology And Research Centre Umrakh,Surat
+1026,IIT Bombay,R.N.G.Patel Institute Of Technology -RNGPIT,Surat
+1027,IIT Bombay,Vidhyabharti Trust College Of Master In Computer Application,Surat
+1028,IIT Bombay,Shree Ram Exam Center,Surat
+1029,IIT Bombay,A. Y. DADABHAI TECHNICAL INSTITUTE,Surat
+1030,IIT Bombay,C. K. Pithawala College of Engineering & Technology,Surat
+1031,IIT Bombay,Vimal Tormal Poddar BCA College,Surat
+1032,IIT Bombay,iON Digital Zone iDZ 2 Gotri,Vadodara
+1033,IIT Bombay,Binary Bit Technology,Vadodara
+1034,IIT Bombay,Vadodara Institute of Engineering,Vadodara
+1035,IIT Bombay,Advaita Gurukul,Silvasa
+1036,IIT Bombay,Laxmi Vidyapeeth,Valsad
+1037,IIT Bombay,Chips and Bytes Vapi,Vapi
+1038,IIT Bombay,iON Digital Zone iDZ Airport Road Belagavi,Belgaum
+1039,IIT Bombay,Ballari Institute of Technology & Management Ballari,Bellary
+1040,IIT Bombay,KISHKINDA University Ballari,Bellary
+1041,IIT Bombay,iON Digital Zone iDZ Rajarajeswari Medical College and Hospital,Bengaluru
+1042,IIT Bombay,Cambridge Institute Of Technology,Bengaluru
+1043,IIT Bombay,Reverend Technologies Pvt. Ltd,Bengaluru
+1044,IIT Bombay,Milestone Technologies,Bengaluru
+1045,IIT Bombay,Bitbytech Solutions,Bengaluru
+1046,IIT Bombay,K S School of Engineering and Management Bengaluru,Bengaluru
+1047,IIT Bombay,K S Institute of Technology,Bengaluru
+1048,IIT Bombay,GITAM School of Technology,Bengaluru
+1049,IIT Bombay,iON Digital Zone iDZ Thigalarapalya Main Road,Bengaluru
+1050,IIT Bombay,Reva University,Bengaluru
+1051,IIT Bombay,Don Bosco Institute of Technology,Bengaluru
+1052,IIT Bombay,Global Academy of Technology,Bengaluru
+1053,IIT Bombay,Presidency University,Bengaluru
+1054,IIT Bombay,Dayananda Sagar University,Bengaluru
+1055,IIT Bombay,ACS College of Engineering,Bengaluru
+1056,IIT Bombay,Sir M Visvesvaraya Institute Of Technology,Bengaluru
+1057,IIT Bombay,Gopalan College of Engineering & Management,Bengaluru
+1058,IIT Bombay,E merit,Bengaluru
+1059,IIT Bombay,Sapthagiri College of Engineering,Bengaluru
+1060,IIT Bombay,Acharya Institute of Technology,Bengaluru
+1061,IIT Bombay,Bapuji Institute of Engineering & Technology,Davanagere
+1062,IIT Bombay,Global System Consultancy,Davanagere
+1063,IIT Bombay,Jain Polytechnic,Davanagere
+1064,IIT Bombay,iON Digital Zone iDZ Akshay Colony Hubbali,(Hubli)
+1065,IIT Bombay,Chetan Business School Hubbali,(Hubli)
+1066,IIT Bombay,Rajeev Polytechnic,Hassan
+1067,IIT Bombay,Malnad College of Engineering,Hassan
+1068,IIT Bombay,Godutai Engineering College For Women Kalaburagi (Gul-,barga)
+1069,IIT Bombay,iON Digital Zone iDZ Bondel Mangaluru (Manga-,lore)
+1070,IIT Bombay,iON Digital Zone iDZ Hebbal Mysuru,(Mysore)
+1071,IIT Bombay,iON Digital Zone iDZ Machenahalli Shivamogga (Shi-,moga)
+1072,IIT Bombay,Channabasaveshwara Institute of Technology,Tumkur
+1073,IIT Bombay,Siddaganga Institute of Technology,Tumkur
+1074,IIT Bombay,iON Digital Zone iDZ Milk Diary Road,Udupi
+1075,IIT Bombay,Suman i Talent,Ahmednagar
+1076,IIT Bombay,Prisha Infotech,Ahmednagar
+1077,IIT Bombay,Shri Infotech,Akola
+1078,IIT Bombay,College Of Engineering And Technology Akola,Akola
+1079,IIT Bombay,MANAV KNOWLEDGE CITY AKOLA,Akola
+1080,IIT Bombay,iON DIGITAL ZONE iDZ Cityland,Amravati
+1081,IIT Bombay,iON DIGITAL Zone iDZ University Camp Area,Amravati
+1082,IIT Bombay,iON Digital Zone Chikalthana Center A Chhatrapati Samb- haji,Nagar
+1083,IIT Bombay,iON Digital Zone Chikalthana Center B Chhatrapati Samb- haji,Nagar
+1084,IIT Bombay,Excellence Computer Center Chhatrapati Sambha- jinagar Chhatrapati Samb- haji,Nagar
+1085,IIT Bombay,Late Ajay Pardhi Memo.PVT.ITI Hasara Tumsar,Bhandara
+1086,IIT Bombay,DNYAN ONLINE EXAMINATION CENTRE Bhandara,Bhandara
+1087,IIT Bombay,Pooja Infosystems Chandrapur,Chandrapur
+1088,IIT Bombay,Kotkar Infosystems Chandrapur,Chandrapur
+1089,IIT Bombay,BAJAJ CHANDRAPUR POLYTECHNIC,Chandrapur
+1090,IIT Bombay,Bharti Multipurpose Trust,Dhule
+1091,IIT Bombay,Utopia Digital Dhule,Dhule
+1092,IIT Bombay,Sai Technobyte Jalgaon,Jalgaon
+1093,IIT Bombay,Godavari Foundation Godavari College Of Engi- neering Online Exam Center Jalgaon,Jalgaon
+1094,IIT Bombay,iON Digital Zone iDZ Shiye,Kolhapur
+1095,IIT Bombay,Techware Technology Unit - 2 Kolhapur,Kolhapur
+1096,IIT Bombay,Netizens Digital Zone Latur,Latur
+1097,IIT Bombay,SWAMI VIVEKANAND INSTITUTE OF POLY- TECHNIC,Latur
+1098,IIT Bombay,MAHARASHTRA COLLEGE OF ENGINEER- ING NILANGA,Latur
+1099,IIT Bombay,Sandipani Technical Campus,Latur
+1100,IIT Bombay,Om Sai Infotech Latur,Latur
+1101,IIT Bombay,iON Digital Zone IDZ Powai Center A,Mumbai
+1102,IIT Bombay,iON Digital Zone IDZ Powai Center B,Mumbai
+1103,IIT Bombay,iON Digital Zone IDZ Powai Center C,Mumbai
+1104,IIT Bombay,Thakur College of Engineering and Technology,Mumbai
+1105,IIT Bombay,Thadomal Shahani Engineering College,Mumbai
+1106,IIT Bombay,Thakur Institute of Management Studies and Re- search,Mumbai
+1107,IIT Bombay,St. Francis Institute Of Technology,Mumbai
+1108,IIT Bombay,St.Xavier Technical Institute,Mumbai
+1109,IIT Bombay,iON DIGITAL ZONE iDZ 2 WADI MIDC Nagpur,Nagpur
+1110,IIT Bombay,iON Digital Zone iDZ 3 Wadi MIDC Techgressor Soft Solutions Pvt. Ltd. Nagpur,Nagpur
+1111,IIT Bombay,MKH Sancheti Public School Besa Nagpur,Nagpur
+1112,IIT Bombay,Jindal Edutech Pvt Ltd Gondkhairi Nagpur,Nagpur
+1113,IIT Bombay,Modern College,Nagpur
+1114,IIT Bombay,St Vincent Pallotti College of Enginnering and Technology,Nagpur
+1115,IIT Bombay,VMV Commerce JMT Arts & JJP Science College Gate No 2 Nagpur,Nagpur
+1116,IIT Bombay,iON DIGITAL Zone iDZ Vishnupuri,Nanded
+1117,IIT Bombay,RGC Hitech Digital Zone Nanded,Nanded
+1118,IIT Bombay,HORIZON INTERNATIONAL CBSE SCHOOL Nanded,Nanded
+1119,IIT Bombay,Shri Sambhaji College Of Management And Tech- nology Nanded,Nanded
+1120,IIT Bombay,MET Bhujbal Knowledge City 1,Nashik
+1121,IIT Bombay,METs Institute of Technology-Polytechnic,Nashik
+1122,IIT Bombay,Late GN Sapkal Engineering Nashik,Nashik
+1123,IIT Bombay,Futuretec Solutions,Nashik
+1124,IIT Bombay,Apex Examination Center,Nashik
+1125,IIT Bombay,Webeasy Infotech Education and Private Limited,Nashik
+1126,IIT Bombay,Nashik Testing Agency,Nashik
+1127,IIT Bombay,Nashik Web Solution,Nashik
+1128,IIT Bombay,Ramrao Adik Institute of Teachnology Navi,Mumbai
+1129,IIT Bombay,Bharti Vidyapeeths Institute of Management Stud- ies Information Technology Navi,Mumbai
+1130,IIT Bombay,Bharti Vidyapeeth College Of Engineering Navi,Mumbai
+1131,IIT Bombay,St. John Technical And Educational Campus,Palghar
+1132,IIT Bombay,Theem College Of Engineering,Palghar
+1133,IIT Bombay,iON Digital Zone iDZ Ramtekdi 1,Pune
+1134,IIT Bombay,iON Digital Zone iDZ Ramtekdi 2,Pune
+1135,IIT Bombay,iON Digital Zone iDZ Ramtekdi 3,Pune
+1136,IIT Bombay,International Institute of Information Technology,Pune
+1137,IIT Bombay,Vishwakarma Institute of Information Technology Pune,Pune
+1138,IIT Bombay,INDIAN INSTITUTE FOR AERONAUTICAL ENGINEERING & INFORMATION TECHNOL- OGY,Pune
+1139,IIT Bombay,Priyadarshani Sikhshan Sansthas Marathi Sec- ondary School,Pune
+1140,IIT Bombay,Nutan Maharashtra Institute Of Engineering And Technology,Pune
+1141,IIT Bombay,Dnyansagar Institute Of Management And Research Pune,Pune
+1142,IIT Bombay,Pillai HOCL Campus,Raigad
+1143,IIT Bombay,Pravara Rural Engineering College,Loni-Sangamner
+1144,IIT Bombay,Vasantdada Patil Institute Management Studies And Research,Sangli
+1145,IIT Bombay,Nanasaheb Mahadik College of Engineering Peth,Sangli
+1146,IIT Bombay,Karmaveer Bhaurao Patil College of Engineering Satara,Satara
+1147,IIT Bombay,Satara IT Park Online Exam Center Satara,Satara
+1148,IIT Bombay,Mahila Mahavidyalaya Karad,Satara
+1149,IIT Bombay,Solapur Digital Hub,SOLAPUR
+1150,IIT Bombay,A G Patil Institute of Technology,SOLAPUR
+1151,IIT Bombay,Param Infotech Solapur,SOLAPUR
+1152,IIT Bombay,NBN Sinhgad Institute,SOLAPUR
+1153,IIT Bombay,Surekha Infotech,Thane
+1154,IIT Bombay,Vidyavardhini College of Engineering and Technology,Vasai
+1155,IIT Bombay,Faculty Of Engineering and Technology Datta Meghe Institute of Higher Education And Research DU,Wardha
+1156,IIT Bombay,Bajaj Institute of Technology,Wardha
+1157,IIT Bombay,AI Technology Online Exam Center Yavatmal,Yavatmal
+2001,IIT Delhi,"R K Digital Computer Centre 2, CENTRE A New Delhi",(East)
+2002,IIT Delhi,"R K Digital Computer Centre 2, CENTRE B New Delhi",(East)
+2003,IIT Delhi,"R K Digital Computer Centre 1, CENTRE A New Delhi",(East)
+2004,IIT Delhi,"R K Digital Computer Centre 1, CENTRE B New Delhi",(East)
+2005,IIT Delhi,"R K Digital Computer Centre 1, CENTRE C New Delhi",(East)
+2006,IIT Delhi,Arwachin Bharti Bhawan Sr.Sec School New Delhi,(East)
+2007,IIT Delhi,Online Infra New Delhi,(East)
+2008,IIT Delhi,Titiksha public school New Delhi,(North)
+2009,IIT Delhi,M.A.Global Online Exam Center New Delhi,(North)
+2010,IIT Delhi,iON Digital Zone iDZ 1 GT Karnal Road New Delhi,(North)
+2011,IIT Delhi,iON Digital Zone iDZ 2 GT Karnal Road New Delhi,(North)
+2012,IIT Delhi,"iON Digital Zone iDZ 1 Mathura Road, CENTRE A New Delhi",(South)
+2013,IIT Delhi,"iON Digital Zone iDZ 1 Mathura Road, CENTRE B New Delhi",(South)
+2014,IIT Delhi,"iON Digital Zone iDZ 2 Mathura Road, CENTRE A New Delhi",(South)
+2015,IIT Delhi,"iON Digital Zone iDZ 2 Mathura Road, CENTRE B New Delhi",(South)
+2016,IIT Delhi,DS IT Solutions New Delhi,(South)
+2017,IIT Delhi,"Pawan Ganga Educational Centre 1, CENTRE A New Delhi",(West)
+2018,IIT Delhi,"Pawan Ganga Educational Centre 1, CENTRE B New Delhi",(West)
+2019,IIT Delhi,"Pawan Ganga Educational Center 2, CENTRE A New Delhi",(West)
+2020,IIT Delhi,"Pawan Ganga Educational Center 2, CENTRE B New Delhi",(West)
+2021,IIT Delhi,"Pawan Ganga Educational Center 2, CENTRE C New Delhi",(West)
+2022,IIT Delhi,Maﬁnga Assessment Center New Delhi,(West)
+2023,IIT Delhi,Aztech Online Test Centre New Delhi,(West)
+2024,IIT Delhi,MRS Global Insititue Of Technology New Delhi,(West)
+2025,IIT Delhi,iON Dizital Zone Faridabad,Faridabad
+2026,IIT Delhi,Pt. L. R. College of Technology,Faridabad
+2027,IIT Delhi,ABCD e-examinations,Faridabad
+2028,IIT Delhi,Lingayas University,Faridabad
+2029,IIT Delhi,"iON Digital Zone iDZ 1 Sector 62, CENTRE A",Noida
+2030,IIT Delhi,"iON Digital Zone iDZ 1 Sector 62, CENTRE B",Noida
+2031,IIT Delhi,"iON Digital Zone iDZ 1 Sector 62, CENTRE C",Noida
+2032,IIT Delhi,"iON Digital Zone iDZ 1 Sector 62, CENTRE D",Noida
+2033,IIT Delhi,"iON Digital Zone iDZ 2 Sector 62, CENTRE A",Noida
+2034,IIT Delhi,"iON Digital Zone iDZ 2 Sector 62, CENTRE B",Noida
+2035,IIT Delhi,"iON Digital Zone iDZ 2 Sector 62, CENTRE C",Noida
+2036,IIT Delhi,iON Digital Zone iDZ Kaluchak,Jammu
+2037,IIT Delhi,IT GATEWAY INC,Srinagar
+2038,IIT Delhi,Haktech IT Services,Srinagar
+2039,IIT Delhi,G Com Centre,Leh
+2040,IIT Delhi,iON Digital Zone iDZ Gegal Industrial Area,Ajmer
+2041,IIT Delhi,Lotus Assessment Centre,Ajmer
+2042,IIT Delhi,Aditya Polytechnic College Online Exam Center,Ajmer
+2043,IIT Delhi,Modern Institute of Technology and Research Centre,Alwar
+2044,IIT Delhi,Sangam University,Bhilwara
+2045,IIT Delhi,iON Digital Zone iDZ Naino Ka Bas,Bikaner
+2046,IIT Delhi,Government Engineering College Bikaner,Bikaner
+2047,IIT Delhi,Times Public School,Hanumangarh
+2048,IIT Delhi,Mata Kitab Kaur Group of Education,Hanumangarh
+2049,IIT Delhi,"Sri Balaji College Of Engineering And Technol- ogy, CENTRE A",Jaipur
+2050,IIT Delhi,"Sri Balaji College Of Engineering And Technol- ogy, CENTRE B",Jaipur
+2051,IIT Delhi,Yagyavalkya Institute of Technology,Jaipur
+2052,IIT Delhi,"Jaipur Engineering College, CENTRE A",Jaipur
+2053,IIT Delhi,"Jaipur Engineering College, CENTRE B",Jaipur
+2054,IIT Delhi,Shankara Institute of Technology,Jaipur
+2055,IIT Delhi,Alankar Mahila P.G. Mahavidyalaya,Jaipur
+2056,IIT Delhi,"Arya Institute of Engineering and Technology, CENTRE A",Jaipur 
+2057,IIT Delhi,"Arya Institute of Engineering and Technology, CENTRE B",Jaipur
+2058,IIT Delhi,"ANAND INTERNATIONAL COLLEGE OF EN- GINEERING JAIPUR, CENTRE A",Jaipur
+2059,IIT Delhi,"ANAND INTERNATIONAL COLLEGE OF EN- GINEERING JAIPUR, CENTRE B",Jaipur
+2060,IIT Delhi,"ANAND INTERNATIONAL COLLEGE OF EN- GINEERING JAIPUR, CENTRE C",Jaipur
+2061,IIT Delhi,Shankara Group Of Institutions,Jaipur
+2062,IIT Delhi,Aurobindo International School Jaipur,Jaipur
+2063,IIT Delhi,"Arya College of Engineering and Information Technology, CENTRE A",Jaipur
+2064,IIT Delhi,"Arya College of Engineering and Information Technology, CENTRE B",Jaipur
+2065,IIT Delhi,"Arya College of Engineering and Information Technology, CENTRE C",Jaipur
+2066,IIT Delhi,Pariksha Desk,Jaipur
+2067,IIT Delhi,Maharishi Arvind Institute of Engineering and Technology,Jaipur
+2068,IIT Delhi,Akashdeep PG Girls College,Jaipur
+2069,IIT Delhi,Shri Bhawani Niketan Institute of Technology and Management,Jaipur
+2070,IIT Delhi,JECRC University,Jaipur
+2071,IIT Delhi,Apex College for Girls,Jaipur
+2072,IIT Delhi,"Global Institue Of Technology, CENTRE A",Jaipur
+2073,IIT Delhi,"Global Institue Of Technology, CENTRE B",Jaipur
+2074,IIT Delhi,Poornima College of Engineering,Jaipur
+2075,IIT Delhi,iON Digital Zone iDZ Laxman Nagar,Jodhpur
+2076,IIT Delhi,Horizon Technologies,Jodhpur
+2077,IIT Delhi,Telnet Technologies,Jodhpur
+2078,IIT Delhi,Adhya Infotech,Jodhpur
+2079,IIT Delhi,Shree Vinayak Institute,Jodhpur
+2080,IIT Delhi,MARWAR INSTITUE,Jodhpur
+2081,IIT Delhi,Viable Solutions,Kota
+2082,IIT Delhi,Digital Desk,Kota
+2083,IIT Delhi,iON Digital Zone iDZ Chandpura,Sikar
+2084,IIT Delhi,Khwaja Gharib Nawaz College of Nursing,Sikar
+2085,IIT Delhi,A.N.Shiksha Samiti,Sikar
+2086,IIT Delhi,Bhartiya Institute of Engineering and Technology,Sikar
+2087,IIT Delhi,Barji Devi Shikshan Prasikshan Mahavidyalaya,Sikar
+2088,IIT Delhi,Vidya Bharti Sansthan,Sikar
+2089,IIT Delhi,SBS Shikshan Prasikshan College,Sikar
+2090,IIT Delhi,Shree Madanlal Biyani Girls Adarsh Vidya Mandir School",Sikar
+2091,IIT Delhi,Navjeevan College of Pharmacy,Sikar
+2092,IIT Delhi,Akhil Bharti Vidyapeeth College of Nursing,Sikar
+2093,IIT Delhi,iON Digital Zone iDZ Dholi Magri,Udaipur
+2094,IIT Delhi,Techno India NJR Institute of Technology,Udaipur
+2095,IIT Delhi,Eklavya Academy Udaipur,Udaipur
+2096,IIT Delhi,Janardan Rai Nagar Rajasthan Vidyapeeth,Udaipur
+2097,IIT Delhi,Pt.Salagram Inter College Greater,Noida
+2098,IIT Delhi,IIMT College of Management Greater,Noida
+2099,IIT Delhi,CJRM Public School,Churu
+2100,IIT Delhi,Rajasthan Engineering College,Dausa
+2101,IIT Delhi,M M Public School,Gurugram
+2102,IIT Delhi,Jhankar College,Gurugram
+2103,IIT Delhi,DPG Degree College,Gurugram
+2104,IIT Delhi,Duke Training Centre Abu,Dhabi
+2105,IIT Delhi,BITS Pilani,Dubai
+3001,IIT Guwahati,iON Digital Zone iDZ Model Village,Naharlagun
+3002,IIT Guwahati,iON Digital Zone iDZ Lahowal,Dibrugarh
+3003,IIT Guwahati,iON Digital Zone iDZ Borjhar A,Guwahati
+3004,IIT Guwahati,iON Digital Zone iDZ Borjhar B,Guwahati
+3005,IIT Guwahati,iON Digital Zone iDZ Kenduguri,Jorhat
+3006,IIT Guwahati,iON Digital Zone iDZ Sonai Road,Silchar
+3007,IIT Guwahati,iON Digital Zone iDZ Rubber Bagan Tiniali,Tezpur
+3008,IIT Guwahati,iON Digital Zone iDZ Arrah,Arrah
+3009,IIT Guwahati,"IIT Patna, Bhita",Arrah
+3010,IIT Guwahati,Sityog Institute Of Technology,Aurangabad
+3011,IIT Guwahati,iON Digital Zone iDZ Bhagalpur,Bhagalpur
+3012,IIT Guwahati,iON Digital Zone iDZ1 Khajasarai,Darbhanga
+3013,IIT Guwahati,Shree Ganesh Innovative,Gaya
+3014,IIT Guwahati,Shree Krishna Infotech,Gaya
+3015,IIT Guwahati,Buddha Institute of Technology Gaya,Gaya
+3016,IIT Guwahati,iON Digital Zone iDZ Kacchi Pakki,Muzaffarpur
+3017,IIT Guwahati,iON Digital Zone iDZ Bhagwanpur,Muzaffarpur
+3018,IIT Guwahati,iON Digital Zone iDZ Kanti,Muzaffarpur
+3019,IIT Guwahati,Azad Infotech,Muzaffarpur
+3020,IIT Guwahati,iON Digital Zone iDZ1 Patliputra,Patna
+3021,IIT Guwahati,iON Digital Zone iDZ2 Patliputra,Patna
+3022,IIT Guwahati,iON Digital Zone iDZ3 Patliputra,Patna
+3023,IIT Guwahati,iON Digital Zone iDZ Phulwarisharif,Patna
+3024,IIT Guwahati,iON Digital Zone iDZ Jalalpur,Patna
+3025,IIT Guwahati,iON Digital Zone iDZ Sandalpur,Patna
+3026,IIT Guwahati,Sri Mundrika Infotech Private Limited,Patna
+3027,IIT Guwahati,Ganpati IT Point Online Examination Center,Patna
+3028,IIT Guwahati,Skymoon IT Point Private Limited,Patna
+3029,IIT Guwahati,Examit Infotech Private Limited,Patna
+3030,IIT Guwahati,Padmayani Edutech Private Limited,Patna
+3031,IIT Guwahati,Eduhive Palestra,Patna
+3032,IIT Guwahati,Global Infomerit,Patna
+3033,IIT Guwahati,Ikon Digital,Patna
+3034,IIT Guwahati,Maa Kamla Digital Center,Patna
+3035,IIT Guwahati,Maa Santoshi Computers Private Limited,Patna
+3036,IIT Guwahati,City Craze,Patna
+3037,IIT Guwahati,Unique IT Point,Patna
+3038,IIT Guwahati,KSM Solutions,Patna
+3039,IIT Guwahati,Nivaan Infotech Private Limited,Patna
+3040,IIT Guwahati,iON Digital Zone iDZ Purnea,Purnea
+3041,IIT Guwahati,Vidya Vihar Institute of Technology,Purnea
+3042,IIT Guwahati,Gopal Narayan Singh University,Rohtas
+3043,IIT Guwahati,Orion Academy,Imphal
+3044,IIT Guwahati,iON Digital Zone iDZ Qualapatty,Shillong
+3045,IIT Guwahati,iON Digital Zone iDZ Mualpui,Aizawl
+3046,IIT Guwahati,iON Digital Zone iDZ Pezielietsie,Kohima
+3047,IIT Guwahati,Techie Panda,Gangtok
+3048,IIT Guwahati,National Institute of Electronics & Information Technology Agartala,Agartala
+3049,IIT Guwahati,ICFAI University Tripura,Agartala
+3050,IIT Guwahati,Tripura Institute Of Technology,Agartala
+3051,IIT Guwahati,Tripura Info.Com,Agartala
+3052,IIT Guwahati,iON Digital Zone iDZ Siliguri,SILIGURI
+3053,IIT Guwahati,Narayanam Info Online,Samastipur
+4001,IIT Kanpur,iON Digital Zone Idz Trinity 1 Shri Jairam Educa- tion Society Kokta Bypass Road,Bhopal
+4002,IIT Kanpur,IES Consultancy Services Center 1,Bhopal
+4003,IIT Kanpur,Oriental Institute,Bhopal
+4004,IIT Kanpur,Lakshmi Narayan College of Technology Excel- lence,Bhopal
+4005,IIT Kanpur,Jai Narain College of Technology,Bhopal
+4006,IIT Kanpur,Sagar Institute of Research & Technology,Bhopal
+4007,IIT Kanpur,IES Consultancy Services Center 2,Bhopal
+4008,IIT Kanpur,Millennium Group of Institute,Bhopal
+4009,IIT Kanpur,iON Digital Zone Idz Trinity 2 - Center A,Bhopal
+4010,IIT Kanpur,iON Digital Zone Idz Trinity 2 - Center B,Bhopal
+4011,IIT Kanpur,Islamiya Karimiya College,Indore
+4012,IIT Kanpur,SAGE University,Indore
+4013,IIT Kanpur,Vishisht School of Management,Indore
+4014,IIT Kanpur,Orlando Academy,Indore
+4015,IIT Kanpur,IPS Digital Centre,Indore
+4016,IIT Kanpur,Maharaja Ranjeet Singh Group of Institution,Indore
+4017,IIT Kanpur,Malwa Institute of Science & Technology Indore,Indore
+4018,IIT Kanpur,Masihi Kanya Vidhyalay,Indore
+4019,IIT Kanpur,iON Digital Zone iDZ Gram Raigawan Near Patan Bypass - Center C,Jabalpur
+4020,IIT Kanpur,iON Digital Zone iDZ Gram Raigawan Near Patan Bypass - Center A,Jabalpur
+4021,IIT Kanpur,iON Digital Zone iDZ Gram Raigawan Near Patan Bypass - Center B,Jabalpur
+4022,IIT Kanpur,SSHC Jain Institute of Management and Research,Sagar
+4023,IIT Kanpur,Adina Institute of Science and Technology,Sagar
+4024,IIT Kanpur,iON Digital Zone iDZ Karhi Road Amoudha,Satna
+4025,IIT Kanpur,iON Digital Zone iDZ Gram Gangedi Near Ma- haveer Tapobhumi,Ujjain
+4026,IIT Kanpur,Prashanti Institute of Technology and Science,Ujjain
+4027,IIT Kanpur,Neta Jee Subhash Chandra Bose Online Examina- tion Center,Gorakhpur
+4028,IIT Kanpur,Buddha Institute Of Technology,Gorakhpur
+4029,IIT Kanpur,Parvati Digital Zone,Gorakhpur
+4030,IIT Kanpur,Suryoday Online,Gorakhpur
+4031,IIT Kanpur,Cavalier Animation - Education Foundation,Gorakhpur
+4032,IIT Kanpur,Shri Ram Foundation,Gorakhpur
+4033,IIT Kanpur,Gyansthali Mahavidyalaya,Jhansi
+4034,IIT Kanpur,Ram Lakhan Inter College Online Examination,Jhansi
+4035,IIT Kanpur,iON Digital Zone iDZ Keshaw Puram,Kanpur
+4036,IIT Kanpur,New Age Technologies,Kanpur
+4037,IIT Kanpur,M D Infotech,Kanpur
+4038,IIT Kanpur,Shri S N Technologies,Kanpur
+4039,IIT Kanpur,UNZIP TECHNOLOGY LLP.,Kanpur
+4040,IIT Kanpur,iON Digital Zone iDZ 1 Hathipur,Kanpur
+4041,IIT Kanpur,iON Digital Zone iDZ 2 Hathipur,Kanpur
+4042,IIT Kanpur,iON Digital Zone iDZ 1 Bhauti,Kanpur
+4043,IIT Kanpur,iON Digital Zone iDZ Azad Puram,Lucknow
+4044,IIT Kanpur,iON Digital Zone iDZ Prabandh Nagar,Lucknow
+4045,IIT Kanpur,iON Digital Zone iDZ Omaxe City,Lucknow
+4046,IIT Kanpur,Our Little Angels Home,Lucknow
+4047,IIT Kanpur,BR Online Services,Lucknow
+4048,IIT Kanpur,Sultan Foundation,Lucknow
+4049,IIT Kanpur,iON Digital Zone iDZ Sector-9B Vrindawan Colony,Lucknow
+4050,IIT Kanpur,Yuvi Online Solutions,Lucknow
+4051,IIT Kanpur,Sinco Learning Center,Lucknow
+4052,IIT Kanpur,Pawan Online Solutions,Lucknow
+4053,IIT Kanpur,City Law College,Lucknow
+4054,IIT Kanpur,BDR Info Solutions LLP,Lucknow
+4055,IIT Kanpur,Om Infotech Solutions,Lucknow
+4056,IIT Kanpur,Metro Network Solutions,Lucknow
+4057,IIT Kanpur,i-Tech Zone,Prayagraj
+4058,IIT Kanpur,S.P. Education Institute of IT & Management,Prayagraj
+4059,IIT Kanpur,Shambhunath Institute of Engineering and Tech- nology - Mac,Prayagraj
+4060,IIT Kanpur,B.B.S. Group of Institutions,Prayagraj
+4061,IIT Kanpur,AIIT and Management College Jhunsi,Prayagraj
+4062,IIT Kanpur,Campus 2 AIIT Management College,Prayagraj
+4063,IIT Kanpur,Indian Institute Of Computer Education - CEN- TER 2,Prayagraj
+4064,IIT Kanpur,Shri Ganesh College of IT & Management,Prayagraj
+4065,IIT Kanpur,Dr. Ghanshyam Singh College of Education,Varanasi
+4066,IIT Kanpur,Dewa Mahila Mahavidyalaya,Varanasi
+4067,IIT Kanpur,Purnodaya Mahila Mahavidyalaya,Varanasi
+4068,IIT Kanpur,Digitrack IT Services,Varanasi
+4069,IIT Kanpur,IHNC Mahaveer Bazar,Varanasi
+4070,IIT Kanpur,Arya Mahila PG College,Varanasi
+4071,IIT Kanpur,OCBT IT services,Varanasi
+4072,IIT Kanpur,JeevanDeep Institute of Management & Technol- ogy,Varanasi
+4073,IIT Kanpur,iON Digital Zone iDZ Harahuwa Chauraha,Varanasi
+4074,IIT Kanpur,iON Digital Zone iDZ Ayar Bazar,Varanasi
+4075,IIT Kanpur,Institute of Hardware Networking and Communi- cation Center Sarnath,Varanasi
+4076,IIT Kanpur,Gyanada Institute of Computer Training,Varanasi
+4077,IIT Kanpur,Vidya Institute of Information Technology,Varanasi
+4078,IIT Kanpur,SRS Digital Institute,Ayodhya
+4079,IIT Kanpur,Narayana Infotech Ayodhya 
+5001,IIT Bhubaneswar,SIS COMPUTER EDUCATION,Port Blair
+5002,IIT Bhubaneswar,CORE TECHNOLOGIES,Srikakulam
+5003,IIT Bhubaneswar,Sri Venkateswara College of Engineering & Technology,Srikakulam
+5004,IIT Bhubaneswar,Sri Sivani College of Engineering,Srikakulam
+5005,IIT Bhubaneswar,iON Digital Zone iDZ Sheela Nagar,Visakhapatnam
+5006,IIT Bhubaneswar,iON Digital Zone iDZ 2 Chinamushidiwada 1,Visakhapatnam
+5007,IIT Bhubaneswar,iON Digital Zone iDZ 2 Chinamushidiwada 2,Visakhapatnam
+5008,IIT Bhubaneswar,iON Digital Zone iDZ 1 Chinamushidiwada,Visakhapatnam
+5009,IIT Bhubaneswar,ADZ Arowana Digital Zone,Visakhapatnam
+5010,IIT Bhubaneswar,Xeon Technologies,Visakhapatnam
+5011,IIT Bhubaneswar,Vignans Institute of Information Technology,Visakhapatnam
+5012,IIT Bhubaneswar,Sanketika Institute of Technology and Management,Visakhapatnam
+5013,IIT Bhubaneswar,Nadimpalli Satyanarayana Raju Institute of Technology,Visakhapatnam
+5014,IIT Bhubaneswar,Vignans Institute of Engineering for Women,Visakhapatnam
+5015,IIT Bhubaneswar,Maharaj Vijayaram Gajapati Raj MVGR College of Engineering,Vizianagaram
+5016,IIT Bhubaneswar,iON Digital Zone iDZ Gajularega,Vizianagaram
+5017,IIT Bhubaneswar,iON Digital Zone iDZ Sirsakala Bhilai-3 1 Bhilai,Nagar
+5018,IIT Bhubaneswar,iON Digital Zone iDZ Sirsakala Bhilai-3 2 Bhilai,Nagar
+5019,IIT Bhubaneswar,Mansa College Bhilai,Nagar
+5020,IIT Bhubaneswar,iON Digital Zone iDZ Bodri Near high court,Bilaspur
+5021,IIT Bhubaneswar,Chouksey Engineering College,Bilaspur
+5022,IIT Bhubaneswar,ION Digital Zone iDZ SARONA 1,Raipur
+5023,IIT Bhubaneswar,ION Digital Zone iDZ SARONA 2,Raipur
+5024,IIT Bhubaneswar,ION DIGITAL ZONE IDZ Dhanbad,Dhanbad
+5025,IIT Bhubaneswar,Perth Digital Zone,Dhanbad
+5026,IIT Bhubaneswar,iON Digital Zone HAZARIBAGH,Hazaribagh
+5027,IIT Bhubaneswar,iON Digital Zone iDZ Jamshedpur,Jamshedpur
+5028,IIT Bhubaneswar,RVS College of Engineering And Technology,Jamshedpur
+5029,IIT Bhubaneswar,ION DIGITAL ZONE IDZ TUPUDANA 1,Ranchi
+5030,IIT Bhubaneswar,ION DIGITAL ZONE IDZ TUPUDANA 2,Ranchi
+5031,IIT Bhubaneswar,Ram Tahal Choudhary Institute of Technology RTCIT,Ranchi
+5032,IIT Bhubaneswar,Arunuma Technical Services Pvt.Ltd,Ranchi
+5033,IIT Bhubaneswar,Future Bright,Ranchi
+5034,IIT Bhubaneswar,iON Digital Zone iDZ Harida,Balasore
+5035,IIT Bhubaneswar,Raja Kishore Chandra Academy Of Technology,Balasore
+5036,IIT Bhubaneswar,SMIT Degree Engineering College,Berhampur-Ganjam
+5037,IIT Bhubaneswar,iON Digital Zone iDZ Khallikote College Area,Berhampur-Ganjam
+5038,IIT Bhubaneswar,iON Digital Zone iDZ1 Patia,Bhubaneswar
+5039,IIT Bhubaneswar,GITA Autonomous College,Bhubaneswar
+5040,IIT Bhubaneswar,SBG Digital Center,Bhubaneswar
+5041,IIT Bhubaneswar,Buddham Technology,Bhubaneswar
+5042,IIT Bhubaneswar,Ganesh Institute Of Management Studies,Bhubaneswar
+5043,IIT Bhubaneswar,Eglobetech India Private Limited,Bhubaneswar
+5044,IIT Bhubaneswar,Jagannath Institute Of Engineering And Technology,Cuttack
+5045,IIT Bhubaneswar,Dew Nexus Soft Tech Private Limited,Cuttack
+5046,IIT Bhubaneswar,Government Polytechnic Jeypore,Jeypore
+5047,IIT Bhubaneswar,Gopal Krishna College Of Engineering And Technology,Jeypore
+5048,IIT Bhubaneswar,Jeypore College Of Pharmacy,Jeypore
+5049,IIT Bhubaneswar,iON Digital Zone iDZ Sector 4,Rourkela
+5050,IIT Bhubaneswar,iON Digital Zone iDZ Majhipali,Sambalpur
+5051,IIT Bhubaneswar,iON Digital Zone iDZ Baraipali,Sambalpur
+5052,IIT Bhubaneswar,iON Digital Zone iDZ Asansol,Asansol
+5053,IIT Bhubaneswar,Murshidabad College Of Engineering And Technology,Baharampur
+5054,IIT Bhubaneswar,Dr. Kalam Academy,Burdwan
+5055,IIT Bhubaneswar,HATE KALAME SHIKSH KENDRA,Burdwan
+5056,IIT Bhubaneswar,Sarthak Educational Trust,Durgapur
+5057,IIT Bhubaneswar,Sanaka Educational Trust Group of Institutions,Durgapur
+5058,IIT Bhubaneswar,iON Digital Zone iDZ Kalyani,Kalyani
+5059,IIT Bhubaneswar,College Of Engineering & Management Kolaghat Purba,Medinipur
+5060,IIT Bhubaneswar,Institute of Science and Technology,Kharagpur
+5061,IIT Bhubaneswar,Salbani Institute Of Technology,Kharagpur
+5062,IIT Bhubaneswar,TCS Gito Bitan 1,Kolkata
+5063,IIT Bhubaneswar,TCS Gito Bitan 2,Kolkata
+5064,IIT Bhubaneswar,TCS Gito Bitan 3,Kolkata
+5065,IIT Bhubaneswar,TCS Gito Bitan 4,Kolkata
+5066,IIT Bhubaneswar,TCS Gito Bitan 5,Kolkata
+5067,IIT Bhubaneswar,TCS Gito Bitan 6,Kolkata
+5068,IIT Bhubaneswar,iON Digital Zone iDZ Baruipur,Kolkata
+5069,IIT Bhubaneswar,Alpha ICT Centre,Bokaro Steel City
+5070,IIT Bhubaneswar,RR Technology,Bokaro Steel City
+6001,IIT Madras,B.V.C Institute of Technology and Science,Amalapuram
+6002,IIT Madras,Vishnu Institute of Technology,Bhimavaram
+6003,IIT Madras,D.N.R. College of Engineering & Technology,Bhimavaram
+6004,IIT Madras,Dantuluri Narayana Raju College Autonomous,Bhimavaram
+6005,IIT Madras,Sreenivasa Institute of Technology and Management Studies,Chittoor
+6006,IIT Madras,Siddhartha Quest CBSE School,Eluru
+6007,IIT Madras,Eluru College of Engineering & Technology,Eluru
+6008,IIT Madras,Gudlavalleru Engineering College,Gudlavalleru
+6009,IIT Madras,Audisankara College of Engineering & Technology,Gudur
+6010,IIT Madras,Narayana Engineering College Gudur,Gudur
+6011,IIT Madras,Tirumala Engineering College Guntur,Guntur
+6012,IIT Madras,Narasaraopeta Engineering College,Guntur
+6013,IIT Madras,Malineni Lakshmaiah Womens Engineering College,Guntur
+6014,IIT Madras,K.L University,Guntur
+6015,IIT Madras,Malineni Perumallu Educational Society’s Group of Institutions,Guntur
+6016,IIT Madras,Krishnaveni Engineering College For Women,Guntur
+6017,IIT Madras,Priyadarshini Institute Of Technology & Management,Guntur
+6018,IIT Madras,KKR and KSR Institute of Technology and Science,Guntur
+6019,IIT Madras,Kallam Haranadhareddy Institute of Technology,Guntur
+6020,IIT Madras,St.Marys Group of Institutions Guntur,Guntur
+6021,IIT Madras,Balaji Information Technology,Guntur
+6022,IIT Madras,iON Digital Zone iDZ Perecherla,Guntur
+6023,IIT Madras,iON Digital Zone iDZ Challavaripalem,Guntur
+6024,IIT Madras,Kandula Obul Reddy Memorial College of Engi- neering Kadapa,Kadapa
+6025,IIT Madras,Srinivasa Institute of Technology & Science Kadapa,Kadapa
+6026,IIT Madras,KSRM College of Engineering,Kadapa
+6027,IIT Madras,iON Digital Zone iDZ Atchutapuram,Kakinada
+6028,IIT Madras,iON Digital Zone iDZ Dupadu,Kurnool
+6029,IIT Madras,iON Digital Zone iDZ Sanath Nagar,Kurnool
+6030,IIT Madras,Krishna Chaitanya Institute of Technology & Sci- ences,Markapur
+6031,IIT Madras,Dr.Samuel George Institute of Engineering & Technology,Markapur
+6032,IIT Madras,Lakkireddy Bali Reddy College of Engineering,Mylavaram
+6033,IIT Madras,AM Reddy Memorial College of Engineering and Technology,Narasaraopet
+6034,IIT Madras,Narasaraopeta Institute of Technology,Narasaraopet
+6035,IIT Madras,iON Digital Zone iDZ Pottepalem Village,Nellore
+6036,IIT Madras,Geethanjali Institute of Science and Technology,Nellore
+6037,IIT Madras,QIS College of Engineering and Technology,Ongole
+6038,IIT Madras,National council for the church social action india,Ongole
+6039,IIT Madras,iON Digital Zone iDZ Luthergiri,Rajahmundry
+6040,IIT Madras,Aditya Engineering College,Surampalem
+6041,IIT Madras,Aditya College of Engineering and Technology,Surampalem
+6042,IIT Madras,Pragati Engineering College,Surampalem
+6043,IIT Madras,Aditya College of Engineering,Surampalem
+6044,IIT Madras,Sri Vasavi Engineering College,Tadepalligudem
+6045,IIT Madras,Sasi Institute of Technology & Engineering,Tadepalligudem
+6046,IIT Madras,Chadalawada Ramanamma Engineering College,Tirupathi
+6047,IIT Madras,iON Digital Zone iDZ Ramireddipalle,Tirupathi
+6048,IIT Madras,iON Digital Zone iDZ Zoo Park Tirupathi,Tirupathi
+6049,IIT Madras,Potti Sriramulu Chalavadi Mallikarjuna Rao College of Engineering & Technology Vijayawada,Vijayawada
+6050,IIT Madras,N.R.I Group of Colleges,Vijayawada
+6051,IIT Madras,S.R.K Institute of Technology,Vijayawada
+6052,IIT Madras,iON Digital Zone iDZ Kandrika,Vijayawada
+6053,IIT Madras,iON Digital Zone iDZ Kanuru Village,Vijayawada
+6054,IIT Madras,Q Technologies,Vijayawada
+6055,IIT Madras,Shree Vijaya Durga I.T Info solutions,Vijayawada
+6056,IIT Madras,SS FutureTech,Vijayawada
+6057,IIT Madras,Svt Infotech,Vijayawada
+6058,IIT Madras,CARMEL COLLEGE OF ENGINEERING&TECHNOLOGY,Alappuzha
+6059,IIT Madras,iON Digital Zone iDZ Kannur,Kannur
+6060,IIT Madras,Cloud9 Cyberspace,Kannur
+6061,IIT Madras,LBS College Of Engineering,Kasaragod
+6062,IIT Madras,College of Engineering Trikaripur,Kasaragod
+6063,IIT Madras,iON Digital Zone iDZ Aluva,Kochi
+6064,IIT Madras,iON Digital Zone iDZ Kollam,Kollam
+6065,IIT Madras,iON Digital Zone iDZ Kottayam,Kottayam
+6066,IIT Madras,St.Josephs College of Engineering and Technology,Kottayam
+6067,IIT Madras,Amal Jyothi College of Engineering,Kottayam
+6068,IIT Madras,iON Digital Zone iDZ Kozhikode,Kozhikode
+6069,IIT Madras,Sky High Infotech,Kozhikode
+6070,IIT Madras,Centos Assessment School,Kozhikode
+6071,IIT Madras,RiO Tech,Kozhikode
+6072,IIT Madras,St. Josephs College Devagiri,Kozhikode
+6073,IIT Madras,Regional Edu City,Malappuram
+6074,IIT Madras,St.Mary’s College,Malappuram
+6075,IIT Madras,GLOBAL INFO,Malappuram
+6076,IIT Madras,Pocker Sahib Memorial Orphanage College,Malappuram
+6077,IIT Madras,Eranad Knowledge City Technical Campus,Malappuram
+6078,IIT Madras,MEA Engineering College,Malappuram
+6079,IIT Madras,Aryanet Institute Of Technology,Palakkad
+6080,IIT Madras,Aspirant Learning Academy Private Limited,Palakkad
+6081,IIT Madras,Mount Carmel Residential School,Thiruvananthapuram
+6082,IIT Madras,Rajadhani Institute of Engineering And Technology Block II,Thiruvananthapuram
+6083,IIT Madras,ION Digital Zone IDZ Thrissur,Thrissur
+6084,IIT Madras,Sri Manakula Vinayagar Engineering College,Puducherry
+6085,IIT Madras,Sri Venkateshwara College of Engineering and Technology,Puducherry
+6086,IIT Madras,Manakula Vinayagar Institute of Technology,Puducherry
+6087,IIT Madras,Christ College of Engineering & Technology,Puducherry
+6088,IIT Madras,iON Digital Zone iDZ Kovilambakkam,Chennai
+6089,IIT Madras,Chennai Institute of Technology,Chennai
+6090,IIT Madras,iON Digital Zone iDZ Kundrathur,Chennai
+6091,IIT Madras,iON Digital Zone iDZ Manimangalam,Chennai
+6092,IIT Madras,Rajalakshmi Engineering College,Chennai
+6093,IIT Madras,Sri Sai Ram Engineering College,Chennai
+6094,IIT Madras,Hindustan Institute of Technology & Science,Chennai
+6095,IIT Madras,PSB Polytechnic College,Chennai
+6096,IIT Madras,Sri Sai Ram Institute of Technology,Chennai
+6097,IIT Madras,KCG College of Technology,Chennai
+6098,IIT Madras,Sri Krishna Engineering College,Chennai
+6099,IIT Madras,RRASE College of Engineering,Chennai
+6100,IIT Madras,Sri Jayaram Institute of Engineering & Technology,Chennai
+6101,IIT Madras,iON Digital Zone iDZ Thondamuthur,Coimbatore
+6102,IIT Madras,iON Digital Zone iDZ Coimbatore II,Coimbatore
+6103,IIT Madras,iON Digital Zone iDZ Austinpatti,Madurai
+6104,IIT Madras,iON Digital Zone iDZ Kidaripatti,Madurai
+6105,IIT Madras,ION Digital Zone IDZ KIOT-Campus,Salem
+6106,IIT Madras,iON Digital Zone iDZ Sivathapuram,Salem
+6107,IIT Madras,Arasu Engineering College,Thanjavur
+6108,IIT Madras,Periyar Maniammai University,Thanjavur
+6109,IIT Madras,iON Digital Zone IDZ Trichy II,Tiruchirapalli
+6110,IIT Madras,M.A.M School of Engineering,Tiruchirapalli
+6111,IIT Madras,iON Digital Zone iDZ Tirunelveli,Tirunelveli
+6112,IIT Madras,iON Digital Zone iDZ Vellore,Vellore
+6113,IIT Madras,St.Xaviers Catholic College of Engineering,Nagercoil
+6114,IIT Madras,Muthayammal College of Arts and Science,Namakkal
+6115,IIT Madras,Mepco Schlenk Engineering College,Virudhunagar
+6116,IIT Madras,Ammaiappar Polytechnic College,Virudhunagar
+6117,IIT Madras,Nalanda Degree & Pg College,Adilabad
+6118,IIT Madras,C.M.R College of Engineering & Technology,Hyderabad
+6119,IIT Madras,C.M.R Institute of Technology,Hyderabad
+6120,IIT Madras,Malla Reddy Engineering College Autonomous,Hyderabad
+6121,IIT Madras,ACE Engineering College,Hyderabad
+6122,IIT Madras,G.Narayanamma Institute of Technology and Science For Women,Hyderabad
+6123,IIT Madras,Geethanjali College of Engineering and Technology,Hyderabad
+6124,IIT Madras,GITAM University - Hyderabad,Hyderabad
+6125,IIT Madras,BVRIT College of Engineering for Women,Hyderabad
+6126,IIT Madras,Padmasri Dr. B. V. Raju Institute of Technology,Medak
+6127,IIT Madras,K.G Reddy College of Engineering & Technology,Hyderabad
+6128,IIT Madras,J B Institute of Engineering & Technology,Hyderabad
+6129,IIT Madras,Vidya Jyothi Institute of Technology,Hyderabad
+6130,IIT Madras,Lords Institute of Engineering and Technology,Hyderabad
+6131,IIT Madras,Nalla Narasimha Reddy Education Society’s Group of Institutions,Hyderabad
+6132,IIT Madras,Vignan Institute of Technology & Science,Hyderabad
+6133,IIT Madras,Sreyas Institute of Engineering and Technology Hyderabad,Hyderabad
+6134,IIT Madras,Vignans Institute of Management and Technology for Women,Hyderabad
+6135,IIT Madras,Vignana Bharathi Institute of Technology,Hyderabad
+6136,IIT Madras,NMS Technology,Hyderabad
+6137,IIT Madras,Samskruti College of Engineering and Technology,Hyderabad
+6138,IIT Madras,Nalla Malla Reddy Engineering College,Hyderabad
+6139,IIT Madras,Institute of Aeronautical Engineering,Hyderabad
+6140,IIT Madras,MLR Institute of Technology,Hyderabad
+6141,IIT Madras,Marri Laxman Reddy Institute of Technology & Management,Hyderabad
+6142,IIT Madras,VNR Vignana Jyothi Institute of Engineering and Technology,Hyderabad
+6143,IIT Madras,Chaitanya Deemed to be University,Hyderabad
+6144,IIT Madras,Mahatma Gandhi Institute of Technology,Hyderabad
+6145,IIT Madras,KPM Technologies & Solutions,Hyderabad
+6146,IIT Madras,Pallavi Engineering College,Hyderabad
+6147,IIT Madras,Hyderabad Institute of Technology and Manage- ment,Hyderabad
+6148,IIT Madras,NodeCop Solutions,Hyderabad
+6149,IIT Madras,C.M.R Technical Campus,Hyderabad
+6150,IIT Madras,C.V.R College of Engineering,Hyderabad
+6151,IIT Madras,Global Institute Of Engineering and Technology,Hyderabad
+6152,IIT Madras,Scient Institute of Technology,Hyderabad
+6153,IIT Madras,Surya Technologies,Hyderabad
+6154,IIT Madras,Sreenidhi Institute of Science and Technology,Hyderabad
+6155,IIT Madras,Sphoorthy Engineering College,Hyderabad
+6156,IIT Madras,iON Digital Zone iDZ 1 Moula Ali,Hyderabad
+6157,IIT Madras,iON Digital Zone IDZ Karmanghat,Hyderabad
+6158,IIT Madras,iON Digital Zone iDZ Old Alwal,Hyderabad
+6159,IIT Madras,iON Digital Zone iDZ Arunodaya Nagar,Hyderabad
+6160,IIT Madras,iON Digital Zone IDZ 1 Mallapur,Hyderabad
+6161,IIT Madras,iON Digital Zone iDZ LB Nagar,Hyderabad
+6162,IIT Madras,iON Digital Zone iDZ 2 Moula Ali,Hyderabad
+6163,IIT Madras,iON Digital Zone iDZ 2 Mallapur,Hyderabad
+6164,IIT Madras,JNTUH COLLEGE OF ENGINEERING JAG- TIAL,Karimnagar
+6165,IIT Madras,JNTUH College of Engineering Manthani,Karimnagar
+6166,IIT Madras,Kamala Institute of Technology & Science,Karimnagar
+6167,IIT Madras,iON Digital Zone iDZ Ramakrishna Colony,Karimnagar
+6168,IIT Madras,Vaageswari College of Engineering,Karimnagar
+6169,IIT Madras,Jyothishmathi Institute of Technology & Sciences,Karimnagar
+6170,IIT Madras,Sree Chaitanya College of Engineering,Karimnagar
+6171,IIT Madras,Swarna Bharathi Institute of Science & Technol- ogy,Khammam
+6172,IIT Madras,Priyadarshini Institute Of Science & Technology for Women,Khammam
+6173,IIT Madras,Sri Chaitanya Institute of Technology And Re- search,Khammam
+6174,IIT Madras,Kavitha Memorial Degree College Khammam,Khammam
+6175,IIT Madras,Vijaya Engineering College,Khammam
+6176,IIT Madras,Bomma Institute of Technology and Science,Khammam
+6177,IIT Madras,Daripally Anantha Ramulu College of Engineering & Technology,Khammam
+6178,IIT Madras,Sana Engineering College,Kodad
+6179,IIT Madras,Madhira Institute of Technology & Science,Kodad
+6180,IIT Madras,Abdulkalam Institute Of Technological Sciences,Kothagudem
+6181,IIT Madras,Jaya Prakash Narayan College of Engineering,Mahabubnagar
+6182,IIT Madras,MS Ace Infotech Services,Mahabubnagar
+6183,IIT Madras,Decibel Project Management Services,Nalgonda
+6184,IIT Madras,Kshatriya College of Engineering,Nizamabad
+6185,IIT Madras,AV ENTERPRISES,Nizamabad
+6186,IIT Madras,Kakatiya Institute Of Technology & Science For Women,Nizamabad
+6187,IIT Madras,Sai Spurthi Institute of Technology,Sathupally
+6188,IIT Madras,Mother Teresa Institute of Science & Technology,Sathupally
+6189,IIT Madras,Veritas and Virtus Engineering Services Pvt Ltd,Siddipet
+6190,IIT Madras,Indur Institute of Engineering and Technology,Siddipet
+6191,IIT Madras,Sri Venkateswara Engineering College,Suryapet
+6192,IIT Madras,Vaagdevi College of Engineering,Warangal
+6193,IIT Madras,Chaitanya Deemed to be University,Warangal
+6194,IIT Madras,Jayamukhi Institute of Technological Sciences,Narsampet
+6195,IIT Madras,iON Digital Zone iDZ Yerragattugutta,Warangal
+6196,IIT Madras,Mokshith Computers,Hanamkonda
+6197,IIT Madras,Balaji Institute of Technology and Science,Warangal
+6198,IIT Madras,Nobel Technology and Solutions,Warangal
+6199,IIT Madras,Vasishta Technologies,Warangal
+6200,IIT Madras,Masterji Degree And PG College,Hanamkonda
+6201,IIT Madras,Talla Padmavathi College of Engineering,Warangal
+6202,IIT Madras,National Council for the Church Social Action India,Anantapur
+6203,IIT Madras,Srinivasa Ramanujan Institute of Technology,Anantapur
+6204,IIT Madras,Sri Venkateshwara Institute of Technology,Anantapur
+6205,IIT Madras,Rami Reddy Subbarami Reddy Engineering College,Kavali
+6206,IIT Madras,Sri Vasavi Institute of Engineering and Technology,Machalipatnam
+6207,IIT Madras,Daita Madhusudana Sastry Sri Venkateswara Hindu College Of Engineering,Machalipatnam
+7001,IIT Roorkee,Sri Sukhmani Institue Of Engineering & Technol- ogy,Mohali
+7002,IIT Roorkee,Doaba Group Of Colleges,Mohali
+7003,IIT Roorkee,Tejas Online Examination Center,Mohali
+7004,IIT Roorkee,Chandigarh University Entry - Block B1,Mohali
+7005,IIT Roorkee,Chandigarh University Entry - Block B3,Mohali
+7006,IIT Roorkee,iON Digital Zone iDZ Shahpur,Ambala
+7007,IIT Roorkee,Guru Nanak Institute of Technology MBA Block,Ambala
+7008,IIT Roorkee,Sumit Dhariwal Memorial Group of Institutions,Hissar
+7009,IIT Roorkee,OM Institute Of Technology and Management,Hissar
+7010,IIT Roorkee,Saraswati College of Education,Hissar
+7011,IIT Roorkee,Bhagwan Parshuram Polytechnic ITI,Kurukshetra
+7012,IIT Roorkee,Dronacharya Degree College Kurukshetra,Kurukshetra
+7013,IIT Roorkee,iON Digital Zone iDZ Hamirpur,Hamirpur
+7014,IIT Roorkee,HP College of Education,Shimla
+7015,IIT Roorkee,Vijay Group of Institution,Mandi
+7016,IIT Roorkee,Himachal Institute of Engineering and Technology,Kangra
+7017,IIT Roorkee,Montessori Cambridge School,Pathankot
+7018,IIT Roorkee,iON Digital Zone iDZ Chitoura Road (CENTRE- A),Gwalior
+7019,IIT Roorkee,iON Digital Zone iDZ Chitoura Road (CENTRE- B),Gwalior
+7020,IIT Roorkee,iON Digital Zone iDZ Albert Road,Amritsar
+7021,IIT Roorkee,iON Digital Zone iDZ Bhucho kalan,Bathinda
+7022,IIT Roorkee,Lovely Professional University- Entry Block - 33,Phagwara
+7023,IIT Roorkee,Guru Tegh Bahadur Institute of Management & Technology,Ludhiana
+7024,IIT Roorkee,iON Digital Zone iDZ Bahadurgarh Patiala,Patiala
+7025,IIT Roorkee,Academy of Management Studies,Dehradun
+7026,IIT Roorkee,Tulas Institute,Dehradun
+7027,IIT Roorkee,iCreate Solutions ICS,Dehradun
+7028,IIT Roorkee,DD College,Dehradun
+7029,IIT Roorkee,iON Digital Zone iDZ Teenpani,Haldwani
+7030,IIT Roorkee,iON Digital Zone iDZ Charayal,Haldwani
+7031,IIT Roorkee,Swami Vivekanand College of Management and Technology,Haldwani
+7032,IIT Roorkee,BRD College Roorkee,Roorkee
+7033,IIT Roorkee,City Degree College Of Management & Technology,Roorkee
+7034,IIT Roorkee,College of Engineering Roorkee,Roorkee
+7035,IIT Roorkee,iON Digital Zone iDZ Kuberpur,Agra
+7036,IIT Roorkee,iON Digital Zone iDZ 1 Sikandra,Agra
+7037,IIT Roorkee,iON Digital Zone iDZ 2 Sikandra,Agra
+7038,IIT Roorkee,Smt. Bhudevi P.G College Agra,Agra
+7039,IIT Roorkee,G.B Infotech,Agra
+7040,IIT Roorkee,iON Digital Zone iDZ Tehra,Agra
+7041,IIT Roorkee,iON Digital Zone iDZ Karsua,Aligarh
+7042,IIT Roorkee,iON Digital Zone iDZ Dohna,Bareilly
+7043,IIT Roorkee,iON Digital Zone iDZ 2 Duhai,Ghaziabad
+7044,IIT Roorkee,BBDIT A Block Duhai,Ghaziabad
+7045,IIT Roorkee,Indraprashtha College of Engineering,Ghaziabad
+7046,IIT Roorkee,Institute Of Management & Research,Ghaziabad
+7047,IIT Roorkee,Ajay Kumar Garg Engineering College,Ghaziabad
+7048,IIT Roorkee,Hardayal Technical Campus,Mathura
+7049,IIT Roorkee,GLA University,Mathura
+7050,IIT Roorkee,Sanskriti University,Mathura
+7051,IIT Roorkee,iON Digital Zone Ganga Nagar Meerut,Meerut
+7052,IIT Roorkee,iON Digital Zone iDZ Green Park,Meerut
+7053,IIT Roorkee,iON Digital Zone iDZ Ram Ganga Vihar Phase 2,Moradabad
+7054,IIT Roorkee,iON Digital Zone iDZ - 2 Mandi Samiti Road,Muzaffarnagar
+7055,IIT Roorkee,CCMC Institute,Saharanpur
+7056,IIT Roorkee,Advance Education & Innovative Research Center,Kathmandu

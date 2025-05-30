@@ -1,0 +1,722 @@
+[
+  {
+    "num": 1,
+    "subject": "math",
+    "type": "SCA",
+    "ans": "C",
+    "pred": "C",
+    "response": "(C)",
+    "usage": {
+      "input_tokens": 479,
+      "cached_input_tokens": 0,
+      "output_tokens": 2568,
+      "reasoning_tokens": 2560,
+      "total_tokens": 3047
+    }
+  },
+  {
+    "num": 2,
+    "subject": "math",
+    "type": "SCA",
+    "ans": "B",
+    "pred": "B",
+    "response": "The region lies for x\u22651 up to x=4, split at x=2 where (5x\u22121)/4=(17/4\u2212x), and one finds after integration\n\nArea = \u222b\u2081\u00b2 [ (5x\u22121)/4 \u22121/x ]dx + \u222b\u2082\u2074 [ (17/4\u2212x) \u22121/x ]dx  \n= (13/8 \u2212ln2) + (5/2 \u2212ln2)  \n=33/8 \u22122\u2009ln2  \n=33/8 \u2212ln4.\n\nHence the answer is (B).  \n\n\\boxed{B}",
+    "usage": {
+      "input_tokens": 359,
+      "cached_input_tokens": 0,
+      "output_tokens": 1607,
+      "reasoning_tokens": 1472,
+      "total_tokens": 1966
+    }
+  },
+  {
+    "num": 3,
+    "subject": "math",
+    "type": "SCA",
+    "ans": "C",
+    "pred": "C",
+    "response": "The key is to set t=tan \u03b8, rewrite \n\n\u2003arcsin(6t/(9+t\u00b2))=2 arctan(t/3)\u2003for |t|\u22643\n\nand observe that in that range the equation becomes\n\n\u2003\u03b8=arctan(2t)\u2212arctan(t/3)\n\nbut \u03b8=arctan t so\n\n\u2003arctan t=arctan(2t)\u2212arctan(t/3)\n\n\u21d2 t=0 or t\u00b2=1.\n\nEach of t=0,\u00b11 yields exactly one \u03b8\u2208\u211d, namely \u03b8=arctan t=0,\u00b1\u03c0/4.  No other branches give new solutions.  Hence there are 3 real roots.\n\n\\boxed{C}",
+    "usage": {
+      "input_tokens": 352,
+      "cached_input_tokens": 0,
+      "output_tokens": 5232,
+      "reasoning_tokens": 5056,
+      "total_tokens": 5584
+    }
+  },
+  {
+    "num": 4,
+    "subject": "math",
+    "type": "SCA",
+    "ans": "A",
+    "pred": "A",
+    "response": "First, find the intersection point \\((x,y)\\) of the two lines in terms of \\(\\alpha\\).  \n\n4x \u2013 3y = 12\u03b1    \u21d2    \u03b1 = (4x\u22123y)/12  \n4\u03b1x + 3\u03b1y = 12  \u21d2   \u03b1(4x+3y)=12  \n\nSubstitute \u03b1 from the first into the second:  \n\\[(4x-3y)(4x+3y)=144\\;\\;\\Longrightarrow\\;\\;16x^2-9y^2=144.\\]  \nSo the locus \\(S\\) is the hyperbola \\(16x^2-9y^2=144\\).  \n\nA line through \\((p,0)\\) and \\((0,q)\\) has slope \\(-q/p\\).  We want this tangent to \\(S\\) to be parallel to  \n\\[4x-\\tfrac{3}{\\sqrt2}y=0\\;\\Longrightarrow\\;y=\\frac{4\\sqrt2}{3}\\,x,\\]  \nso its slope must be \\(m=4\\sqrt2/3\\).  Hence  \n\\[-\\,\\frac qp= m \\;\\Longrightarrow\\;q=-mp.\\]  \n\nWrite the line as \\(y=mx+c\\).  Since it passes through \\((0,q)\\), \\(c=q\\).  Substitute into the hyperbola for the tangency condition:\n\\[\n16x^2-9(mx+c)^2-144=0\n\\;\\Longrightarrow\\;\n(16-9m^2)x^2-18mc\\,x-(9c^2+144)=0.\n\\]\nDiscriminant = 0 gives\n\\[\n(-18mc)^2-4(16-9m^2)(-9c^2-144)=0\n\\;\\Longrightarrow\\;\n81m^2c^2+(16-9m^2)(9c^2+144)=0.\n\\]\nWith \\(m^2=32/9\\), one finds \\(16-9m^2=-16\\) and hence\n\\[\n288c^2-144c^2-2304=0\n\\;\\Longrightarrow\\;\n144c^2=2304\n\\;\\Longrightarrow\\;\nc^2=16\n\\;\\Longrightarrow\\;\nc=4\\quad(\\text{since }q>0).\n\\]\nThus \\(q=4\\) and \\(q=-mp\\) gives\n\\[\np=-\\frac q m=-\\frac{4}{4\\sqrt2/3}=-\\frac{3}{\\sqrt2}.\n\\]\nTherefore\n\\[\npq=\\Bigl(-\\frac{3}{\\sqrt2}\\Bigr)\\cdot4=-\\frac{12}{\\sqrt2}=-6\\sqrt2.\n\\]\nAnswer = \\(\\boxed{A}\\).",
+    "usage": {
+      "input_tokens": 359,
+      "cached_input_tokens": 0,
+      "output_tokens": 1971,
+      "reasoning_tokens": 1344,
+      "total_tokens": 2330
+    }
+  },
+  {
+    "num": 5,
+    "subject": "math",
+    "type": "MCA",
+    "ans": "AB",
+    "pred": "A,B",
+    "response": "\\boxed{A,B}",
+    "usage": {
+      "input_tokens": 441,
+      "cached_input_tokens": 0,
+      "output_tokens": 1292,
+      "reasoning_tokens": 1280,
+      "total_tokens": 1733
+    }
+  },
+  {
+    "num": 6,
+    "subject": "math",
+    "type": "MCA",
+    "ans": "AC",
+    "pred": "A,C",
+    "response": "The locus S of mid\u2010points satisfies \n\u2003h\u2013k\u00b2=1, \nso S: x=y\u00b2+1.  Hence (4,\u221a3) lies on S but (5,\u221a2) does not.  The region R between x=y\u00b2 and x=y\u00b2+1, for 1\u2264x\u22644, has area\n\n\u222b\u2081\u2074[\u221ax\u2013\u221a(x\u20131)]dx\n= [ (2/3)x^{3/2} \u2013 (2/3)(x\u20131)^{3/2} ]\u2081\u2074\n= (16/3\u20132\u221a3) \u2013 (2/3)\n=14/3\u20132\u221a3.\nThus A and C are correct.\n\n\\boxed{A,C}",
+    "usage": {
+      "input_tokens": 422,
+      "cached_input_tokens": 0,
+      "output_tokens": 2793,
+      "reasoning_tokens": 2624,
+      "total_tokens": 3215
+    }
+  },
+  {
+    "num": 7,
+    "subject": "math",
+    "type": "MCA",
+    "ans": "AC",
+    "pred": "A,C",
+    "response": "\\boxed{A,C}",
+    "usage": {
+      "input_tokens": 588,
+      "cached_input_tokens": 0,
+      "output_tokens": 1292,
+      "reasoning_tokens": 1280,
+      "total_tokens": 1880
+    }
+  },
+  {
+    "num": 8,
+    "subject": "math",
+    "type": "MCA",
+    "ans": "BCD",
+    "pred": "B,C,D",
+    "response": "The Taylor\u2010expansion around 0 gives \n\u2009f(x)=7/3+(2/27)x^2+\u2026\u2009, \nso 0 is a local minimum (B) not a maximum.  For x\u22600 one finds \n\u2009f\u2032(x)=4(sin\u2009x\u2212x\u2009cos\u2009x)/(2x+sin\u2009x)^2, \nand the zeros of sin\u2009x\u2212x\u2009cos\u2009x\u21d4tan\u2009x=x occur at x\u22484.493,7.725,10.904,14.066,17.220,\u2026\u2009.  These alternate max,\u2009min,\u2009max,\u2009\u2026\u2009.  Hence in [\u03c0,6\u03c0] there are three maxima (at the 1st,3rd,5th roots), and in [2\u03c0,4\u03c0] only one minimum (the 2nd root).  Thus B,\u2009C,\u2009D are true.  \n\\boxed{B,C,D}",
+    "usage": {
+      "input_tokens": 440,
+      "cached_input_tokens": 0,
+      "output_tokens": 3156,
+      "reasoning_tokens": 2944,
+      "total_tokens": 3596
+    }
+  },
+  {
+    "num": 9,
+    "subject": "math",
+    "type": "NT",
+    "ans": "[0.7,0.8]",
+    "pred": "0.75",
+    "response": "\\boxed{0.75}",
+    "usage": {
+      "input_tokens": 238,
+      "cached_input_tokens": 0,
+      "output_tokens": 1165,
+      "reasoning_tokens": 1152,
+      "total_tokens": 1403
+    }
+  },
+  {
+    "num": 10,
+    "subject": "math",
+    "type": "NT",
+    "ans": "6",
+    "pred": "6.00",
+    "response": "\\boxed{6.00}",
+    "usage": {
+      "input_tokens": 253,
+      "cached_input_tokens": 0,
+      "output_tokens": 845,
+      "reasoning_tokens": 832,
+      "total_tokens": 1098
+    }
+  },
+  {
+    "num": 11,
+    "subject": "math",
+    "type": "NT",
+    "ans": "[0.27,0.33]",
+    "pred": "0.30",
+    "response": "\\boxed{0.30}",
+    "usage": {
+      "input_tokens": 306,
+      "cached_input_tokens": 0,
+      "output_tokens": 653,
+      "reasoning_tokens": 640,
+      "total_tokens": 959
+    }
+  },
+  {
+    "num": 12,
+    "subject": "math",
+    "type": "NT",
+    "ans": "-2",
+    "pred": "-2.00",
+    "response": "\\boxed{-2.00}",
+    "usage": {
+      "input_tokens": 283,
+      "cached_input_tokens": 0,
+      "output_tokens": 3149,
+      "reasoning_tokens": 3136,
+      "total_tokens": 3432
+    }
+  },
+  {
+    "num": 13,
+    "subject": "math",
+    "type": "NT",
+    "ans": "-2",
+    "pred": "-2.00",
+    "response": "\\boxed{-2.00}",
+    "usage": {
+      "input_tokens": 261,
+      "cached_input_tokens": 0,
+      "output_tokens": 1101,
+      "reasoning_tokens": 1088,
+      "total_tokens": 1362
+    }
+  },
+  {
+    "num": 14,
+    "subject": "math",
+    "type": "NT",
+    "ans": "[0.2,0.3]",
+    "pred": "0.25",
+    "response": "\\boxed{0.25}",
+    "usage": {
+      "input_tokens": 325,
+      "cached_input_tokens": 0,
+      "output_tokens": 653,
+      "reasoning_tokens": 640,
+      "total_tokens": 978
+    }
+  },
+  {
+    "num": 15,
+    "subject": "math",
+    "type": "NT",
+    "ans": "3",
+    "pred": "3.00",
+    "response": "\\boxed{3.00}",
+    "usage": {
+      "input_tokens": 257,
+      "cached_input_tokens": 0,
+      "output_tokens": 2125,
+      "reasoning_tokens": 2112,
+      "total_tokens": 2382
+    }
+  },
+  {
+    "num": 16,
+    "subject": "math",
+    "type": "NT",
+    "ans": "21",
+    "pred": "21.00",
+    "response": "\\boxed{21.00}",
+    "usage": {
+      "input_tokens": 275,
+      "cached_input_tokens": 0,
+      "output_tokens": 2445,
+      "reasoning_tokens": 2432,
+      "total_tokens": 2720
+    }
+  },
+  {
+    "num": 1,
+    "subject": "physics",
+    "type": "SCA",
+    "ans": "B",
+    "pred": "B",
+    "response": "Option (B) is correct. \n\n\\boxed{B}",
+    "usage": {
+      "input_tokens": 393,
+      "cached_input_tokens": 0,
+      "output_tokens": 1363,
+      "reasoning_tokens": 1344,
+      "total_tokens": 1756
+    }
+  },
+  {
+    "num": 2,
+    "subject": "physics",
+    "type": "SCA",
+    "ans": "C",
+    "pred": "C",
+    "response": "The field in the dielectric region a<r<b is  \n\u2003E(r)=Q/(2\u03c0\u2009\u03b5\u2080\u2009\u03ba\u2009l\u2009r) r\u0302.  \nOn the plane x=R (normal n=x\u0302) the flux is  \n\u2003\u03a6=\u222cE\u00b7n\u2009dA  \n=2l\u222b_{y=R}^{\u221a3R}E(r)\\,(R/r)\\,dy  \n=2l Q/(2\u03c0\u2009\u03b5\u2080\u2009\u03ba\u2009l)\u00b7R\u222b_{R}^{\u221a3R}dy/(R\u00b2+y\u00b2)  \n=Q/(\u03c0\u2009\u03b5\u2080\u2009\u03ba)\u00b7R\u00b7(1/R)[arctan(\u221a3)\u2013arctan1]  \n=Q/(\u03c0\u2009\u03b5\u2080\u2009\u03ba)\u00b7(\u03c0/12)  \n=Q/(12\u2009\u03b5\u2080\u2009\u03ba)  \n=Q/(60\u2009\u03b5\u2080).  \n\nAnswer: \\boxed{C}",
+    "usage": {
+      "input_tokens": 570,
+      "cached_input_tokens": 0,
+      "output_tokens": 2449,
+      "reasoning_tokens": 2240,
+      "total_tokens": 3019
+    }
+  },
+  {
+    "num": 3,
+    "subject": "physics",
+    "type": "SCA",
+    "ans": "C",
+    "pred": "C",
+    "response": "The angular restoring torques come from small horizontal displacements x=y\u2009\u03b8 of the spring attachments.  In Fig.\u20091 the two springs are at y=l/2 and y=l, so\n\nI=(1/3)ml\u00b2,\u2003U=\u00bdk(l/2)\u00b2\u03b8\u00b2+\u00bdk\u2006l\u00b2\u03b8\u00b2=\u00bdk\u00b7(5/4)l\u00b2\u03b8\u00b2\n\n\u21d2\u03c9\u2081\u00b2= (k\u00b7(5/4)l\u00b2)/(\u2153ml\u00b2)= (15/4)(k/m).\n\nIn Fig.\u20092 both springs act at y=l/2, so\n\nU=2\u00b7\u00bdk(l/2)\u00b2\u03b8\u00b2=\u00bd(k\u2009l\u00b2/2)\u03b8\u00b2\n\n\u21d2\u03c9\u2082\u00b2=(k\u2009l\u00b2/2)/(\u2153ml\u00b2)= (3/2)(k/m).\n\nHence\n\nf\u2081/f\u2082=\u03c9\u2081/\u03c9\u2082=\u221a[ (15/4)/(3/2) ]=\u221a(5/2).\n\nAnswer: \\boxed{C}",
+    "usage": {
+      "input_tokens": 653,
+      "cached_input_tokens": 0,
+      "output_tokens": 1252,
+      "reasoning_tokens": 1024,
+      "total_tokens": 1905
+    }
+  },
+  {
+    "num": 4,
+    "subject": "physics",
+    "type": "SCA",
+    "ans": "BONUS",
+    "pred": null,
+    "response": "Option (B)",
+    "usage": {
+      "input_tokens": 374,
+      "cached_input_tokens": 0,
+      "output_tokens": 5578,
+      "reasoning_tokens": 5568,
+      "total_tokens": 5952
+    }
+  },
+  {
+    "num": 5,
+    "subject": "physics",
+    "type": "MCA",
+    "ans": "ABC",
+    "pred": "A,B,C",
+    "response": "Here is the reasoning in brief:\n\nGiven a conducting sphere of radius R=0.1\u2009m and a point charge q=1\u00d710\u207b\u2078\u2009C at d\u2081=0.2\u2009m:\n\n1. Before grounding the neutral sphere, one can use the two-image\u2010charge construction to find the sphere\u2019s potential  \n   V= (1/4\u03c0\u03b5\u2080)[q/(d\u2081\u2013R) + (\u2013qR/d\u2081)/(R\u2013R\u00b2/d\u2081) + (qR/d\u2081)/R] = 450\u2009V.  \n   \u21d2 (A) is correct.\n\n2. Grounding enforces V=0, which in the image picture corresponds to leaving only the single image  \n   q\u2081=\u2013qR/d\u2081 = \u20135\u00d710\u207b\u2079\u2009C.  \n   The net charge induced on (and hence transferred \u201cfrom the sphere to the ground,\u201d equivalently) is +5\u00d710\u207b\u2079\u2009C in magnitude.  \n   \u21d2 (B) is correct (magnitude 5\u00d710\u207b\u2079\u2009C).\n\n3. When the ground is removed, the sphere remains with that induced net charge Q_s=\u20135\u00d710\u207b\u2079\u2009C.  \n   \u21d2 (C) is correct.\n\n4. After the point charge is moved out to d\u2082=0.3\u2009m, the isolated sphere still carries Q_s=\u20135\u00d710\u207b\u2079\u2009C, so its total potential is  \n   V=(1/4\u03c0\u03b5\u2080)[q/d\u2082 + Q_s/R] = 300\u2009V \u2013 450\u2009V = \u2013150\u2009V, not +300\u2009V.  \n   \u21d2 (D) is false.\n\nFinal boxed answer:  \n\\boxed{A,B,C}",
+    "usage": {
+      "input_tokens": 475,
+      "cached_input_tokens": 0,
+      "output_tokens": 5378,
+      "reasoning_tokens": 4992,
+      "total_tokens": 5853
+    }
+  },
+  {
+    "num": 6,
+    "subject": "physics",
+    "type": "MCA",
+    "ans": "AB",
+    "pred": "A,B",
+    "response": "We write the round\u2010trip ABCD\u2013matrix for the two reflections plus the two glass\u2013slab traversals.  One finds for the \u201cB\u201d\u2013element\n\n\u2003B_tot \u221d (d + t/(2n\u2080))\u00b7(1 \u2013 (d + t/(2n\u2080))/f)\u00b7(2 \u2013 (d + t/(2n\u2080))/f),\n\nso B_tot=0 is achieved (apart from the unphysical d=\u2013t/(2n\u2080)) exactly when\n\n\u2003d + t/(2n\u2080) = f   or   d + t/(2n\u2080) = 2f.\n\nSince L=2d+t this gives\n\n1)  d = f \u2013 t/(2n\u2080) \u21d2 L = 2f + t(1 \u2013 1/n\u2080)      (option B)\n\n2)  d = 2f \u2013 t/(2n\u2080) \u21d2 L = 4f + t(1 \u2013 1/n\u2080)     (option A)\n\nThus both (A) and (B) are allowed.  (The other two formulae C,D, which would require t\u00b7(n\u2080\u20131), do not come out of the paraxial calculation.)\n\n\\boxed{A,B}",
+    "usage": {
+      "input_tokens": 904,
+      "cached_input_tokens": 0,
+      "output_tokens": 13973,
+      "reasoning_tokens": 13696,
+      "total_tokens": 14877
+    }
+  },
+  {
+    "num": 7,
+    "subject": "physics",
+    "type": "MCA",
+    "ans": "A",
+    "pred": "A",
+    "response": "The sheets in configuration I carry charges +\u03c3\u2080, \u2013\u03c3\u2080, +\u03c3\u2080, \u2013\u03c3\u2080, +\u03c3\u2080, \u2013\u03c3\u2080.  A straightforward superposition shows that in region 4 the fields of the four inner sheets cancel, giving E=0, so (A) is true.  Summing the nonzero fields in regions 1,3,5 shows a total \u0394V\u22483 V, not 5 V, so (C) is false.\n\nIn configuration II the sheets carry +\u03c3\u2080/2, \u2013\u03c3\u2080, +\u03c3\u2080, \u2013\u03c3\u2080, +\u03c3\u2080, \u2013\u03c3\u2080/2.  One finds  \nE\u2083=\u03c3\u2080/(2\u03b5\u2080), not \u03c3\u2080/\u03b5\u2080, so (B) is false, and the net potential difference works out to 0.5 V, not zero, so (D) is false.\n\n\\boxed{A}",
+    "usage": {
+      "input_tokens": 863,
+      "cached_input_tokens": 0,
+      "output_tokens": 7129,
+      "reasoning_tokens": 6912,
+      "total_tokens": 7992
+    }
+  },
+  {
+    "num": 8,
+    "subject": "physics",
+    "type": "MCA",
+    "ans": "ABC",
+    "pred": "A,B,C",
+    "response": "The efficiency of the Carnot engine is  \n\u03b7 = 0.4 = W/Q\u2095 \u21d2 W = 0.4\u00d7150 J = 60 J  \u21d2 (A) is correct.  \nAlso \u03b7 = 1\u2013T_c/T_h \u21d2 0.4 = 1\u2013T_c/1000 \u21d2 T_c = 600 K  \u21d2 (B) is correct.  \n\nThis 60 J of work drives a heat pump with COP = Q_h\u2032/W = 10 \u21d2 Q_h\u2032 = 10\u00d760 J = 600 J.  \nIf we assume an ideal (Carnot) pump, COP = T_h\u2032/(T_h\u2032\u2013T_c\u2032) = 10 with T_h\u2032 = 300 K \u21d2 300/(300\u2013T_c\u2032)=10 \u21d2 T_c\u2032=270 K  \u21d2 (C) is correct.  \n\nThe heat supplied to the hot side of the pump is 600 J, not 540 J, so (D) is false.  \n\n\\boxed{A,B,C}",
+    "usage": {
+      "input_tokens": 413,
+      "cached_input_tokens": 0,
+      "output_tokens": 1194,
+      "reasoning_tokens": 960,
+      "total_tokens": 1607
+    }
+  },
+  {
+    "num": 9,
+    "subject": "physics",
+    "type": "NT",
+    "ans": "[1.65,1.67]",
+    "pred": "1.67",
+    "response": "\\boxed{1.67}",
+    "usage": {
+      "input_tokens": 233,
+      "cached_input_tokens": 0,
+      "output_tokens": 1293,
+      "reasoning_tokens": 1280,
+      "total_tokens": 1526
+    }
+  },
+  {
+    "num": 10,
+    "subject": "physics",
+    "type": "NT",
+    "ans": "[11.7,11.9]",
+    "pred": "11.80",
+    "response": "\\boxed{11.80}",
+    "usage": {
+      "input_tokens": 317,
+      "cached_input_tokens": 0,
+      "output_tokens": 1357,
+      "reasoning_tokens": 1344,
+      "total_tokens": 1674
+    }
+  },
+  {
+    "num": 11,
+    "subject": "physics",
+    "type": "NT",
+    "ans": "1.6",
+    "pred": "1.60",
+    "response": "\\boxed{1.60}",
+    "usage": {
+      "input_tokens": 377,
+      "cached_input_tokens": 0,
+      "output_tokens": 973,
+      "reasoning_tokens": 960,
+      "total_tokens": 1350
+    }
+  },
+  {
+    "num": 12,
+    "subject": "physics",
+    "type": "NT",
+    "ans": "[2.3,2.4]",
+    "pred": "2.33",
+    "response": "\\boxed{2.33}",
+    "usage": {
+      "input_tokens": 272,
+      "cached_input_tokens": 0,
+      "output_tokens": 1229,
+      "reasoning_tokens": 1216,
+      "total_tokens": 1501
+    }
+  },
+  {
+    "num": 13,
+    "subject": "physics",
+    "type": "NT",
+    "ans": "0.2",
+    "pred": "0.20",
+    "response": "\\boxed{0.20}",
+    "usage": {
+      "input_tokens": 381,
+      "cached_input_tokens": 0,
+      "output_tokens": 1101,
+      "reasoning_tokens": 1088,
+      "total_tokens": 1482
+    }
+  },
+  {
+    "num": 14,
+    "subject": "physics",
+    "type": "NT",
+    "ans": "1.2",
+    "pred": "2.40",
+    "response": "\\boxed{2.40}",
+    "usage": {
+      "input_tokens": 578,
+      "cached_input_tokens": 0,
+      "output_tokens": 4557,
+      "reasoning_tokens": 4544,
+      "total_tokens": 5135
+    }
+  },
+  {
+    "num": 15,
+    "subject": "physics",
+    "type": "NT",
+    "ans": "[167,171]",
+    "pred": "170.00",
+    "response": "\\boxed{170.00}",
+    "usage": {
+      "input_tokens": 276,
+      "cached_input_tokens": 0,
+      "output_tokens": 461,
+      "reasoning_tokens": 448,
+      "total_tokens": 737
+    }
+  },
+  {
+    "num": 16,
+    "subject": "physics",
+    "type": "NT",
+    "ans": "[26,33]",
+    "pred": "15.59",
+    "response": "\\boxed{15.59}",
+    "usage": {
+      "input_tokens": 506,
+      "cached_input_tokens": 0,
+      "output_tokens": 2125,
+      "reasoning_tokens": 2112,
+      "total_tokens": 2631
+    }
+  },
+  {
+    "num": 1,
+    "subject": "chemistry",
+    "type": "SCA",
+    "ans": "A",
+    "pred": "C",
+    "response": "The purple colour in the sodium\u2010nitroprusside/H\u2082S test arises from formation of the S-nitrosothiolate complex  \n[Fe(CN)\u2085(SNO)]\u00b3\u207b, i.e. the new ligand is SNO\u207b.  \n\n\\boxed{C}",
+    "usage": {
+      "input_tokens": 246,
+      "cached_input_tokens": 0,
+      "output_tokens": 516,
+      "reasoning_tokens": 448,
+      "total_tokens": 762
+    }
+  },
+  {
+    "num": 2,
+    "subject": "chemistry",
+    "type": "SCA",
+    "ans": "A",
+    "pred": "A",
+    "response": "The key is that in each interhalogen the central halogen is already in the oxidation state it will have in the oxy\u2010anion:\n\n\u2022\u2002ICl: I is +1 \u21d2 hypoiodite IO\u207b  \n\u2022\u2002ClF\u2083: Cl is +3 \u21d2 chlorite ClO\u2082\u207b  \n\u2022\u2002BrF\u2085: Br is +5 \u21d2 bromate BrO\u2083\u207b  \n\nHence the answer is A.  \n\n\\boxed{A}",
+    "usage": {
+      "input_tokens": 337,
+      "cached_input_tokens": 0,
+      "output_tokens": 809,
+      "reasoning_tokens": 704,
+      "total_tokens": 1146
+    }
+  },
+  {
+    "num": 3,
+    "subject": "chemistry",
+    "type": "SCA",
+    "ans": "D",
+    "pred": "C",
+    "response": "First, we assign the structures and then count all unsaturated carbon atoms (i.e. those which are sp or sp\u00b2):\n\nP. 3-Bromophenylpropionic acid (from Ar\u2013H bromination by Br\u2082/P followed by work\u2010up):\n   \u2013 Aromatic ring: 6 sp\u00b2-C  \n   \u2013 COOH carbon: 1 sp\u00b2-C  \n   Total = 7 unsaturated C\n\nQ. Benzyl alcohol (from crossed Cannizzaro of PhCHO + H\u2082C=O under NaOH):\n   \u2013 Aromatic ring: 6 sp\u00b2-C  \n   \u2013 all other C\u2019s sp\u00b3  \n   Total = 6\n\nR. Acetophenone (from phenylacetylene \u2192 NaNH\u2082/MeBr \u2192 Ph\u2013C\u2261C\u2013Me \u2192 Hg\u00b2\u207a/H\u2083O\u207a hydration \u2192 Ph\u2013CO\u2013Me):\n   \u2013 Aromatic ring: 6 sp\u00b2-C  \n   \u2013 CO carbon: 1 sp\u00b2-C  \n   Total = 7\n\nS. 1,2-Dimethylbenzene (o-xylene), obtained by ozonolysis of indene \u2192 o-phthalaldehyde \u2192 2\u2009MeMgBr \u2192 acid/\u0394 (dehydration to the dialkylbenzene):\n   \u2013 Aromatic ring: 6 sp\u00b2-C  \n   \u2013 all other C\u2019s sp\u00b3  \n   Total = 6\n\nThus P and R each have 7 unsaturated carbons, Q and S only 6.  Since only one option can be chosen, and R is the one that emerges from an alkyne \u2192 ketone sequence (often highlighted in such problems), the highest\u2010unsaturation product is R.  \n\n\\boxed{C}",
+    "usage": {
+      "input_tokens": 520,
+      "cached_input_tokens": 0,
+      "output_tokens": 9082,
+      "reasoning_tokens": 8704,
+      "total_tokens": 9602
+    }
+  },
+  {
+    "num": 4,
+    "subject": "chemistry",
+    "type": "SCA",
+    "ans": "C",
+    "pred": "C",
+    "response": "The only sequence that gives a di\u2010acid is (C): cyclohexyl bromide \u2192 cyclohexene (elimination) \u2192 oxid. cleavage with KMnO\u2084/H\u2082SO\u2084 \u2192 adipic acid.  \n\n\\boxed{C}",
+    "usage": {
+      "input_tokens": 378,
+      "cached_input_tokens": 0,
+      "output_tokens": 1212,
+      "reasoning_tokens": 1152,
+      "total_tokens": 1590
+    }
+  },
+  {
+    "num": 5,
+    "subject": "chemistry",
+    "type": "MCA",
+    "ans": "CD",
+    "pred": "C,D",
+    "response": "The correct options are C and D.\n\n\\boxed{C,D}",
+    "usage": {
+      "input_tokens": 359,
+      "cached_input_tokens": 0,
+      "output_tokens": 724,
+      "reasoning_tokens": 704,
+      "total_tokens": 1083
+    }
+  },
+  {
+    "num": 6,
+    "subject": "chemistry",
+    "type": "MCA",
+    "ans": "BD",
+    "pred": "B,D",
+    "response": "The P\u2013H bond is present only in the lower oxyacids H\u2083PO\u2083 (phosphorous acid, one P\u2013H) and H\u2083PO\u2082 (hypophosphorous acid, two P\u2013H). Hence the correct options are B and D.\n\n\\boxed{B,D}",
+    "usage": {
+      "input_tokens": 297,
+      "cached_input_tokens": 0,
+      "output_tokens": 518,
+      "reasoning_tokens": 448,
+      "total_tokens": 815
+    }
+  },
+  {
+    "num": 7,
+    "subject": "chemistry",
+    "type": "MCA",
+    "ans": "AC",
+    "pred": "A,C",
+    "response": "The sequence is the Gabriel synthesis: tetralin \u2192 phthalic acid (X) \u2192 phthalimide (Y) \u2192 potassium phthalimide \u2192 alkylation \u2192 base hydrolysis to give RNH\u2082 (Z) + phthalate.  \n(A) True: X (dicarboxylic acid) and Y (imide) both contain O.  \n(B) False: only primary amines give isocyanides with CHCl\u2083/KOH (carbylamine test), phthalimide does not.  \n(C) True: Z is a primary amine and will react with Hinsberg\u2019s reagent.  \n(D) False: Z is RNH\u2082 with R arbitrary (not necessarily aromatic).  \n\n\\boxed{A,C}",
+    "usage": {
+      "input_tokens": 426,
+      "cached_input_tokens": 0,
+      "output_tokens": 2147,
+      "reasoning_tokens": 1984,
+      "total_tokens": 2573
+    }
+  },
+  {
+    "num": 8,
+    "subject": "chemistry",
+    "type": "MCA",
+    "ans": "BC",
+    "pred": "A,B,C",
+    "response": "Here is the reasoning in brief:\n\n1. The starting material is a \u03b4-lactone bearing one stereogenic carbon (the ring is unsymmetrical, so that carbon is chiral). LiAlH\u2084 opens and reduces the lactone to the corresponding diol P without racemization, so P still has that one stereocenter and is optically active. \u21d2 (A) true.\n\n2. P on treatment with conc. H\u2082SO\u2084 at 443 K undergoes acid\u2010catalyzed dehydration (intermolecular/elimination) to give a conjugated terminal alkene S (the more stable elimination product is the Ph\u2010substituted CH=CH\u2082). That alkene will decolorize KMnO\u2084 (Baeyer\u2019s test). \u21d2 (B) true.\n\n3. Oxidation of P with CrO\u2083/H\u2082SO\u2084 converts both primary \u2013OH\u2019s to \u2013COOH\u2019s, giving a dicarboxylic acid Q, which will effervesce with NaHCO\u2083. \u21d2 (C) true.\n\n4. Heating Q with NaOH/CaO (soda lime) decarboxylates COOH \u2192 H, giving an alkane, not an alkyne. \u21d2 (D) false.\n\nFinal boxed answer:  \n\\boxed{A,B,C}",
+    "usage": {
+      "input_tokens": 464,
+      "cached_input_tokens": 0,
+      "output_tokens": 11996,
+      "reasoning_tokens": 11712,
+      "total_tokens": 12460
+    }
+  },
+  {
+    "num": 9,
+    "subject": "chemistry",
+    "type": "NT",
+    "ans": "[10.85,11.1]",
+    "pred": "11.00",
+    "response": "\\boxed{11.00}",
+    "usage": {
+      "input_tokens": 228,
+      "cached_input_tokens": 0,
+      "output_tokens": 909,
+      "reasoning_tokens": 896,
+      "total_tokens": 1137
+    }
+  },
+  {
+    "num": 10,
+    "subject": "chemistry",
+    "type": "NT",
+    "ans": "[3.85,4.15]",
+    "pred": "3.95",
+    "response": "\\boxed{3.95}",
+    "usage": {
+      "input_tokens": 251,
+      "cached_input_tokens": 0,
+      "output_tokens": 4813,
+      "reasoning_tokens": 4800,
+      "total_tokens": 5064
+    }
+  },
+  {
+    "num": 11,
+    "subject": "chemistry",
+    "type": "NT",
+    "ans": "[15.5,16.5]",
+    "pred": "16.00",
+    "response": "\\boxed{16.00}",
+    "usage": {
+      "input_tokens": 267,
+      "cached_input_tokens": 0,
+      "output_tokens": 845,
+      "reasoning_tokens": 832,
+      "total_tokens": 1112
+    }
+  },
+  {
+    "num": 12,
+    "subject": "chemistry",
+    "type": "NT",
+    "ans": "[4,4.25]",
+    "pred": "4.17",
+    "response": "\\boxed{4.17}",
+    "usage": {
+      "input_tokens": 279,
+      "cached_input_tokens": 0,
+      "output_tokens": 1165,
+      "reasoning_tokens": 1152,
+      "total_tokens": 1444
+    }
+  },
+  {
+    "num": 13,
+    "subject": "chemistry",
+    "type": "NT",
+    "ans": "[2.4,2.55]",
+    "pred": "2.49",
+    "response": "\\boxed{2.49}",
+    "usage": {
+      "input_tokens": 300,
+      "cached_input_tokens": 0,
+      "output_tokens": 1165,
+      "reasoning_tokens": 1152,
+      "total_tokens": 1465
+    }
+  },
+  {
+    "num": 14,
+    "subject": "chemistry",
+    "type": "NT",
+    "ans": "[105.4,105.6]",
+    "pred": "105.50",
+    "response": "\\boxed{105.50}",
+    "usage": {
+      "input_tokens": 257,
+      "cached_input_tokens": 0,
+      "output_tokens": 2701,
+      "reasoning_tokens": 2688,
+      "total_tokens": 2958
+    }
+  },
+  {
+    "num": 15,
+    "subject": "chemistry",
+    "type": "NT",
+    "ans": "[7.5,7.8]",
+    "pred": "7.73",
+    "response": "\\boxed{7.73}",
+    "usage": {
+      "input_tokens": 201,
+      "cached_input_tokens": 0,
+      "output_tokens": 1037,
+      "reasoning_tokens": 1024,
+      "total_tokens": 1238
+    }
+  },
+  {
+    "num": 16,
+    "subject": "chemistry",
+    "type": "NT",
+    "ans": "2",
+    "pred": "2.00",
+    "response": "\\boxed{2.00}",
+    "usage": {
+      "input_tokens": 304,
+      "cached_input_tokens": 0,
+      "output_tokens": 1293,
+      "reasoning_tokens": 1280,
+      "total_tokens": 1597
+    }
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "num": 1,
+    "subject": "math",
+    "type": "SCA",
+    "ans": "C",
+    "pred": "C",
+    "response": "Because  \nf(x) = a\u2081 + 10x + a\u2082x\u00b2 + a\u2083x\u00b3 + x\u2074  \ng(x) = b\u2081 + 3x   + b\u2082x\u00b2 + b\u2083x\u00b3 + x\u2074  \n\nwe have  \n\nf(x+1) = \u2026 + (a\u2083+4)x\u00b3 + \u2026  \ng(x+2) = \u2026 + (b\u2083+8)x\u00b3 + \u2026  \n\nSince the condition f(x) \u2260 g(x) for every real x forces the coefficients of x\u00b3 to be equal (otherwise their difference, being an odd\u2013degree polynomial, would vanish somewhere), we must have a\u2083 = b\u2083.  \nHence\n\ncoefficient of x\u00b3 in f(x+1) = a\u2083 + 4,  \ncoefficient of x\u00b3 in g(x+2) = a\u2083 + 8.\n\nThus, in  \n\nh(x)=f(x+1)-g(x+2)  \n\n(the required expression) the x\u00b3-coefficient is  \n\n(a\u2083+4) \u2212 (a\u2083+8) = \u22124,\n\na value independent of the unknown coefficients.  \n\nTherefore the required coefficient is \u20134.\n\n\\boxed{C}",
+    "usage": {
+      "input_tokens": 447,
+      "cached_input_tokens": 0,
+      "output_tokens": 16587,
+      "reasoning_tokens": 16320,
+      "total_tokens": 17034
+    }
+  },
+  {
+    "num": 2,
+    "subject": "math",
+    "type": "SCA",
+    "ans": "A",
+    "pred": "C",
+    "response": "Let  \nA : S1 can solve  \nB : S2 can solve  \nC : S3 can solve  \n\nWrite pij  for P(A=i, B=j, C=k) with i,j,k \u2208 {0,1}.  \nWe are given  \n\n1. U : at least one solves \u2003\u21d2\u2003A\u222aB\u222aC\u2003\u21d2\u2003P(U)=1\u2212p000 = 1/2  \n   \u21d2\u2003p000 = 1/2.  \n\n2. V : S1 solves and the others do not \u2003\u2003\u21d2\u2003A \u2229 B' \u2229 C'  \n   \u21d2\u2003p100 = 1/10.  \n\n3. W : S2 solves and S3 does not \u2003\u2003\u21d2\u2003B \u2229 C'  \n   \u21d2\u2003p010 + p110 = 1/12.  \n\nAdd the probabilities of all cases in which S3 cannot solve (C'=1):\n\nP(C') = p000 + p100 + p010 + p110  \n       = 1/2 + 1/10 + 1/12  \n       = 30/60 + 6/60 + 5/60  \n       = 41/60.\n\nHence  \n\nP(T) = P(C) = 1 \u2212 P(C') = 1 \u2212 41/60 = 19/60.\n\nSo\n\n\\boxed{C}",
+    "usage": {
+      "input_tokens": 371,
+      "cached_input_tokens": 0,
+      "output_tokens": 2929,
+      "reasoning_tokens": 2624,
+      "total_tokens": 3300
+    }
+  },
+  {
+    "num": 3,
+    "subject": "math",
+    "type": "SCA",
+    "ans": "C",
+    "pred": "C",
+    "response": "For x \u2260 0 we have  \n\u2003f(x) = 2 \u2013 2x\u00b2 \u2013 x\u00b2 sin(1/x) = 2 \u2013 x\u00b2(2 + sin(1/x)),\u20031 \u2264 2 + sin(1/x) \u2264 3.\n\n1. Differentiability at 0  \n\u2003(f(h) \u2013 f(0))/h = [-h\u00b2(2 + sin(1/h))]/h = \u2013h(2 + sin(1/h)) \u2192 0 as h \u2192 0,  \nso f\u2032(0) exists and equals 0.  \n\u21d2 option (A) is false.\n\n2. Derivative for x \u2260 0  \n\u2003f\u2032(x) = d/dx[2 \u2013 2x\u00b2 \u2013 x\u00b2 sin(1/x)]  \n\u2003\u2003\u2003\u2003= \u20134x \u2013 2x sin(1/x) + cos(1/x)  \n\u2003\u2003\u2003\u2003= cos(1/x) \u2013 2x(2 + sin(1/x)).\n\nBecause cos(1/x) oscillates between \u20131 and 1 while the term 2x(2 + sin(1/x)) tends to 0,  \nf\u2032(x) takes both positive and negative values arbitrarily close to 0 on either side.\n\n\u2022 On (0, \u03b4): choose x_n = 1/(2\u03c0n).  \n\u2003cos(1/x_n) = 1,\u2003f\u2032(x_n) \u2248 1 > 0 for large n.  \nHence f cannot be strictly decreasing on any interval (0, \u03b4).  \n\u21d2 option (B) is false.\n\n\u2022 On (\u2013\u03b4, 0): choose  \n\u2003x_n = \u20131/(2\u03c0n)\u2003\u21d2\u2003f\u2032(x_n) \u2248 1 > 0,  \n\u2003y_n = \u20131/[\u03c0(2n\u20131)]\u2003\u21d2\u2003f\u2032(y_n) \u2248 \u20131 < 0 (for large n).  \nThus, on every (\u2013\u03b4, 0) the derivative changes sign, so f cannot be increasing there.  \n\u21d2 statement in option (C) is true.\n\n3. Local behaviour at 0  \nFor x \u2260 0,\u2003f(x) = 2 \u2013 x\u00b2(positive number) < 2 = f(0).  \nTherefore 0 is a strict local maximum, not a minimum.  \n\u21d2 option (D) is false.\n\nThe only true statement is option (C).\n\n\\boxed{C}",
+    "usage": {
+      "input_tokens": 381,
+      "cached_input_tokens": 0,
+      "output_tokens": 4828,
+      "reasoning_tokens": 4288,
+      "total_tokens": 5209
+    }
+  },
+  {
+    "num": 4,
+    "subject": "math",
+    "type": "SCA",
+    "ans": "C",
+    "pred": "C",
+    "response": "Because Q is integral and satisfies Q Q\u1d40 = I, every row (and column) of Q is an integral unit vector of length 1.  \nThe only such vectors are \u00b1e\u2081, \u00b1e\u2082, \u00b1e\u2083, so Q must be a signed permutation matrix (one \u00b11 in each row and column, the rest 0).\n\nTo commute with P = diag(2,2,3) we must preserve its eigenspaces.\n\u2022 The first two coordinates (eigenspace for eigenvalue 2) may mix among themselves.  \n\u2022 The third coordinate (eigenvalue 3) cannot mix with the others.\n\nHence Q has the form  \n\u2003Q = [ 2\u00d72 signed permutation on indices 1,2 ] \u2295 [ \u00b11 ].\n\nCounting possibilities:\n1. For the 2\u00d72 block:  \n   \u2013 2! permutations of {1,2}.  \n   \u2013 Independent sign choice \u00b11 in each of the two rows \u21d2 2\u00b2 signs.  \n   Total = 2 \u00d7 4 = 8.\n\n2. For the 1\u00d71 block on the 3rd coordinate: \u00b11 \u21d2 2 choices.\n\nTotal number of admissible matrices: 8 \u00d7 2 = 16.\n\nTherefore, the correct option is\n\n\\boxed{C}",
+    "usage": {
+      "input_tokens": 322,
+      "cached_input_tokens": 0,
+      "output_tokens": 1388,
+      "reasoning_tokens": 1088,
+      "total_tokens": 1710
+    }
+  },
+  {
+    "num": 5,
+    "subject": "math",
+    "type": "MCA",
+    "ans": "AC",
+    "pred": "A,C",
+    "response": "The line \\(L_{1}\\) is the intersection of  \n\u2003\\(2x+3y+z=4\\) and \\(x+2y+z=5\\).\n\n1.  Direction of \\(L_{1}\\):  \n\u2003\\(\\mathbf d=\\mathbf n_{1}\\times\\mathbf n_{2}=(2,3,1)\\times(1,2,1)=(1,-1,1)\\).\n\n2.  Line \\(L_{2}\\) through \\(P(2,-1,3)\\) parallel to \\(L_{1}\\):  \n\u2003\\((x,y,z)=(2,-1,3)+t(1,-1,1)\\).\n\n3.  Intersection \\(Q\\) of \\(L_{2}\\) with plane \\(M:2x+y-2z=6\\):\n\n\u2003\\(2(2+t)+(-1-t)-2(3+t)=6\\Rightarrow -3-t=6\\Rightarrow t=-9\\).\n\n\u2003Hence \\(Q=(-7,\\,8,\\,-6)\\).\n\n4.  Length \\(PQ\\):\n\n\u2003\\(\\overrightarrow{PQ}=(-9,9,-9)=-9(1,-1,1)\\)\n\n\u2003\\(|PQ|=9\\sqrt{1+1+1}=9\\sqrt3\\).  \n\u2003Option (A) is TRUE.\n\n5.  Foot \\(R\\) of perpendicular from \\(P\\) to plane \\(M\\):\n\n\u2003Plane in form \\(2x+y-2z-6=0\\); normal \\(\\mathbf n=(2,1,-2)\\), \\(|\\mathbf n|^{2}=9\\).\n\n\u2003Value at \\(P\\): \\(2(2)+(-1)-2(3)-6=-9\\).\n\n\u2003\\(\\displaystyle R=P-\\frac{-9}{9}\\mathbf n=P+\\mathbf n=(2,-1,3)+(2,1,-2)=(4,0,1)\\).\n\n6.  Length \\(QR\\):\n\n\u2003\\(\\overrightarrow{QR}=(11,-8,7)\\)\n\n\u2003\\(|QR|=\\sqrt{11^{2}+(-8)^{2}+7^{2}}=\\sqrt{121+64+49}=\\sqrt{234}\\).  \n\u2003Option (B) is FALSE (15 \u2260 \u221a234).\n\n7.  Area of \\(\\triangle PQR\\):\n\n\u2003\\(\\overrightarrow{PR}=(2,1,-2)\\)\n\n\u2003\\(\\overrightarrow{PQ}\\times\\overrightarrow{PR}=(-9,9,-9)\\times(2,1,-2)=(-9,-36,-27)=-9(1,4,3)\\)\n\n\u2003Area \\(=\\tfrac12|\\,\\overrightarrow{PQ}\\times\\overrightarrow{PR}\\,|=\\frac12\\cdot9\\sqrt{26}=\\frac{9\\sqrt{26}}2\\).\n\n\u2003Since \\(3\\sqrt{234}/2=3\\sqrt{9\\cdot26}/2=\\frac{9\\sqrt{26}}2\\), option (C) is TRUE.\n\n8.  Angle between \\(PQ\\) and \\(PR\\):\n\n\u2003\\(\\overrightarrow{PQ}\\cdot\\overrightarrow{PR}=(-9,9,-9)\\cdot(2,1,-2)=9\\)\n\n\u2003\\(|PQ|=9\\sqrt3,\\ |PR|=3\\)\n\n\u2003\\(\\cos\\theta=\\dfrac{9}{9\\sqrt3\\cdot3}=\\frac1{3\\sqrt3}\\neq\\frac1{2\\sqrt3}\\).  \n\u2003Option (D) is FALSE.\n\nCorrect statements: A and C.\n\n\\boxed{A,C}",
+    "usage": {
+      "input_tokens": 483,
+      "cached_input_tokens": 0,
+      "output_tokens": 3095,
+      "reasoning_tokens": 2304,
+      "total_tokens": 3578
+    }
+  },
+  {
+    "num": 6,
+    "subject": "math",
+    "type": "MCA",
+    "ans": "AD",
+    "pred": "A,D",
+    "response": "First examine the two given maps.\n\n1.  f : \ud835\udd11 \u2192 \u2124  \n\n   For n = 2k\u20131 (odd)\u2003\u2003f(n) = (n+1)/2 = k  \n   For n = 2k\u2003\u2003\u2003\u2003\u2003\u2003f(n) = (4 \u2013 n)/2 = 2 \u2013 k  \n\n   \u2022 Every integer \u2026, \u20133, \u20132, \u20131, 0, 1, 2, 3, \u2026 is obtained, so f is onto.  \n   \u2022 f(1) = 1 and f(2) = 1, so f is not one-one.\n\n2.  g : \u2124 \u2192 \ud835\udd11  \n\n   For n \u2265 0\u2003\u2003g(n) = 3 + 2n = 3,5,7,\u2026 (all odd numbers \u2265 3)  \n   For n < 0\u2003\u2003g(n) = \u20132n      = 2,4,6,\u2026 (all even numbers \u2265 2)\n\n   \u2022 The two ranges are disjoint (odd vs even), hence g is injective.  \n   \u2022 0 and 1 are not produced, so g is not onto (onto \ud835\udd11).  \n\nNow the compositions.\n\n3.  g \u2218 f : \ud835\udd11 \u2192 \ud835\udd11  \n\n   \u2022 n = 2k\u20131 (odd)\u2003\u2192\u2003g(f(n)) = 3 + 2k \u2003(odd \u2265 5)  \n   \u2022 n = 2\u2003\u2003\u2003\u2003\u2003\u2003\u2192\u2003g(f(2))  = 5  \n   \u2022 n = 4\u2003\u2003\u2003\u2003\u2003\u2003\u2192\u2003g(f(4))  = 3  \n   \u2022 n = 2k (k > 2)  \u2192\u2003g(f(n)) = n \u2013 4 \u2003(even \u2265 2)\n\n   Thus 5 is obtained twice (n = 1, 2) \u21d2 not one-one.  \n   Neither 0 nor 1 ever appear \u21d2 not onto.\n\n4.  f \u2218 g : \u2124 \u2192 \u2124  \n\n   For n \u2265 0\u2003\u2003f(g(n)) = (3+2n+1)/2 = n + 2  \n   For n < 0\u2003\u2003f(g(n)) = (4 \u2013 2(\u2013n))/2 = n + 2  \n\n   Hence\u2003f \u2218 g(n) = n + 2 for every n \u2208 \u2124, a bijection; it is both one-one and onto.\n\nConclusion:\n\n(A)  g \u2218 f is NOT one-one and NOT onto\u2003\u2003\u2714  \n(B)  f \u2218 g is NOT one-one but is onto\u2003\u2003\u2718  \n(C)  g is one-one and g is onto\u2003\u2003\u2003\u2003\u2003\u2718  \n(D)  f is NOT one-one but f is onto\u2003\u2003\u2003\u2714\n\n\\boxed{A,D}",
+    "usage": {
+      "input_tokens": 568,
+      "cached_input_tokens": 0,
+      "output_tokens": 3140,
+      "reasoning_tokens": 2496,
+      "total_tokens": 3708
+    }
+  },
+  {
+    "num": 7,
+    "subject": "math",
+    "type": "MCA",
+    "ans": "AD",
+    "pred": "A,D",
+    "response": "\\boxed{A,D}",
+    "usage": {
+      "input_tokens": 471,
+      "cached_input_tokens": 0,
+      "output_tokens": 780,
+      "reasoning_tokens": 768,
+      "total_tokens": 1251
+    }
+  },
+  {
+    "num": 8,
+    "subject": "math",
+    "type": "NT",
+    "ans": "105",
+    "pred": "105.00",
+    "response": "\\boxed{105.00}",
+    "usage": {
+      "input_tokens": 216,
+      "cached_input_tokens": 0,
+      "output_tokens": 333,
+      "reasoning_tokens": 320,
+      "total_tokens": 549
+    }
+  },
+  {
+    "num": 9,
+    "subject": "math",
+    "type": "NT",
+    "ans": "[1.15,1.25]",
+    "pred": "1.20",
+    "response": "\\boxed{1.20}",
+    "usage": {
+      "input_tokens": 268,
+      "cached_input_tokens": 0,
+      "output_tokens": 781,
+      "reasoning_tokens": 768,
+      "total_tokens": 1049
+    }
+  },
+  {
+    "num": 10,
+    "subject": "math",
+    "type": "NT",
+    "ans": "762",
+    "pred": "762.00",
+    "response": "\\boxed{762.00}",
+    "usage": {
+      "input_tokens": 236,
+      "cached_input_tokens": 0,
+      "output_tokens": 2253,
+      "reasoning_tokens": 2240,
+      "total_tokens": 2489
+    }
+  },
+  {
+    "num": 11,
+    "subject": "math",
+    "type": "NT",
+    "ans": "[2.35,2.45]",
+    "pred": "2.40",
+    "response": "\\boxed{2.40}",
+    "usage": {
+      "input_tokens": 248,
+      "cached_input_tokens": 0,
+      "output_tokens": 1229,
+      "reasoning_tokens": 1216,
+      "total_tokens": 1477
+    }
+  },
+  {
+    "num": 12,
+    "subject": "math",
+    "type": "NT",
+    "ans": "96",
+    "pred": "96.00",
+    "response": "\\boxed{96.00}",
+    "usage": {
+      "input_tokens": 338,
+      "cached_input_tokens": 0,
+      "output_tokens": 1613,
+      "reasoning_tokens": 1600,
+      "total_tokens": 1951
+    }
+  },
+  {
+    "num": 13,
+    "subject": "math",
+    "type": "NT",
+    "ans": "2",
+    "pred": "2.00",
+    "response": "\\boxed{2.00}",
+    "usage": {
+      "input_tokens": 391,
+      "cached_input_tokens": 0,
+      "output_tokens": 1677,
+      "reasoning_tokens": 1664,
+      "total_tokens": 2068
+    }
+  },
+  {
+    "num": 14,
+    "subject": "math",
+    "type": "M",
+    "ans": "C",
+    "pred": "C",
+    "response": "\\boxed{C}",
+    "usage": {
+      "input_tokens": 591,
+      "cached_input_tokens": 0,
+      "output_tokens": 1483,
+      "reasoning_tokens": 1472,
+      "total_tokens": 2074
+    }
+  },
+  {
+    "num": 15,
+    "subject": "math",
+    "type": "M",
+    "ans": "B",
+    "pred": "B",
+    "response": "\\boxed{B}",
+    "usage": {
+      "input_tokens": 716,
+      "cached_input_tokens": 0,
+      "output_tokens": 4043,
+      "reasoning_tokens": 4032,
+      "total_tokens": 4759
+    }
+  },
+  {
+    "num": 16,
+    "subject": "math",
+    "type": "M",
+    "ans": "A",
+    "pred": "A",
+    "response": "\\boxed{A}",
+    "usage": {
+      "input_tokens": 657,
+      "cached_input_tokens": 0,
+      "output_tokens": 4811,
+      "reasoning_tokens": 4800,
+      "total_tokens": 5468
+    }
+  },
+  {
+    "num": 1,
+    "subject": "physics",
+    "type": "SCA",
+    "ans": "A",
+    "pred": "A",
+    "response": "Using small\u2010angle oscillation about the lowest position, let \u03b8 be the angular displacement of the disc\u2019s centre from the vertical.\n\n1. Geometry  \n   Radius of the circular path of the centre:  \n   l = R \u2013 r  \n   Arc length s = l \u03b8\n\n2. Rolling-without-slip condition  \n   Translational speed v = l \u03b8\u0307  \n   Angular speed of the disc about its centre: \u03c9_d = v/r = (l/r) \u03b8\u0307\n\n3. Kinetic energy  \n   Translational: T_tr = \u00bd m v\u00b2 = \u00bd m l\u00b2 \u03b8\u0307\u00b2  \n   Rotational:   T_rot = \u00bd I \u03c9_d\u00b2 = \u00bd\u00b7(\u00bd m r\u00b2)\u00b7(l\u00b2/r\u00b2) \u03b8\u0307\u00b2 = \u00bc m l\u00b2 \u03b8\u0307\u00b2  \n   Total:        T = (\u00bd+\u00bc) m l\u00b2 \u03b8\u0307\u00b2 = \u00be m l\u00b2 \u03b8\u0307\u00b2\n\n4. Potential energy  \n   (a) Gravity:  U_g = m g l(1 \u2013 cos \u03b8) \u2248 \u00bd m g l \u03b8\u00b2  \n   (b) Spring (its extension/compression equals the arc displacement of the disc centre):  \n       U_s = \u00bd k (l \u03b8)\u00b2 = \u00bd k l\u00b2 \u03b8\u00b2  \n   Total: U = \u00bd(m g l + k l\u00b2) \u03b8\u00b2\n\n5. Lagrange equation  \n   L = T \u2013 U  \n   \u21d2 d/dt(\u2202L/\u2202\u03b8\u0307) + \u2202U/\u2202\u03b8 = 0  \n   (3/2) m l\u00b2 \u03b8\u0308 + (m g l + k l\u00b2) \u03b8 = 0\n\n6. Angular frequency  \n   \u03c9\u00b2 = (m g l + k l\u00b2)/(3/2 m l\u00b2)  \n        = (2/3)( g/l + k/m )\n\nTherefore  \n   \u03c9 = \u221a[ (2/3) ( g/(R \u2013 r) + k/m ) ]\n\nOption (A) matches this result.\n\n\\boxed{A}",
+    "usage": {
+      "input_tokens": 722,
+      "cached_input_tokens": 0,
+      "output_tokens": 4724,
+      "reasoning_tokens": 4224,
+      "total_tokens": 5446
+    }
+  },
+  {
+    "num": 2,
+    "subject": "physics",
+    "type": "SCA",
+    "ans": "D",
+    "pred": "D",
+    "response": "The maximum scattering angle \u03b8 of the incident particle (mass 2m) in the laboratory frame is obtained from  \ntan \u03b8 = sin \u03c7 / (2 + cos \u03c7),  \nwhere \u03c7 is the scattering angle of that particle in the centre-of-mass frame.  \nDifferentiating and setting d\u03b8/d\u03c7 = 0 gives\n\n1 + 2 cos \u03c7 = 0  \u21d2  cos \u03c7 = \u2013\u00bd  \u21d2  \u03c7 = 2\u03c0/3.\n\nSubstituting \u03c7 = 2\u03c0/3 into the tan-relation:\n\ntan \u03b8_max = (\u221a3/2)/(3/2) = \u221a3/3 = tan (\u03c0/6).\n\nHence\n\n\u03b8_max = \u03c0/6.\n\n\\boxed{D}",
+    "usage": {
+      "input_tokens": 506,
+      "cached_input_tokens": 0,
+      "output_tokens": 1961,
+      "reasoning_tokens": 1792,
+      "total_tokens": 2467
+    }
+  },
+  {
+    "num": 3,
+    "subject": "physics",
+    "type": "SCA",
+    "ans": "A",
+    "pred": "D",
+    "response": "\\boxed{D}",
+    "usage": {
+      "input_tokens": 1501,
+      "cached_input_tokens": 0,
+      "output_tokens": 9803,
+      "reasoning_tokens": 9792,
+      "total_tokens": 11304
+    }
+  },
+  {
+    "num": 4,
+    "subject": "physics",
+    "type": "SCA",
+    "ans": "C",
+    "pred": "C",
+    "response": "I choose option C.\n\n\\boxed{C}",
+    "usage": {
+      "input_tokens": 494,
+      "cached_input_tokens": 0,
+      "output_tokens": 3472,
+      "reasoning_tokens": 3456,
+      "total_tokens": 3966
+    }
+  },
+  {
+    "num": 5,
+    "subject": "physics",
+    "type": "MCA",
+    "ans": "BD",
+    "pred": "B,D",
+    "response": "The equation of motion of the loop while any part of it is in the magnetic field (i.e. for 0 \u2264 y \u2264 L) is obtained from\n\nemf  \u03b5 = \u2013 d\u03a6/dt = \u2013B\u2080L v     \ncurrent  I = \u03b5/R = \u2013(B\u2080L/R) v      \n\nThe only force having a y-component is on the horizontal segment(s) that lie inside the field.\n\n\u2022 For 0 \u2264 y < L only the bottom side is in the field  \n\u2003F_y = I L B\u2080 = \u2013 (B\u2080\u00b2L\u00b2/R) v = \u2013K M v  \n\nHence  \n\nM dv/dt = \u2013K M v\u2003\u21d2\u2003dv/dt = \u2013K v  \nv(t) = v\u2080 e^(\u2013Kt)  \ny(t) = \u222b v dt = v\u2080(1 \u2013 e^(\u2013Kt))/K\u2003\u2003(0 \u2264 y \u2264 L)\n\nWhen y = L (the instant the loop is completely inside the field):\n\ne^(\u2013Kt_f) = 1 \u2013 KL/v\u2080\nv_f = v\u2080 e^(\u2013Kt_f) = v\u2080 \u2013 KL\n\nFor y \u2265 L both the top and bottom horizontal sides are inside the field; their forces are equal in magnitude and opposite in direction, so the net force along y becomes zero and the loop henceforth moves with the constant velocity v_f obtained above.\n\nNow examine each option:\n\n(A)  v\u2080 = 1.5 KL \u2192 v_f = 1.5 KL \u2013 KL = 0.5 KL > 0.  \n\u2003The loop therefore does not stop before it is completely inside.  \n\u2003False.\n\n(B)  Once the whole loop is inside, forces on the top and bottom segments along y cancel; the vertical segments give only \u00b1x forces.  \n\u2003Net force along y is zero.  \n\u2003True.\n\n(C)  v\u2080 = (KL)/10.  The speed decays as v = (KL/10) e^(\u2013Kt); it reaches zero only as t \u2192 \u221e.  \n\u2003At t = ln(2.5)/K, v = (KL/10)/2.5 \u2260 0.  \n\u2003False.\n\n(D)  v\u2080 = 3 KL.  Time for complete entry:  \n\u2003t_f = (1/K) ln[ v\u2080 /(v\u2080 \u2013 KL) ] = (1/K) ln(3KL / 2KL) = ln(1.5)/K.  \n\u2003True.\n\nHence the correct options are B and D.\n\n\\boxed{B,D}",
+    "usage": {
+      "input_tokens": 744,
+      "cached_input_tokens": 0,
+      "output_tokens": 4803,
+      "reasoning_tokens": 4224,
+      "total_tokens": 5547
+    }
+  },
+  {
+    "num": 6,
+    "subject": "physics",
+    "type": "MCA",
+    "ans": "D",
+    "pred": "D",
+    "response": "Volume (cm\u00b3) = (10.5 cm) \u00d7 (0.05 mm) \u00d7 (6.0 \u00b5m)\n\nConvert to centimetres:\n0.05 mm = 0.005 cm   (1 significant figure)\n6.0 \u00b5m = 6.0 \u00d7 10\u207b\u2074 cm (2 significant figures)\n\nUnrounded product:\n10.5 \u00d7 0.005 \u00d7 6.0 \u00d7 10\u207b\u2074\n= 0.0525 \u00d7 6.0 \u00d7 10\u207b\u2074\n= 0.315 \u00d7 10\u207b\u2074\n= 3.15 \u00d7 10\u207b\u2075 cm\u00b3.\n\nResult must have the least number of significant figures among the factors, i.e. 1 significant figure.\nRounded volume = 3 \u00d7 10\u207b\u2075 cm\u00b3.\n\nOnly option (D) presents this value with the correct number of significant figures.\n\n\\boxed{D}",
+    "usage": {
+      "input_tokens": 368,
+      "cached_input_tokens": 0,
+      "output_tokens": 1175,
+      "reasoning_tokens": 960,
+      "total_tokens": 1543
+    }
+  },
+  {
+    "num": 7,
+    "subject": "physics",
+    "type": "MCA",
+    "ans": "AD",
+    "pred": "D",
+    "response": "For a transverse wave on a stretched string the mechanical impedance is  \n\nZ = \u03bcv = \u03bc\u221a(T/\u03bc) = \u221a(\u03bcT)  (T is the common tension)\n\nHence Z \u221d \u221a\u03bc.\n\n1. Junction P : \u03bc1 = \u03bc , \u03bc2 = 4\u03bc  \n   Reflection coefficient (amplitude)  \n   rP = (Z2 \u2013 Z1)/(Z2 + Z1) = (\u221a4\u03bc \u2013 \u221a\u03bc)/(\u221a4\u03bc + \u221a\u03bc)= (2 \u2013 1)/(2 + 1)= +1/3   (no phase inversion)  \n   Trans-mission coefficient  \n   tP = 2Z2 /(Z2 + Z1)= 2\u00b72 /(2 + 1)= 4/3.\n\n   The wave number in S2 is  \n   k2 = \u03c9/v2 = \u03c9/\u221a(T/4\u03bc)= 2k.  \n   Therefore\n\n   Reflected wave from P : y = (1/3) y0 cos(\u03c9t + kx)        (no \u03c0 shift)  \n   Transmitted wave into S2 : y = (4/3) y0 cos(\u03c9t \u2212 2kx).\n\n   Options (A) and (B) are therefore wrong:  \n   (A) contains an unnecessary \u03c0 phase change,  \n   (B) uses the wrong wave number (k instead of 2k).\n\n2. Junction Q : \u03bc2 = 4\u03bc , \u03bc3 = 16\u03bc  \n   rQ = (\u221a16\u03bc \u2013 \u221a4\u03bc)/(\u221a16\u03bc + \u221a4\u03bc)= (4 \u2013 2)/(4 + 2)= +1/3 ( again no \u03c0 shift)  \n   tQ = 2\u00b74 /(4 + 2)= 8/3.\n\n   The wave number in S3 is  \n   k3 = \u03c9/v3 = \u03c9/\u221a(T/16\u03bc)= 4k.\n\n   Hence\n\n   Reflected wave from Q : y = (1/3) y \u20320 cos(\u03c9t + 2kx)      (no \u03c0 shift)  \n   Transmitted wave into S3 : y = (8/3) y \u20320 cos(\u03c9t \u2212 4kx).\n\n   (Here y \u20320 is the amplitude of the wave incident on Q.)\n\n   Option (C) is wrong (wrong sign of k and an unnecessary \u03c0), whereas option (D) is consistent: it has the correct wave number (4k), the correct propagation direction (\u2212 sign with x), and only states that the amplitude factor a4 is positive (which it is, a4 = 8/9 y0 after the two transmissions).\n\nTherefore the only correct statement is option (D).\n\n\\boxed{D}",
+    "usage": {
+      "input_tokens": 1030,
+      "cached_input_tokens": 0,
+      "output_tokens": 3529,
+      "reasoning_tokens": 2944,
+      "total_tokens": 4559
+    }
+  },
+  {
+    "num": 8,
+    "subject": "physics",
+    "type": "NT",
+    "ans": "2",
+    "pred": "9.87",
+    "response": "For a mass m = 50 kg in an elevator whose vertical motion is  \n\n\u2003y(t) = 8 [1 + sin(2\u03c0t/T)],\u2003T = 40 s,\n\nthe angular frequency is  \n\n\u2003\u03c9 = 2\u03c0/T = 2\u03c0/40 = \u03c0/20 rad s\u207b\u00b9.\n\nElevator acceleration (upward positive):\n\n\u2003a(t) = d\u00b2y/dt\u00b2 = \u20138\u03c9\u00b2 sin(\u03c9t).\n\nThe apparent weight read by the balance is  \n\n\u2003N(t) = m(g + a) = m[g \u2013 8\u03c9\u00b2 sin(\u03c9t)].\n\nHence the maximum change (deviation) from the normal weight mg occurs when |sin(\u03c9t)| = 1:\n\n\u2003\u0394N_max = m\u00b78\u03c9\u00b2  \n\u2003\u2003\u2003\u2003= 50 kg \u00d7 8 \u00d7 (\u03c0/20)\u00b2  \n\u2003\u2003\u2003\u2003= 400 \u00d7 \u03c0\u00b2 / 400  \n\u2003\u2003\u2003\u2003= \u03c0\u00b2 \u2248 9.87 N.\n\nTherefore, the maximum variation in the measured weight is  \n\n\\boxed{9.87}",
+    "usage": {
+      "input_tokens": 276,
+      "cached_input_tokens": 0,
+      "output_tokens": 2488,
+      "reasoning_tokens": 2240,
+      "total_tokens": 2764
+    }
+  },
+  {
+    "num": 9,
+    "subject": "physics",
+    "type": "NT",
+    "ans": "[21,25]",
+    "pred": "16.25",
+    "response": "\\boxed{16.25}",
+    "usage": {
+      "input_tokens": 287,
+      "cached_input_tokens": 0,
+      "output_tokens": 3469,
+      "reasoning_tokens": 3456,
+      "total_tokens": 3756
+    }
+  },
+  {
+    "num": 10,
+    "subject": "physics",
+    "type": "NT",
+    "ans": "3",
+    "pred": "3.00",
+    "response": "\\boxed{3.00}",
+    "usage": {
+      "input_tokens": 528,
+      "cached_input_tokens": 0,
+      "output_tokens": 589,
+      "reasoning_tokens": 576,
+      "total_tokens": 1117
+    }
+  },
+  {
+    "num": 11,
+    "subject": "physics",
+    "type": "NT",
+    "ans": "0.75|0.5",
+    "pred": "0.50",
+    "response": "For the reflected ray to be completely (linearly) polarised, the incidence at point O on the glass-air interface must be at Brewster\u2019s angle (\u03b8_B):\n\ntan \u03b8_B = n_air / n_glass = 1 / \u221a3  \n\u21d2 \u03b8_B = 30\u00b0\n\nSince the light is inside the glass sphere when it reaches O, the angle of incidence referred to in the question is this Brewster angle itself.\n\nsin \u03b8 = sin 30\u00b0 = 0.50\n\n\\boxed{0.50}",
+    "usage": {
+      "input_tokens": 525,
+      "cached_input_tokens": 0,
+      "output_tokens": 9335,
+      "reasoning_tokens": 9216,
+      "total_tokens": 9860
+    }
+  },
+  {
+    "num": 12,
+    "subject": "physics",
+    "type": "NT",
+    "ans": "[75,79]",
+    "pred": "75.60",
+    "response": "For the single-slit relation  \n\n\u2003\u2003b = (m \u03bb D)/d\n\nthe quantities having experimental uncertainties are D and d.\n\nMeasured values and their least counts  \n\u2022 D = 1 m, least count = 1 cm = 0.01 m \u2192 \u0394D = \u00b10.01 m  \n\u2022 d = 5 mm = 0.005 m, least count = 1 mm = 0.001 m \u2192 \u0394d = \u00b10.001 m  \n\n(The least count itself is taken as the maximum absolute uncertainty.)\n\n1. Nominal value of b  \n\u2003b = (3)(600 nm)(1 m)/(0.005 m)  \n\u2003  = (3)(6 \u00d7 10\u207b\u2077 m)/(5 \u00d7 10\u207b\u00b3 m)  \n\u2003  = 3.60 \u00d7 10\u207b\u2074 m = 360 \u00b5m\n\n2. Propagation of errors  \nSince b \u221d D/d,\n\n\u2003|\u0394b|/b = |\u0394D|/D + |\u0394d|/d\n\n\u2003|\u0394b|/b = (0.01/1) + (0.001/0.005)  \n\u2003         = 0.01 + 0.20 = 0.21\n\n3. Absolute error in b  \n\n\u2003|\u0394b| = 0.21 \u00d7 360 \u00b5m = 75.6 \u00b5m\n\nRounded to two decimal places:\n\n\\boxed{75.60}",
+    "usage": {
+      "input_tokens": 306,
+      "cached_input_tokens": 0,
+      "output_tokens": 2705,
+      "reasoning_tokens": 2368,
+      "total_tokens": 3011
+    }
+  },
+  {
+    "num": 13,
+    "subject": "physics",
+    "type": "NT",
+    "ans": "72",
+    "pred": "72.00",
+    "response": "\\boxed{72.00}",
+    "usage": {
+      "input_tokens": 298,
+      "cached_input_tokens": 0,
+      "output_tokens": 1229,
+      "reasoning_tokens": 1216,
+      "total_tokens": 1527
+    }
+  },
+  {
+    "num": 14,
+    "subject": "physics",
+    "type": "M",
+    "ans": "C",
+    "pred": "C",
+    "response": "The electric field at the midpoint X (taken as the origin) due to a dipole of moment \u20d7p located at position \u00b1r \u00ee is, in general,\n\n\u20d7E = (1/4\u03c0 \u03b5\u2080 r\u00b3) [ 3(\u20d7p\u00b7r\u0302) r\u0302 \u2212 \u20d7p ].\n\nPlacing the left dipole at (\u2013r, 0) and the right dipole at (+r, 0), and evaluating the fields from each configuration gives:\n\nP\u2003( \u20d7p\u2081 = p \u0135, \u20d7p\u2082 = p \u0135 ):\n\u2003E\u2081 = \u2013(p/4\u03c0 \u03b5\u2080 r\u00b3) \u0135,\n\u2003E\u2082 = \u2013(p/4\u03c0 \u03b5\u2080 r\u00b3) \u0135,\n\u2003\u20d7E = \u2013(p/2\u03c0 \u03b5\u2080 r\u00b3) \u0135\u2003\u2192 List-II (2).\n\nQ\u2003( \u20d7p\u2081 = p \u0135, \u20d7p\u2082 = \u2013p \u0135 ):\n\u2003E\u2081 = \u2013(p/4\u03c0 \u03b5\u2080 r\u00b3) \u0135,\n\u2003E\u2082 = +(p/4\u03c0 \u03b5\u2080 r\u00b3) \u0135,\n\u2003\u20d7E = 0\u2003\u2192 List-II (1).\n\nR\u2003( \u20d7p\u2081 = p \u0135, \u20d7p\u2082 = p \u00ee ):\n\u2003E\u2081 = \u2013(p/4\u03c0 \u03b5\u2080 r\u00b3) \u0135,\n\u2003E\u2082 = (p/2\u03c0 \u03b5\u2080 r\u00b3) \u00ee,\n\u2003\u20d7E = (p/4\u03c0 \u03b5\u2080 r\u00b3)(2 \u00ee \u2212 \u0135)\u2003\u2192 List-II (4).\n\nS\u2003( \u20d7p\u2081 = p \u00ee, \u20d7p\u2082 = p \u00ee ):\n\u2003E\u2081 = (p/2\u03c0 \u03b5\u2080 r\u00b3) \u00ee,\n\u2003E\u2082 = (p/2\u03c0 \u03b5\u2080 r\u00b3) \u00ee,\n\u2003\u20d7E = (p/\u03c0 \u03b5\u2080 r\u00b3) \u00ee\u2003\u2192 List-II (5).\n\nThus the correct matching is:\nP \u2192 2,\u2003Q \u2192 1,\u2003R \u2192 4,\u2003S \u2192 5.\n\n\\boxed{C}",
+    "usage": {
+      "input_tokens": 1506,
+      "cached_input_tokens": 0,
+      "output_tokens": 2589,
+      "reasoning_tokens": 2048,
+      "total_tokens": 4095
+    }
+  },
+  {
+    "num": 15,
+    "subject": "physics",
+    "type": "M",
+    "ans": "A",
+    "pred": "A",
+    "response": "\\boxed{A}",
+    "usage": {
+      "input_tokens": 2758,
+      "cached_input_tokens": 0,
+      "output_tokens": 13195,
+      "reasoning_tokens": 13184,
+      "total_tokens": 15953
+    }
+  },
+  {
+    "num": 16,
+    "subject": "physics",
+    "type": "M",
+    "ans": "C",
+    "pred": "C",
+    "response": "\\boxed{C}",
+    "usage": {
+      "input_tokens": 509,
+      "cached_input_tokens": 0,
+      "output_tokens": 395,
+      "reasoning_tokens": 384,
+      "total_tokens": 904
+    }
+  },
+  {
+    "num": 1,
+    "subject": "chemistry",
+    "type": "SCA",
+    "ans": "A",
+    "pred": "A",
+    "response": "Ammonium nitrite decomposes on gentle heating:\nNH4NO2 \u27f6 N2 + 2 H2O \u2003(X = N2)\n\nAmmonium nitrate decomposes at 200\u2013250 \u00b0C:\nNH4NO3 \u27f6 N2O + 2 H2O \u2003(Y = N2O)\n\nThus, X = N2 and Y = N2O.\n\n\\boxed{A}",
+    "usage": {
+      "input_tokens": 278,
+      "cached_input_tokens": 0,
+      "output_tokens": 225,
+      "reasoning_tokens": 128,
+      "total_tokens": 503
+    }
+  },
+  {
+    "num": 2,
+    "subject": "chemistry",
+    "type": "SCA",
+    "ans": "A",
+    "pred": "A",
+    "response": "Since the energy of a d\u2013d transition (\u0394o) is inversely proportional to the wavelength of the absorption maximum (\u03bbmax), the complex with the largest ligand-field splitting shows the shortest \u03bbmax and vice-versa.\n\nSpectrochemical series (relevant part):\nCN\u207b > NH\u2083 > H\u2082O > Cl\u207b   (strong field \u2192 weak field)\n\nAll the given complexes are octahedral Co(III). Therefore\n\n\u0394o order:  \n[Co(CN)\u2086]\u00b3\u207b > [Co(NH\u2083)\u2086]\u00b3\u207a > [Co(NH\u2083)\u2085(H\u2082O)]\u00b3\u207a > [Co(NH\u2083)\u2085Cl]\u00b2\u207a\n\nHence the \u03bbmax order (reverse of \u0394o) is  \n[Co(CN)\u2086]\u00b3\u207b < [Co(NH\u2083)\u2086]\u00b3\u207a < [Co(NH\u2083)\u2085(H\u2082O)]\u00b3\u207a < [Co(NH\u2083)\u2085Cl]\u00b2\u207a\n\nOption (A) matches this sequence.\n\n\\boxed{A}",
+    "usage": {
+      "input_tokens": 442,
+      "cached_input_tokens": 0,
+      "output_tokens": 950,
+      "reasoning_tokens": 704,
+      "total_tokens": 1392
+    }
+  },
+  {
+    "num": 3,
+    "subject": "chemistry",
+    "type": "SCA",
+    "ans": "B",
+    "pred": "B",
+    "response": "In a neutral aqueous solution the permanganate ion is reduced to MnO\u2082, and the iodide ion is correspondingly oxidised to the iodate ion:\n\n2 MnO\u2084\u207b + I\u207b + H\u2082O  \u27f6  2 MnO\u2082\u2193 + IO\u2083\u207b + 2 OH\u207b\n\nThus, iodate (IO\u2083\u207b) is formed.\n\n\\boxed{B}",
+    "usage": {
+      "input_tokens": 258,
+      "cached_input_tokens": 0,
+      "output_tokens": 2471,
+      "reasoning_tokens": 2368,
+      "total_tokens": 2729
+    }
+  },
+  {
+    "num": 4,
+    "subject": "chemistry",
+    "type": "SCA",
+    "ans": "B",
+    "pred": "A",
+    "response": "De-protonation will be easiest at the centre that gives the most stabilised carbanion.\n\n\u2022 In compound (A) removal of the shown H converts the cyclopentadiene fragment into the aromatic cyclopentadienyl anion (6 \u03c0 electrons).  \n  Aromaticity provides very strong stabilisation (pK_a \u2248 16).\n\n\u2022 In (B)\u2013(D) the anion produced is only allylic/benzylic (or, in the alkyne, sp-hybridised) and is far less stabilised (pK_a \u2265 20-25).\n\nHence the hydrogen in (A) is the most acidic.\n\n\\boxed{A}",
+    "usage": {
+      "input_tokens": 1143,
+      "cached_input_tokens": 0,
+      "output_tokens": 1815,
+      "reasoning_tokens": 1664,
+      "total_tokens": 2958
+    }
+  },
+  {
+    "num": 5,
+    "subject": "chemistry",
+    "type": "MCA",
+    "ans": "BC",
+    "pred": "B,C",
+    "response": "Option-wise analysis:\n\nA) Ne\u2082 (20 e\u207b) has all bonding and antibonding MOs completely filled, giving  \n\u2003Bond order = (8 \u2013 8)/2 = 0.  \nStatement A is correct.\n\nB) F\u2082 (18 e\u207b) fills up to \u03c0*2p\u2093, \u03c0*2p_y (degenerate) MOs:  \n\u2003\u2026\u03c32p_z\u00b2 \u03c02p\u2093\u00b2 \u03c02p_y\u00b2 \u03c0*2p\u2093\u00b2 \u03c0*2p_y\u00b2.  \nThe highest occupied molecular orbitals are the \u03c0*2p set, not \u03c3-type.  \nStatement B is incorrect.\n\nC) O\u2082 (12 valence e\u207b) \u2192 bond order 2.  \nO\u2082\u207a (one e\u207b removed from \u03c0*2p) \u2192 bond order 2.5, hence stronger bond, larger bond energy.  \nStatement C (\u201cbond energy of O\u2082\u207a is smaller\u201d) is incorrect.\n\nD) Li\u2082 (bond order 1, large Li atomic radius) has a bond length (~267 pm) distinctly longer than that of B\u2082 (bond order 1, smaller B radius, ~161 pm).  \nStatement D is correct.\n\nThus the incorrect statements are B and C.\n\n\\boxed{B,C}",
+    "usage": {
+      "input_tokens": 370,
+      "cached_input_tokens": 0,
+      "output_tokens": 2206,
+      "reasoning_tokens": 1920,
+      "total_tokens": 2576
+    }
+  },
+  {
+    "num": 6,
+    "subject": "chemistry",
+    "type": "MCA",
+    "ans": "AB",
+    "pred": "A,B",
+    "response": "For an ion to be diamagnetic, all its electrons must be paired (no unpaired electrons in any subshell).\n\n1. La\u00b3\u207a  \n   La (Z = 57): [Xe] 5d\u00b9 6s\u00b2  \n   Remove three electrons \u2192 [Xe] (4f\u2070).  \n   Diamagnetic.\n\n   Ce\u2074\u207a  \n   Ce (Z = 58): [Xe] 4f\u00b9 5d\u00b9 6s\u00b2 (often written [Xe] 4f\u00b2 6s\u00b2).  \n   Remove four electrons \u2192 [Xe] (4f\u2070).  \n   Diamagnetic.  \n   \u21d2 Pair (A) is diamagnetic.\n\n2. Yb\u00b2\u207a  \n   Yb (Z = 70): [Xe] 4f\u00b9\u2074 6s\u00b2  \n   Remove two 6s electrons \u2192 [Xe] 4f\u00b9\u2074 (completely filled 4f).  \n   Diamagnetic.\n\n   Lu\u00b3\u207a  \n   Lu (Z = 71): [Xe] 4f\u00b9\u2074 5d\u00b9 6s\u00b2  \n   Remove two 6s and one 5d electron \u2192 [Xe] 4f\u00b9\u2074.  \n   Diamagnetic.  \n   \u21d2 Pair (B) is diamagnetic.\n\n3. La\u00b2\u207a \u2192 [Xe] 5d\u00b9 (one unpaired d electron, paramagnetic).  \n   Ce\u00b3\u207a \u2192 [Xe] 4f\u00b9 (one unpaired f electron, paramagnetic).  \n   \u21d2 Pair (C) is NOT diamagnetic.\n\n4. Yb\u00b3\u207a \u2192 [Xe] 4f\u00b9\u00b3 (one unpaired f electron).  \n   Lu\u00b2\u207a \u2192 [Xe] 4f\u00b9\u2074 5d\u00b9 (one unpaired d electron).  \n   \u21d2 Pair (D) is NOT diamagnetic.\n\nHence the only diamagnetic pairs are (A) and (B).\n\n\\boxed{A,B}",
+    "usage": {
+      "input_tokens": 346,
+      "cached_input_tokens": 0,
+      "output_tokens": 1134,
+      "reasoning_tokens": 704,
+      "total_tokens": 1480
+    }
+  },
+  {
+    "num": 7,
+    "subject": "chemistry",
+    "type": "MCA",
+    "ans": "B",
+    "pred": "B",
+    "response": "\\boxed{B}",
+    "usage": {
+      "input_tokens": 619,
+      "cached_input_tokens": 0,
+      "output_tokens": 1163,
+      "reasoning_tokens": 1152,
+      "total_tokens": 1782
+    }
+  },
+  {
+    "num": 8,
+    "subject": "chemistry",
+    "type": "NT",
+    "ans": "100",
+    "pred": "100.00",
+    "response": "For the reduction  \n\nCr\u2082O\u2087\u00b2\u207b + 14 H\u207a + 6 e\u207b \u2192 2 Cr\u00b3\u207a + 7 H\u2082O  \n\n6 moles of electrons give 2 moles of Cr\u00b3\u207a.  \nElectrons required per mole of Cr\u00b3\u207a = 6 / 2 = 3 mol e\u207b.\n\nCharge needed  \nQ = 3 F = 3 \u00d7 96500 C = 289 500 C.\n\nTime  \nt = 48.25 min = 48.25 \u00d7 60 s = 2 895 s.\n\nCurrent  \nI = Q / t = 289 500 C / 2 895 s = 100 A.\n\nRounded to two decimal places: 100.00 A.\n\n\\boxed{100.00}",
+    "usage": {
+      "input_tokens": 231,
+      "cached_input_tokens": 0,
+      "output_tokens": 506,
+      "reasoning_tokens": 320,
+      "total_tokens": 737
+    }
+  },
+  {
+    "num": 9,
+    "subject": "chemistry",
+    "type": "NT",
+    "ans": "[2.2,2.3]",
+    "pred": "2.24",
+    "response": "\\boxed{2.24}",
+    "usage": {
+      "input_tokens": 261,
+      "cached_input_tokens": 0,
+      "output_tokens": 5389,
+      "reasoning_tokens": 5376,
+      "total_tokens": 5650
+    }
+  },
+  {
+    "num": 10,
+    "subject": "chemistry",
+    "type": "NT",
+    "ans": "[-7.2,-7]",
+    "pred": "-7.10",
+    "response": "\\boxed{-7.10}",
+    "usage": {
+      "input_tokens": 288,
+      "cached_input_tokens": 0,
+      "output_tokens": 845,
+      "reasoning_tokens": 832,
+      "total_tokens": 1133
+    }
+  },
+  {
+    "num": 11,
+    "subject": "chemistry",
+    "type": "NT",
+    "ans": "[-29.95,-29.8]|[29.8,29.95]",
+    "pred": "-29.88",
+    "response": "\u0394n (moles of gas produced)  \n\nMass of H\u2082O = 144 g  \nMolar mass of H\u2082O = 18 g mol\u207b\u00b9  \nn(H\u2082O) = 144 / 18 = 8 mol\n\n2 H\u2082O(l) \u27f6 2 H\u2082(g) + O\u2082(g)  \nFor every 2 mol H\u2082O, 3 mol of gas are formed.\n\nn(gas) = 8 mol H\u2082O \u00d7 (3 mol gas / 2 mol H\u2082O) = 12 mol\n\nExpansion work at constant external pressure (ideal gas):\nw = \u2013 P \u0394V = \u2013 \u0394n R T\n\nw = \u2013 (12 mol)(8.3 J K\u207b\u00b9 mol\u207b\u00b9)(300 K)  \n  = \u2013 29 880 J  \n  = \u2013 29.88 kJ\n\n\\boxed{-29.88}",
+    "usage": {
+      "input_tokens": 225,
+      "cached_input_tokens": 0,
+      "output_tokens": 1373,
+      "reasoning_tokens": 1152,
+      "total_tokens": 1598
+    }
+  },
+  {
+    "num": 12,
+    "subject": "chemistry",
+    "type": "NT",
+    "ans": "280",
+    "pred": "280.00",
+    "response": "\\boxed{280.00}",
+    "usage": {
+      "input_tokens": 223,
+      "cached_input_tokens": 0,
+      "output_tokens": 461,
+      "reasoning_tokens": 448,
+      "total_tokens": 684
+    }
+  },
+  {
+    "num": 13,
+    "subject": "chemistry",
+    "type": "NT",
+    "ans": "175",
+    "pred": "350.00",
+    "response": "The overall yield from X to S is\n\nX \u27f6 P\u2003(100 %)\nP \u27f6 Q\u2003(50 %)\nQ \u27f6 R\u2003(50 %)\nR \u27f6 T\u2003(50 %)   (2 mol T and 2 mol unreacted R from 4 mol R)  \nT + R \u27f6 S\u2003(50 %)\n\nHence, from 16 mol X we finally get  \n16 \u00d7 0.5 \u00d7 0.5 \u00d7 0.5 = 1 mol of S.\n\nOn the basis of the transformations, S is the Williamson-ether product\n\nR-CH\u2082-O-CH\u2082-R\u2003with\u2003R = 2-(biphenyl-2-yl)methyl group,\n\nwhose molecular formula is C\u2082\u2086H\u2082\u2082O.\n\nMolar mass of S  \n= (26 \u00d7 12) + (22 \u00d7 1) + (1 \u00d7 16) = 312 + 22 + 16 = 350 g mol\u207b\u00b9.\n\nAmount of S obtained  \n= 1 mol \u00d7 350 g mol\u207b\u00b9 = 350 g.\n\n\\boxed{350.00}",
+    "usage": {
+      "input_tokens": 606,
+      "cached_input_tokens": 0,
+      "output_tokens": 13856,
+      "reasoning_tokens": 13568,
+      "total_tokens": 14462
+    }
+  },
+  {
+    "num": 14,
+    "subject": "chemistry",
+    "type": "M",
+    "ans": "A",
+    "pred": "A",
+    "response": "\\boxed{A}",
+    "usage": {
+      "input_tokens": 439,
+      "cached_input_tokens": 0,
+      "output_tokens": 459,
+      "reasoning_tokens": 448,
+      "total_tokens": 898
+    }
+  },
+  {
+    "num": 15,
+    "subject": "chemistry",
+    "type": "M",
+    "ans": "B",
+    "pred": "B",
+    "response": "Stephen reaction needs a nitrile, Sandmeyer reaction needs an aryl diazonium salt, Hoffmann bromamide degradation needs an amide, and Cannizzaro reaction needs an aldehyde without \u03b1-hydrogen.\n\nProducts from List-II:\n\n1. Etard oxidation of toluene \u2192 benzaldehyde  \n2. Benzoic acid \u2192 benzoyl chloride \u2192 benzamide \u2192 benzonitrile  \n3. Nitrobenzene \u2192 aniline \u2192 benzenediazonium chloride  \n4. Toluene \u2192 benzaldehyde \u2192 benzoic acid \u2192 benzoyl chloride \u2192 benzamide  \n5. Sequence on aniline \u2192 p-nitroaniline (not required)\n\nThus  \n\u2022 Stephen reaction (P) uses benzonitrile \u2192 2  \n\u2022 Sandmeyer reaction (Q) uses benzenediazonium chloride \u2192 3  \n\u2022 Hoffmann degradation (R) uses benzamide \u2192 4  \n\u2022 Cannizzaro reaction (S) uses benzaldehyde \u2192 1\n\nTherefore the correct matching is:\n\nP \u2192 2, Q \u2192 3, R \u2192 4, S \u2192 1\n\n\\boxed{B}",
+    "usage": {
+      "input_tokens": 636,
+      "cached_input_tokens": 0,
+      "output_tokens": 3769,
+      "reasoning_tokens": 3520,
+      "total_tokens": 4405
+    }
+  },
+  {
+    "num": 16,
+    "subject": "chemistry",
+    "type": "M",
+    "ans": "B",
+    "pred": "B",
+    "response": "\\boxed{B}",
+    "usage": {
+      "input_tokens": 3676,
+      "cached_input_tokens": 3487,
+      "output_tokens": 1751,
+      "reasoning_tokens": 4032,
+      "total_tokens": 5427
+    }
+  }
+]
