@@ -1,5 +1,8 @@
 # jeebench25
 
+[article](https://aniruddhadeb.com/articles/2025/reasoning-models-jee/)  
+[paper](PAPER.md)
+
 ## Getting Started
 
 Create a `.env` file in the root directory to place your OpenAI API key in
